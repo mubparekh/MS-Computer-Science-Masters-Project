@@ -1,0 +1,247 @@
+   ____ _____     _ _               
+  / ___|__  /___ | | |_ __ _ _ __   
+ | |  _  / // _ \| | __/ _` | '__| 
+ | |_| |/ /| (_) | | || (_| | |     
+  \____/____\___/|_|\__\__,_|_| 
+
+* Preparing classpath
+OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=256M; support was removed in 8.0
+* Collecting classes under test
+* Collecting test cases
+* Performing analysis
+* Started br.com.jnfe.base.C_ICMSEvoSuiteTest#test0
+* Finished br.com.jnfe.base.C_ICMSEvoSuiteTest#test0
+* Started br.com.jnfe.base.C_ICMSEvoSuiteTest#test1
+* Finished br.com.jnfe.base.C_ICMSEvoSuiteTest#test1
+* Started br.com.jnfe.base.C_ICMSEvoSuiteTest#test2
+* Finished br.com.jnfe.base.C_ICMSEvoSuiteTest#test2
+* Started br.com.jnfe.base.C_ICMSEvoSuiteTest#test3
+* Finished br.com.jnfe.base.C_ICMSEvoSuiteTest#test3
+* Started br.com.jnfe.base.C_ICMSEvoSuiteTest#test4
+* Finished br.com.jnfe.base.C_ICMSEvoSuiteTest#test4
+* Started br.com.jnfe.base.C_ICMSEvoSuiteTest#test5
+* Finished br.com.jnfe.base.C_ICMSEvoSuiteTest#test5
+* Started br.com.jnfe.base.CST_PISEvoSuiteTest#test0
+* Finished br.com.jnfe.base.CST_PISEvoSuiteTest#test0
+* Started br.com.jnfe.base.CST_PISEvoSuiteTest#test1
+* Finished br.com.jnfe.base.CST_PISEvoSuiteTest#test1
+* Started br.com.jnfe.base.CST_PISEvoSuiteTest#test2
+* Finished br.com.jnfe.base.CST_PISEvoSuiteTest#test2
+* Started br.com.jnfe.base.CST_PISEvoSuiteTest#test3
+* Finished br.com.jnfe.base.CST_PISEvoSuiteTest#test3
+* Started br.com.jnfe.base.CST_PISEvoSuiteTest#test4
+* Finished br.com.jnfe.base.CST_PISEvoSuiteTest#test4
+* Started br.com.jnfe.base.CST_PISEvoSuiteTest#test5
+* Finished br.com.jnfe.base.CST_PISEvoSuiteTest#test5
+* Started br.com.jnfe.base.TpAmbEvoSuiteTest#test0
+* Finished br.com.jnfe.base.TpAmbEvoSuiteTest#test0
+* Started br.com.jnfe.base.TpAmbEvoSuiteTest#test1
+* Finished br.com.jnfe.base.TpAmbEvoSuiteTest#test1
+* Started br.com.jnfe.base.CST_GrupoEvoSuiteTest#test0
+* Finished br.com.jnfe.base.CST_GrupoEvoSuiteTest#test0
+* Started br.com.jnfe.base.CST_GrupoEvoSuiteTest#test1
+* Finished br.com.jnfe.base.CST_GrupoEvoSuiteTest#test1
+* Started br.com.jnfe.base.CST_GrupoEvoSuiteTest#test2
+* Finished br.com.jnfe.base.CST_GrupoEvoSuiteTest#test2
+* Started br.com.jnfe.base.CST_GrupoEvoSuiteTest#test3
+* Finished br.com.jnfe.base.CST_GrupoEvoSuiteTest#test3
+* Started br.com.jnfe.base.CST_GrupoEvoSuiteTest#test4
+* Finished br.com.jnfe.base.CST_GrupoEvoSuiteTest#test4
+* Started br.com.jnfe.base.CST_GrupoEvoSuiteTest#test5
+* Finished br.com.jnfe.base.CST_GrupoEvoSuiteTest#test5
+* Started br.com.jnfe.base.CST_COFINSEvoSuiteTest#test0
+* Finished br.com.jnfe.base.CST_COFINSEvoSuiteTest#test0
+* Started br.com.jnfe.base.CST_COFINSEvoSuiteTest#test1
+* Finished br.com.jnfe.base.CST_COFINSEvoSuiteTest#test1
+* Started br.com.jnfe.base.CST_COFINSEvoSuiteTest#test2
+* Finished br.com.jnfe.base.CST_COFINSEvoSuiteTest#test2
+* Started br.com.jnfe.base.CST_COFINSEvoSuiteTest#test3
+* Finished br.com.jnfe.base.CST_COFINSEvoSuiteTest#test3
+* Started br.com.jnfe.base.CST_COFINSEvoSuiteTest#test4
+* Finished br.com.jnfe.base.CST_COFINSEvoSuiteTest#test4
+* Started br.com.jnfe.base.CST_COFINSEvoSuiteTest#test5
+* Finished br.com.jnfe.base.CST_COFINSEvoSuiteTest#test5
+* Started br.com.jnfe.base.TpDetEvoSuiteTest#test0
+* Finished br.com.jnfe.base.TpDetEvoSuiteTest#test0
+* Started br.com.jnfe.base.TpDetEvoSuiteTest#test1
+* Finished br.com.jnfe.base.TpDetEvoSuiteTest#test1
+* Started br.com.jnfe.base.TpSerieEvoSuiteTest#test0
+* Finished br.com.jnfe.base.TpSerieEvoSuiteTest#test0
+* Started br.com.jnfe.base.TpSerieEvoSuiteTest#test1
+* Finished br.com.jnfe.base.TpSerieEvoSuiteTest#test1
+* Started br.com.jnfe.base.ModFreteEvoSuiteTest#test0
+* Finished br.com.jnfe.base.ModFreteEvoSuiteTest#test0
+* Started br.com.jnfe.base.UFEvoSuiteTest#test0
+* Finished br.com.jnfe.base.UFEvoSuiteTest#test0
+* Started br.com.jnfe.base.UFEvoSuiteTest#test1
+* Finished br.com.jnfe.base.UFEvoSuiteTest#test1
+* Started br.com.jnfe.base.UFEvoSuiteTest#test2
+* Finished br.com.jnfe.base.UFEvoSuiteTest#test2
+* Started br.com.jnfe.base.TProvinceEvoSuiteTest#test0
+* Finished br.com.jnfe.base.TProvinceEvoSuiteTest#test0
+* Started br.com.jnfe.base.TProvinceEvoSuiteTest#test1
+* Finished br.com.jnfe.base.TProvinceEvoSuiteTest#test1
+* Started br.com.jnfe.base.TProvinceEvoSuiteTest#test2
+* Finished br.com.jnfe.base.TProvinceEvoSuiteTest#test2
+* Started br.com.jnfe.base.IndPagEvoSuiteTest#test0
+* Finished br.com.jnfe.base.IndPagEvoSuiteTest#test0
+* Started br.com.jnfe.base.OrigEvoSuiteTest#test0
+* Finished br.com.jnfe.base.OrigEvoSuiteTest#test0
+* Started br.com.jnfe.base.OrigEvoSuiteTest#test1
+* Finished br.com.jnfe.base.OrigEvoSuiteTest#test1
+* Started br.com.jnfe.base.OrigEvoSuiteTest#test2
+* Finished br.com.jnfe.base.OrigEvoSuiteTest#test2
+* Started br.com.jnfe.base.CRTEvoSuiteTest#test0
+* Finished br.com.jnfe.base.CRTEvoSuiteTest#test0
+* Started br.com.jnfe.base.TpImpEvoSuiteTest#test0
+* Finished br.com.jnfe.base.TpImpEvoSuiteTest#test0
+* Started br.com.jnfe.base.ModeloNFeEvoSuiteTest#test0
+* Finished br.com.jnfe.base.ModeloNFeEvoSuiteTest#test0
+* Started br.com.jnfe.base.TpEmisEvoSuiteTest#test0
+* Finished br.com.jnfe.base.TpEmisEvoSuiteTest#test0
+* Started br.com.jnfe.base.ModBCEvoSuiteTest#test0
+* Finished br.com.jnfe.base.ModBCEvoSuiteTest#test0
+* Started br.com.jnfe.base.TpObsNFeEvoSuiteTest#test0
+* Finished br.com.jnfe.base.TpObsNFeEvoSuiteTest#test0
+* Started br.com.jnfe.base.ContribICMSEvoSuiteTest#test0
+* Finished br.com.jnfe.base.ContribICMSEvoSuiteTest#test0
+* Started br.com.jnfe.base.TpNFEvoSuiteTest#test0
+* Finished br.com.jnfe.base.TpNFEvoSuiteTest#test0
+* Started br.com.jnfe.base.CStatEvoSuiteTest#test0
+* Finished br.com.jnfe.base.CStatEvoSuiteTest#test0
+* Started br.com.jnfe.base.CStatEvoSuiteTest#test1
+* Finished br.com.jnfe.base.CStatEvoSuiteTest#test1
+* Started br.com.jnfe.base.CStatEvoSuiteTest#test2
+* Finished br.com.jnfe.base.CStatEvoSuiteTest#test2
+* Started br.com.jnfe.base.ProcEmiEvoSuiteTest#test0
+* Finished br.com.jnfe.base.ProcEmiEvoSuiteTest#test0
+* Started br.com.jnfe.base.RegimeEspecialTributarioEvoSuiteTest#test0
+* Finished br.com.jnfe.base.RegimeEspecialTributarioEvoSuiteTest#test0
+* Started br.com.jnfe.base.ModBCSTEvoSuiteTest#test0
+* Finished br.com.jnfe.base.ModBCSTEvoSuiteTest#test0
+* Started br.com.jnfe.base.FinNFeEvoSuiteTest#test0
+* Finished br.com.jnfe.base.FinNFeEvoSuiteTest#test0
+* Started br.com.jnfe.base.TUFsEvoSuiteTest#test0
+* Finished br.com.jnfe.base.TUFsEvoSuiteTest#test0
+* Started br.com.jnfe.base.TpVeiculoEvoSuiteTest#test0
+* Finished br.com.jnfe.base.TpVeiculoEvoSuiteTest#test0
+* Started br.com.jnfe.base.TpServicoEvoSuiteTest#test0
+* Finished br.com.jnfe.base.TpServicoEvoSuiteTest#test0
+* Started br.com.jnfe.base.TpServicoEvoSuiteTest#test1
+* Finished br.com.jnfe.base.TpServicoEvoSuiteTest#test1
+* Started br.com.jnfe.base.ConsReciNFeEvoSuiteTest#test0
+* Finished br.com.jnfe.base.ConsReciNFeEvoSuiteTest#test0
+* Started br.com.jnfe.base.ConsReciNFeEvoSuiteTest#test1
+* Finished br.com.jnfe.base.ConsReciNFeEvoSuiteTest#test1
+* Started br.com.jnfe.base.ConsReciNFeEvoSuiteTest#test2
+* Finished br.com.jnfe.base.ConsReciNFeEvoSuiteTest#test2
+* Started br.com.jnfe.base.ConsReciNFeEvoSuiteTest#test3
+* Finished br.com.jnfe.base.ConsReciNFeEvoSuiteTest#test3
+* Started br.com.jnfe.base.ConsReciNFeEvoSuiteTest#test4
+* Finished br.com.jnfe.base.ConsReciNFeEvoSuiteTest#test4
+* Started br.com.jnfe.base.ConsReciNFeEvoSuiteTest#test5
+* Finished br.com.jnfe.base.ConsReciNFeEvoSuiteTest#test5
+* Started br.com.jnfe.base.CST_IPIEvoSuiteTest#test0
+* Finished br.com.jnfe.base.CST_IPIEvoSuiteTest#test0
+* Started br.com.jnfe.base.CST_IPIEvoSuiteTest#test1
+* Finished br.com.jnfe.base.CST_IPIEvoSuiteTest#test1
+* Started br.com.jnfe.base.CST_IPIEvoSuiteTest#test2
+* Finished br.com.jnfe.base.CST_IPIEvoSuiteTest#test2
+* Started br.com.jnfe.base.CST_IPIEvoSuiteTest#test3
+* Finished br.com.jnfe.base.CST_IPIEvoSuiteTest#test3
+* Started br.com.jnfe.base.service.NFeCalculatorImplEvoSuiteTest#test0
+* Finished br.com.jnfe.base.service.NFeCalculatorImplEvoSuiteTest#test0
+* Started br.com.jnfe.base.service.NFeCalculatorImplEvoSuiteTest#test1
+* Finished br.com.jnfe.base.service.NFeCalculatorImplEvoSuiteTest#test1
+* Started br.com.jnfe.base.service.NFeCalculatorImplEvoSuiteTest#test2
+* Finished br.com.jnfe.base.service.NFeCalculatorImplEvoSuiteTest#test2
+* Started br.com.jnfe.base.service.NFeCalculatorImplEvoSuiteTest#test3
+* Finished br.com.jnfe.base.service.NFeCalculatorImplEvoSuiteTest#test3
+* Started br.com.jnfe.base.service.NFeCalculatorImplEvoSuiteTest#test4
+* Finished br.com.jnfe.base.service.NFeCalculatorImplEvoSuiteTest#test4
+* Started br.com.jnfe.base.service.NFeCalculatorImplEvoSuiteTest#test5
+* Finished br.com.jnfe.base.service.NFeCalculatorImplEvoSuiteTest#test5
+* Started br.com.jnfe.base.service.DOMNFeSignatureHandlerEvoSuiteTest#test0
+* Failure: loader constraint violation: when resolving method "javax.xml.crypto.dom.DOMStructure.<init>(Lorg/w3c/dom/Node;)V" the class loader (instance of com/gzoltar/lib/instrumentation/util/GZoltarClassLoader) of the current class, br/com/jnfe/base/service/DOMNFeSignatureHandlerEvoSuiteTest, and the class loader (instance of <bootloader>) for the method's defining class, javax/xml/crypto/dom/DOMStructure, have different Class objects for the type org/w3c/dom/Node used in the signature | test0(br.com.jnfe.base.service.DOMNFeSignatureHandlerEvoSuiteTest)
+java.lang.LinkageError: loader constraint violation: when resolving method "javax.xml.crypto.dom.DOMStructure.<init>(Lorg/w3c/dom/Node;)V" the class loader (instance of com/gzoltar/lib/instrumentation/util/GZoltarClassLoader) of the current class, br/com/jnfe/base/service/DOMNFeSignatureHandlerEvoSuiteTest, and the class loader (instance of <bootloader>) for the method's defining class, javax/xml/crypto/dom/DOMStructure, have different Class objects for the type org/w3c/dom/Node used in the signature
+	at br.com.jnfe.base.service.DOMNFeSignatureHandlerEvoSuiteTest.test0(DOMNFeSignatureHandlerEvoSuiteTest.java:35)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:44)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:41)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:31)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:44)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:180)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:41)
+	at org.junit.runners.ParentRunner$1.evaluate(ParentRunner.java:173)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:31)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:220)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+* Finished br.com.jnfe.base.service.DOMNFeSignatureHandlerEvoSuiteTest#test0
+* Started br.com.jnfe.base.service.DOMNFeSignatureHandlerEvoSuiteTest#test1
+* Finished br.com.jnfe.base.service.DOMNFeSignatureHandlerEvoSuiteTest#test1
+* Started br.com.jnfe.base.service.DOMNFeSignatureHandlerEvoSuiteTest#test2
+* Finished br.com.jnfe.base.service.DOMNFeSignatureHandlerEvoSuiteTest#test2
+* Started br.com.jnfe.base.service.DOMNFeSignatureHandlerEvoSuiteTest#test3
+* Failure: loader constraint violation: when resolving method "javax.xml.crypto.dom.DOMStructure.<init>(Lorg/w3c/dom/Node;)V" the class loader (instance of com/gzoltar/lib/instrumentation/util/GZoltarClassLoader) of the current class, br/com/jnfe/base/service/DOMNFeSignatureHandlerEvoSuiteTest, and the class loader (instance of <bootloader>) for the method's defining class, javax/xml/crypto/dom/DOMStructure, have different Class objects for the type org/w3c/dom/Node used in the signature | test3(br.com.jnfe.base.service.DOMNFeSignatureHandlerEvoSuiteTest)
+java.lang.LinkageError: loader constraint violation: when resolving method "javax.xml.crypto.dom.DOMStructure.<init>(Lorg/w3c/dom/Node;)V" the class loader (instance of com/gzoltar/lib/instrumentation/util/GZoltarClassLoader) of the current class, br/com/jnfe/base/service/DOMNFeSignatureHandlerEvoSuiteTest, and the class loader (instance of <bootloader>) for the method's defining class, javax/xml/crypto/dom/DOMStructure, have different Class objects for the type org/w3c/dom/Node used in the signature
+	at br.com.jnfe.base.service.DOMNFeSignatureHandlerEvoSuiteTest.test3(DOMNFeSignatureHandlerEvoSuiteTest.java:76)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:44)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:41)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:31)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:44)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:180)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:41)
+	at org.junit.runners.ParentRunner$1.evaluate(ParentRunner.java:173)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:31)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:220)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+* Finished br.com.jnfe.base.service.DOMNFeSignatureHandlerEvoSuiteTest#test3
+* Started br.com.jnfe.base.service.DOMNFeKeyInfoBuilderEvoSuiteTest#test0
+* Finished br.com.jnfe.base.service.DOMNFeKeyInfoBuilderEvoSuiteTest#test0
+* Started br.com.jnfe.base.service.DOMNFeKeyInfoBuilderEvoSuiteTest#test1
+* Finished br.com.jnfe.base.service.DOMNFeKeyInfoBuilderEvoSuiteTest#test1
+* Started br.com.jnfe.base.IndTotEvoSuiteTest#test0
+* Finished br.com.jnfe.base.IndTotEvoSuiteTest#test0
+* Started br.com.jnfe.base.SitNFeEvoSuiteTest#test0
+* Finished br.com.jnfe.base.SitNFeEvoSuiteTest#test0
+* Started br.com.jnfe.base.SitNFeEvoSuiteTest#test1
+* Finished br.com.jnfe.base.SitNFeEvoSuiteTest#test1
+* Started br.com.jnfe.base.SitNFeEvoSuiteTest#test2
+* Finished br.com.jnfe.base.SitNFeEvoSuiteTest#test2
+* Started br.com.jnfe.base.MotDesICMSEvoSuiteTest#test0
+* Finished br.com.jnfe.base.MotDesICMSEvoSuiteTest#test0
+* Filtering test cases that do not cover any component
+* Sending data to master
+* Closing connection with client
+* Performing fault localization
+* Running Ochiai
+* Writing coverage matrix to 'gzoltar-data/matrix'
+* Writing spectra to 'gzoltar-data/spectra'
+* Metrics

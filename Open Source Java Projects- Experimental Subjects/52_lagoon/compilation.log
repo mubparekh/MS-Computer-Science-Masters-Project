@@ -1,0 +1,423 @@
+Buildfile: /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/build.xml
+
+prepare:
+    [mkdir] Created dir: /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/build
+
+compile:
+    [mkdir] Created dir: /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/build/classes
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/build.xml:82: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 81 source files to /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/build/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.6
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/src/main/java/nu/staldal/lagoon/LagoonGUI.java:86: warning: [deprecation] show() in Window has been deprecated
+    [javac] 		appFrame.show();
+    [javac] 		        ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/src/main/java/nu/staldal/lagoon/LagoonGUI.java:211: warning: [deprecation] show() in Dialog has been deprecated
+    [javac] 					ed.show();
+    [javac] 					  ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/src/main/java/nu/staldal/lagoon/LagoonGUI.java:223: warning: [deprecation] show() in Dialog has been deprecated
+    [javac] 				ed.show();
+    [javac] 				  ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/src/main/java/nu/staldal/lagoon/LagoonGUI.java:229: warning: [deprecation] show() in Dialog has been deprecated
+    [javac] 				ed.show();
+    [javac] 				  ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/src/main/java/nu/staldal/lagoon/LagoonGUI.java:318: warning: [deprecation] show() in Dialog has been deprecated
+    [javac] 			pwd.show();
+    [javac] 			   ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/src/main/java/nu/staldal/lagoon/LagoonGUI.java:326: warning: [deprecation] show() in Dialog has been deprecated
+    [javac] 			pwd.show();
+    [javac] 			   ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/src/main/java/nu/staldal/lagoon/LagoonGUI.java:334: warning: [deprecation] show() in Dialog has been deprecated
+    [javac] 			ed.show();
+    [javac] 			  ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/src/main/java/nu/staldal/lagoon/LagoonGUI.java:340: warning: [deprecation] show() in Dialog has been deprecated
+    [javac] 			ed.show();
+    [javac] 			  ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/src/main/java/nu/staldal/lagoon/LagoonGUI.java:346: warning: [deprecation] show() in Dialog has been deprecated
+    [javac] 			ed.show();
+    [javac] 			  ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/src/main/java/nu/staldal/lagoon/LagoonGUI.java:354: warning: [deprecation] show() in Dialog has been deprecated
+    [javac] 		propertyFileDialog.show(); // blocking						
+    [javac] 		                  ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/src/main/java/nu/staldal/lagoon/LagoonGUI.java:383: warning: [deprecation] show() in Dialog has been deprecated
+    [javac] 			ed.show(); // blocking
+    [javac] 			  ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/src/main/java/nu/staldal/lagoon/LagoonGUI.java:389: warning: [deprecation] show() in Dialog has been deprecated
+    [javac] 			ed.show(); // blocking
+    [javac] 			  ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/src/main/java/nu/staldal/lagoon/LagoonGUI.java:398: warning: [deprecation] show() in Dialog has been deprecated
+    [javac] 		propertyFileDialog.show(); // blocking						
+    [javac] 		                  ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/src/main/java/nu/staldal/lagoon/LagoonGUI.java:417: warning: [deprecation] show() in Dialog has been deprecated
+    [javac] 					ynDialog.show(); // blocking
+    [javac] 					        ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/src/main/java/nu/staldal/lagoon/LagoonGUI.java:431: warning: [deprecation] show() in Dialog has been deprecated
+    [javac] 				ed.show(); // blocking
+    [javac] 				  ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/src/main/java/nu/staldal/lagoon/LagoonGUI.java:516: warning: [deprecation] show() in Dialog has been deprecated
+    [javac] 		fd.show(); // blocking
+    [javac] 		  ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/src/main/java/nu/staldal/lagoon/core/LagoonProcessor.java:217: warning: [deprecation] toURL() in File has been deprecated
+    [javac] 		classLoaderURLs = new java.net.URL[] { classDir.toURL() };
+    [javac] 		                                               ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/src/main/java/nu/staldal/lagoon/LagoonGUI.java:554: warning: [deprecation] hide() in Dialog has been deprecated
+    [javac] 				hide();
+    [javac] 				^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/src/main/java/nu/staldal/lagoon/LagoonGUI.java:561: warning: [deprecation] hide() in Dialog has been deprecated
+    [javac] 				hide();
+    [javac] 				^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/src/main/java/nu/staldal/lagoon/LagoonGUI.java:595: warning: [deprecation] hide() in Dialog has been deprecated
+    [javac] 				hide();
+    [javac] 				^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/src/main/java/nu/staldal/lagoon/LagoonGUI.java:602: warning: [deprecation] hide() in Dialog has been deprecated
+    [javac] 				hide();
+    [javac] 				^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/src/main/java/nu/staldal/lagoon/LagoonGUI.java:631: warning: [deprecation] hide() in Dialog has been deprecated
+    [javac] 				hide();
+    [javac] 				^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/src/main/java/nu/staldal/lagoon/producer/BatikFormatter.java:107: warning: [deprecation] toURL() in File has been deprecated
+    [javac] 			sourceURL = new java.net.URL(getContext().getSourceRootDir().toURL(),
+    [javac] 			                                                            ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/src/main/java/nu/staldal/lagoon/producer/BatikFormatter.java:110: warning: [deprecation] toURL() in File has been deprecated
+    [javac] 			sourceURL = new java.net.URL(getContext().getSourceRootDir().toURL(),
+    [javac] 			                                                            ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/src/main/java/nu/staldal/xmlutil/ContentHandlerAdapter.java:52: warning: [deprecation] DocumentHandler in org.xml.sax has been deprecated
+    [javac] public class ContentHandlerAdapter implements DocumentHandler
+    [javac]                                               ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/src/main/java/nu/staldal/xmlutil/ContentHandlerAdapter.java:89: warning: [deprecation] AttributeList in org.xml.sax has been deprecated
+    [javac] 	public void startElement(String name, AttributeList atts)
+    [javac] 	                                      ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/src/main/java/nu/staldal/xmlutil/DocumentHandlerAdapter.java:56: warning: [deprecation] DocumentHandler in org.xml.sax has been deprecated
+    [javac]     private DocumentHandler dh;
+    [javac]             ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/src/main/java/nu/staldal/xmlutil/DocumentHandlerAdapter.java:66: warning: [deprecation] DocumentHandler in org.xml.sax has been deprecated
+    [javac]     public DocumentHandlerAdapter(DocumentHandler dh)
+    [javac]                                   ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/src/main/java/nu/staldal/xmlutil/DocumentHandlerAdapter.java:133: warning: [deprecation] AttributeListImpl in org.xml.sax.helpers has been deprecated
+    [javac]         AttributeListImpl al = new AttributeListImpl();
+    [javac]         ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/src/main/java/nu/staldal/xmlutil/DocumentHandlerAdapter.java:133: warning: [deprecation] AttributeListImpl in org.xml.sax.helpers has been deprecated
+    [javac]         AttributeListImpl al = new AttributeListImpl();
+    [javac]                                    ^
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+    [javac] 31 warnings
+     [copy] Copying 23 files to /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/build/classes
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+Buildfile: /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/build.xml
+
+prepare:
+
+compile:
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/build.xml:82: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+
+compile-evosuite:
+    [mkdir] Created dir: /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/build/evosuite
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/build.xml:129: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 59 source files to /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/build/evosuite
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.6
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/evosuite-tests/nu/staldal/lagoon/core/LagoonProcessorEvoSuiteTest.java:17: warning: [deprecation] Element in nu.staldal.xtree has been deprecated
+    [javac] import nu.staldal.xtree.Element;
+    [javac]                        ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/evosuite-tests/nu/staldal/lagoon/core/SitemapEvoSuiteTest.java:16: warning: [deprecation] Element in nu.staldal.xtree has been deprecated
+    [javac] import nu.staldal.xtree.Element;
+    [javac]                        ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/evosuite-tests/nu/staldal/lagoon/core/SitemapEvoSuiteTest.java:17: warning: [deprecation] Node in nu.staldal.xtree has been deprecated
+    [javac] import nu.staldal.xtree.Node;
+    [javac]                        ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/evosuite-tests/nu/staldal/lagoon/core/SitemapEvoSuiteTest.java:18: warning: [deprecation] Text in nu.staldal.xtree has been deprecated
+    [javac] import nu.staldal.xtree.Text;
+    [javac]                        ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/evosuite-tests/nu/staldal/xmlutil/ContentHandlerAdapterEvoSuiteTest.java:12: warning: [deprecation] AttributeList in org.xml.sax has been deprecated
+    [javac] import org.xml.sax.AttributeList;
+    [javac]                   ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/evosuite-tests/nu/staldal/xmlutil/ContentHandlerAdapterEvoSuiteTest.java:18: warning: [deprecation] AttributeListImpl in org.xml.sax.helpers has been deprecated
+    [javac] import org.xml.sax.helpers.AttributeListImpl;
+    [javac]                           ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/evosuite-tests/nu/staldal/xmlutil/DocumentHandlerAdapterEvoSuiteTest.java:13: warning: [deprecation] DocumentHandler in org.xml.sax has been deprecated
+    [javac] import org.xml.sax.DocumentHandler;
+    [javac]                   ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/evosuite-tests/nu/staldal/xmlutil/DocumentHandlerAdapterEvoSuiteTest.java:14: warning: [deprecation] HandlerBase in org.xml.sax has been deprecated
+    [javac] import org.xml.sax.HandlerBase;
+    [javac]                   ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/evosuite-tests/nu/staldal/xtree/ProcessingInstructionEvoSuiteTest.java:10: warning: [deprecation] ProcessingInstruction in nu.staldal.xtree has been deprecated
+    [javac] import nu.staldal.xtree.ProcessingInstruction;
+    [javac]                        ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/evosuite-tests/nu/staldal/xtree/SequentialTreeBuilderEvoSuiteTest.java:11: warning: [deprecation] Element in nu.staldal.xtree has been deprecated
+    [javac] import nu.staldal.xtree.Element;
+    [javac]                        ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/evosuite-tests/nu/staldal/xtree/TextEvoSuiteTest.java:10: warning: [deprecation] Text in nu.staldal.xtree has been deprecated
+    [javac] import nu.staldal.xtree.Text;
+    [javac]                        ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/evosuite-tests/nu/staldal/xtree/TreeBuilderEvoSuiteTest.java:14: warning: [deprecation] Text in nu.staldal.xtree has been deprecated
+    [javac] import nu.staldal.xtree.Text;
+    [javac]                        ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/evosuite-tests/nu/staldal/xtree/TreeBuilderEvoSuiteTest.java:15: warning: [deprecation] TreeBuilder in nu.staldal.xtree has been deprecated
+    [javac] import nu.staldal.xtree.TreeBuilder;
+    [javac]                        ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/evosuite-tests/nu/staldal/lagoon/core/LagoonProcessorEvoSuiteTest.java:38: warning: [deprecation] Element in nu.staldal.xtree has been deprecated
+    [javac]       Element element0 = new Element("", "");
+    [javac]       ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/evosuite-tests/nu/staldal/lagoon/core/LagoonProcessorEvoSuiteTest.java:38: warning: [deprecation] Element in nu.staldal.xtree has been deprecated
+    [javac]       Element element0 = new Element("", "");
+    [javac]                              ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/evosuite-tests/nu/staldal/lagoon/core/LagoonProcessorEvoSuiteTest.java:71: warning: [deprecation] Element in nu.staldal.xtree has been deprecated
+    [javac]         lagoonProcessor0 = new LagoonProcessor("Unknown entry in sitemap: ", (Element) null, file0, "Unknown entry in sitemap: ", (PrintWriter) null, (PrintWriter) null);
+    [javac]                                                                               ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/evosuite-tests/nu/staldal/lagoon/core/SitemapEvoSuiteTest.java:31: warning: [deprecation] Element in nu.staldal.xtree has been deprecated
+    [javac]       Element element0 = new Element("sitemap", "sitemap");
+    [javac]       ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/evosuite-tests/nu/staldal/lagoon/core/SitemapEvoSuiteTest.java:31: warning: [deprecation] Element in nu.staldal.xtree has been deprecated
+    [javac]       Element element0 = new Element("sitemap", "sitemap");
+    [javac]                              ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/evosuite-tests/nu/staldal/lagoon/core/SitemapEvoSuiteTest.java:44: warning: [deprecation] Element in nu.staldal.xtree has been deprecated
+    [javac]       Element element0 = new Element("sitemap", "sitemap");
+    [javac]       ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/evosuite-tests/nu/staldal/lagoon/core/SitemapEvoSuiteTest.java:44: warning: [deprecation] Element in nu.staldal.xtree has been deprecated
+    [javac]       Element element0 = new Element("sitemap", "sitemap");
+    [javac]                              ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/evosuite-tests/nu/staldal/lagoon/core/SitemapEvoSuiteTest.java:58: warning: [deprecation] Element in nu.staldal.xtree has been deprecated
+    [javac]       Element element0 = new Element("sitemap", "sitemap");
+    [javac]       ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/evosuite-tests/nu/staldal/lagoon/core/SitemapEvoSuiteTest.java:58: warning: [deprecation] Element in nu.staldal.xtree has been deprecated
+    [javac]       Element element0 = new Element("sitemap", "sitemap");
+    [javac]                              ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/evosuite-tests/nu/staldal/lagoon/core/SitemapEvoSuiteTest.java:71: warning: [deprecation] Element in nu.staldal.xtree has been deprecated
+    [javac]       Element element0 = new Element("sitemap", "sitemap");
+    [javac]       ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/evosuite-tests/nu/staldal/lagoon/core/SitemapEvoSuiteTest.java:71: warning: [deprecation] Element in nu.staldal.xtree has been deprecated
+    [javac]       Element element0 = new Element("sitemap", "sitemap");
+    [javac]                              ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/evosuite-tests/nu/staldal/lagoon/core/SitemapEvoSuiteTest.java:84: warning: [deprecation] Element in nu.staldal.xtree has been deprecated
+    [javac]       Element element0 = new Element("Y6", "Y6", (-1404));
+    [javac]       ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/evosuite-tests/nu/staldal/lagoon/core/SitemapEvoSuiteTest.java:84: warning: [deprecation] Element in nu.staldal.xtree has been deprecated
+    [javac]       Element element0 = new Element("Y6", "Y6", (-1404));
+    [javac]                              ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/evosuite-tests/nu/staldal/lagoon/core/SitemapEvoSuiteTest.java:106: warning: [deprecation] Element in nu.staldal.xtree has been deprecated
+    [javac]       Element element0 = new Element("sitemap", "sitemap");
+    [javac]       ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/evosuite-tests/nu/staldal/lagoon/core/SitemapEvoSuiteTest.java:106: warning: [deprecation] Element in nu.staldal.xtree has been deprecated
+    [javac]       Element element0 = new Element("sitemap", "sitemap");
+    [javac]                              ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/evosuite-tests/nu/staldal/lagoon/core/SitemapEvoSuiteTest.java:109: warning: [deprecation] Text in nu.staldal.xtree has been deprecated
+    [javac]       Text text0 = new Text(charArray0, 0, 1, true);
+    [javac]       ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/evosuite-tests/nu/staldal/lagoon/core/SitemapEvoSuiteTest.java:109: warning: [deprecation] Text in nu.staldal.xtree has been deprecated
+    [javac]       Text text0 = new Text(charArray0, 0, 1, true);
+    [javac]                        ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/evosuite-tests/nu/staldal/lagoon/core/SitemapEvoSuiteTest.java:110: warning: [deprecation] Node in nu.staldal.xtree has been deprecated
+    [javac]       element0.addChild((Node) text0);
+    [javac]                          ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/evosuite-tests/nu/staldal/xmlutil/ContentHandlerAdapterEvoSuiteTest.java:119: warning: [deprecation] AttributeListImpl in org.xml.sax.helpers has been deprecated
+    [javac]       AttributeListImpl attributeListImpl0 = new AttributeListImpl();
+    [javac]       ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/evosuite-tests/nu/staldal/xmlutil/ContentHandlerAdapterEvoSuiteTest.java:119: warning: [deprecation] AttributeListImpl in org.xml.sax.helpers has been deprecated
+    [javac]       AttributeListImpl attributeListImpl0 = new AttributeListImpl();
+    [javac]                                                  ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/evosuite-tests/nu/staldal/xmlutil/ContentHandlerAdapterEvoSuiteTest.java:121: warning: [deprecation] AttributeList in org.xml.sax has been deprecated
+    [javac]       contentHandlerAdapter0.startElement("xmlns", (AttributeList) attributeListImpl0);
+    [javac]                                                     ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/evosuite-tests/nu/staldal/xmlutil/ContentHandlerAdapterEvoSuiteTest.java:142: warning: [deprecation] AttributeListImpl in org.xml.sax.helpers has been deprecated
+    [javac]       AttributeListImpl attributeListImpl0 = new AttributeListImpl();
+    [javac]       ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/evosuite-tests/nu/staldal/xmlutil/ContentHandlerAdapterEvoSuiteTest.java:142: warning: [deprecation] AttributeListImpl in org.xml.sax.helpers has been deprecated
+    [javac]       AttributeListImpl attributeListImpl0 = new AttributeListImpl();
+    [javac]                                                  ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/evosuite-tests/nu/staldal/xmlutil/ContentHandlerAdapterEvoSuiteTest.java:144: warning: [deprecation] AttributeList in org.xml.sax has been deprecated
+    [javac]       contentHandlerAdapter0.startElement("xmlns", (AttributeList) attributeListImpl0);
+    [javac]                                                     ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/evosuite-tests/nu/staldal/xmlutil/DocumentHandlerAdapterEvoSuiteTest.java:32: warning: [deprecation] HandlerBase in org.xml.sax has been deprecated
+    [javac]       HandlerBase handlerBase0 = new HandlerBase();
+    [javac]       ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/evosuite-tests/nu/staldal/xmlutil/DocumentHandlerAdapterEvoSuiteTest.java:32: warning: [deprecation] HandlerBase in org.xml.sax has been deprecated
+    [javac]       HandlerBase handlerBase0 = new HandlerBase();
+    [javac]                                      ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/evosuite-tests/nu/staldal/xmlutil/DocumentHandlerAdapterEvoSuiteTest.java:33: warning: [deprecation] DocumentHandler in org.xml.sax has been deprecated
+    [javac]       DocumentHandlerAdapter documentHandlerAdapter0 = new DocumentHandlerAdapter((DocumentHandler) handlerBase0);
+    [javac]                                                                                    ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/evosuite-tests/nu/staldal/xmlutil/DocumentHandlerAdapterEvoSuiteTest.java:44: warning: [deprecation] HandlerBase in org.xml.sax has been deprecated
+    [javac]       HandlerBase handlerBase0 = new HandlerBase();
+    [javac]       ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/evosuite-tests/nu/staldal/xmlutil/DocumentHandlerAdapterEvoSuiteTest.java:44: warning: [deprecation] HandlerBase in org.xml.sax has been deprecated
+    [javac]       HandlerBase handlerBase0 = new HandlerBase();
+    [javac]                                      ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/evosuite-tests/nu/staldal/xmlutil/DocumentHandlerAdapterEvoSuiteTest.java:45: warning: [deprecation] DocumentHandler in org.xml.sax has been deprecated
+    [javac]       DocumentHandlerAdapter documentHandlerAdapter0 = new DocumentHandlerAdapter((DocumentHandler) handlerBase0);
+    [javac]                                                                                    ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/evosuite-tests/nu/staldal/xmlutil/DocumentHandlerAdapterEvoSuiteTest.java:56: warning: [deprecation] HandlerBase in org.xml.sax has been deprecated
+    [javac]       HandlerBase handlerBase0 = new HandlerBase();
+    [javac]       ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/evosuite-tests/nu/staldal/xmlutil/DocumentHandlerAdapterEvoSuiteTest.java:56: warning: [deprecation] HandlerBase in org.xml.sax has been deprecated
+    [javac]       HandlerBase handlerBase0 = new HandlerBase();
+    [javac]                                      ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/evosuite-tests/nu/staldal/xmlutil/DocumentHandlerAdapterEvoSuiteTest.java:57: warning: [deprecation] DocumentHandler in org.xml.sax has been deprecated
+    [javac]       DocumentHandlerAdapter documentHandlerAdapter0 = new DocumentHandlerAdapter((DocumentHandler) handlerBase0);
+    [javac]                                                                                    ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/evosuite-tests/nu/staldal/xmlutil/DocumentHandlerAdapterEvoSuiteTest.java:68: warning: [deprecation] HandlerBase in org.xml.sax has been deprecated
+    [javac]       HandlerBase handlerBase0 = new HandlerBase();
+    [javac]       ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/evosuite-tests/nu/staldal/xmlutil/DocumentHandlerAdapterEvoSuiteTest.java:68: warning: [deprecation] HandlerBase in org.xml.sax has been deprecated
+    [javac]       HandlerBase handlerBase0 = new HandlerBase();
+    [javac]                                      ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/evosuite-tests/nu/staldal/xmlutil/DocumentHandlerAdapterEvoSuiteTest.java:69: warning: [deprecation] DocumentHandler in org.xml.sax has been deprecated
+    [javac]       DocumentHandlerAdapter documentHandlerAdapter0 = new DocumentHandlerAdapter((DocumentHandler) handlerBase0);
+    [javac]                                                                                    ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/evosuite-tests/nu/staldal/xmlutil/DocumentHandlerAdapterEvoSuiteTest.java:80: warning: [deprecation] HandlerBase in org.xml.sax has been deprecated
+    [javac]       HandlerBase handlerBase0 = new HandlerBase();
+    [javac]       ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/evosuite-tests/nu/staldal/xmlutil/DocumentHandlerAdapterEvoSuiteTest.java:80: warning: [deprecation] HandlerBase in org.xml.sax has been deprecated
+    [javac]       HandlerBase handlerBase0 = new HandlerBase();
+    [javac]                                      ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/evosuite-tests/nu/staldal/xmlutil/DocumentHandlerAdapterEvoSuiteTest.java:81: warning: [deprecation] DocumentHandler in org.xml.sax has been deprecated
+    [javac]       DocumentHandlerAdapter documentHandlerAdapter0 = new DocumentHandlerAdapter((DocumentHandler) handlerBase0);
+    [javac]                                                                                    ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/evosuite-tests/nu/staldal/xmlutil/DocumentHandlerAdapterEvoSuiteTest.java:93: warning: [deprecation] HandlerBase in org.xml.sax has been deprecated
+    [javac]       HandlerBase handlerBase0 = new HandlerBase();
+    [javac]       ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/evosuite-tests/nu/staldal/xmlutil/DocumentHandlerAdapterEvoSuiteTest.java:93: warning: [deprecation] HandlerBase in org.xml.sax has been deprecated
+    [javac]       HandlerBase handlerBase0 = new HandlerBase();
+    [javac]                                      ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/evosuite-tests/nu/staldal/xmlutil/DocumentHandlerAdapterEvoSuiteTest.java:94: warning: [deprecation] DocumentHandler in org.xml.sax has been deprecated
+    [javac]       DocumentHandlerAdapter documentHandlerAdapter0 = new DocumentHandlerAdapter((DocumentHandler) handlerBase0);
+    [javac]                                                                                    ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/evosuite-tests/nu/staldal/xmlutil/DocumentHandlerAdapterEvoSuiteTest.java:107: warning: [deprecation] HandlerBase in org.xml.sax has been deprecated
+    [javac]       HandlerBase handlerBase0 = new HandlerBase();
+    [javac]       ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/evosuite-tests/nu/staldal/xmlutil/DocumentHandlerAdapterEvoSuiteTest.java:107: warning: [deprecation] HandlerBase in org.xml.sax has been deprecated
+    [javac]       HandlerBase handlerBase0 = new HandlerBase();
+    [javac]                                      ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/evosuite-tests/nu/staldal/xmlutil/DocumentHandlerAdapterEvoSuiteTest.java:108: warning: [deprecation] DocumentHandler in org.xml.sax has been deprecated
+    [javac]       DocumentHandlerAdapter documentHandlerAdapter0 = new DocumentHandlerAdapter((DocumentHandler) handlerBase0);
+    [javac]                                                                                    ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/evosuite-tests/nu/staldal/xmlutil/DocumentHandlerAdapterEvoSuiteTest.java:120: warning: [deprecation] HandlerBase in org.xml.sax has been deprecated
+    [javac]       HandlerBase handlerBase0 = new HandlerBase();
+    [javac]       ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/evosuite-tests/nu/staldal/xmlutil/DocumentHandlerAdapterEvoSuiteTest.java:120: warning: [deprecation] HandlerBase in org.xml.sax has been deprecated
+    [javac]       HandlerBase handlerBase0 = new HandlerBase();
+    [javac]                                      ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/evosuite-tests/nu/staldal/xmlutil/DocumentHandlerAdapterEvoSuiteTest.java:121: warning: [deprecation] DocumentHandler in org.xml.sax has been deprecated
+    [javac]       DocumentHandlerAdapter documentHandlerAdapter0 = new DocumentHandlerAdapter((DocumentHandler) handlerBase0);
+    [javac]                                                                                    ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/evosuite-tests/nu/staldal/xmlutil/DocumentHandlerAdapterEvoSuiteTest.java:139: warning: [deprecation] HandlerBase in org.xml.sax has been deprecated
+    [javac]       HandlerBase handlerBase0 = new HandlerBase();
+    [javac]       ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/evosuite-tests/nu/staldal/xmlutil/DocumentHandlerAdapterEvoSuiteTest.java:139: warning: [deprecation] HandlerBase in org.xml.sax has been deprecated
+    [javac]       HandlerBase handlerBase0 = new HandlerBase();
+    [javac]                                      ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/evosuite-tests/nu/staldal/xmlutil/DocumentHandlerAdapterEvoSuiteTest.java:140: warning: [deprecation] DocumentHandler in org.xml.sax has been deprecated
+    [javac]       DocumentHandlerAdapter documentHandlerAdapter0 = new DocumentHandlerAdapter((DocumentHandler) handlerBase0);
+    [javac]                                                                                    ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/evosuite-tests/nu/staldal/xmlutil/DocumentHandlerAdapterEvoSuiteTest.java:166: warning: [deprecation] HandlerBase in org.xml.sax has been deprecated
+    [javac]       HandlerBase handlerBase0 = new HandlerBase();
+    [javac]       ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/evosuite-tests/nu/staldal/xmlutil/DocumentHandlerAdapterEvoSuiteTest.java:166: warning: [deprecation] HandlerBase in org.xml.sax has been deprecated
+    [javac]       HandlerBase handlerBase0 = new HandlerBase();
+    [javac]                                      ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/evosuite-tests/nu/staldal/xmlutil/DocumentHandlerAdapterEvoSuiteTest.java:167: warning: [deprecation] DocumentHandler in org.xml.sax has been deprecated
+    [javac]       DocumentHandlerAdapter documentHandlerAdapter0 = new DocumentHandlerAdapter((DocumentHandler) handlerBase0);
+    [javac]                                                                                    ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/evosuite-tests/nu/staldal/xmlutil/DocumentHandlerAdapterEvoSuiteTest.java:181: warning: [deprecation] HandlerBase in org.xml.sax has been deprecated
+    [javac]       HandlerBase handlerBase0 = new HandlerBase();
+    [javac]       ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/evosuite-tests/nu/staldal/xmlutil/DocumentHandlerAdapterEvoSuiteTest.java:181: warning: [deprecation] HandlerBase in org.xml.sax has been deprecated
+    [javac]       HandlerBase handlerBase0 = new HandlerBase();
+    [javac]                                      ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/evosuite-tests/nu/staldal/xmlutil/DocumentHandlerAdapterEvoSuiteTest.java:182: warning: [deprecation] DocumentHandler in org.xml.sax has been deprecated
+    [javac]       DocumentHandlerAdapter documentHandlerAdapter0 = new DocumentHandlerAdapter((DocumentHandler) handlerBase0);
+    [javac]                                                                                    ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/evosuite-tests/nu/staldal/xmlutil/DocumentHandlerAdapterEvoSuiteTest.java:198: warning: [deprecation] HandlerBase in org.xml.sax has been deprecated
+    [javac]       HandlerBase handlerBase0 = new HandlerBase();
+    [javac]       ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/evosuite-tests/nu/staldal/xmlutil/DocumentHandlerAdapterEvoSuiteTest.java:198: warning: [deprecation] HandlerBase in org.xml.sax has been deprecated
+    [javac]       HandlerBase handlerBase0 = new HandlerBase();
+    [javac]                                      ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/evosuite-tests/nu/staldal/xmlutil/DocumentHandlerAdapterEvoSuiteTest.java:199: warning: [deprecation] DocumentHandler in org.xml.sax has been deprecated
+    [javac]       DocumentHandlerAdapter documentHandlerAdapter0 = new DocumentHandlerAdapter((DocumentHandler) handlerBase0);
+    [javac]                                                                                    ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/evosuite-tests/nu/staldal/xmlutil/DocumentHandlerAdapterEvoSuiteTest.java:214: warning: [deprecation] HandlerBase in org.xml.sax has been deprecated
+    [javac]       HandlerBase handlerBase0 = new HandlerBase();
+    [javac]       ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/evosuite-tests/nu/staldal/xmlutil/DocumentHandlerAdapterEvoSuiteTest.java:214: warning: [deprecation] HandlerBase in org.xml.sax has been deprecated
+    [javac]       HandlerBase handlerBase0 = new HandlerBase();
+    [javac]                                      ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/evosuite-tests/nu/staldal/xmlutil/DocumentHandlerAdapterEvoSuiteTest.java:215: warning: [deprecation] DocumentHandler in org.xml.sax has been deprecated
+    [javac]       DocumentHandlerAdapter documentHandlerAdapter0 = new DocumentHandlerAdapter((DocumentHandler) handlerBase0);
+    [javac]                                                                                    ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/evosuite-tests/nu/staldal/xmlutil/DocumentHandlerAdapterEvoSuiteTest.java:248: warning: [deprecation] HandlerBase in org.xml.sax has been deprecated
+    [javac]       HandlerBase handlerBase0 = new HandlerBase();
+    [javac]       ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/evosuite-tests/nu/staldal/xmlutil/DocumentHandlerAdapterEvoSuiteTest.java:248: warning: [deprecation] HandlerBase in org.xml.sax has been deprecated
+    [javac]       HandlerBase handlerBase0 = new HandlerBase();
+    [javac]                                      ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/evosuite-tests/nu/staldal/xmlutil/DocumentHandlerAdapterEvoSuiteTest.java:249: warning: [deprecation] DocumentHandler in org.xml.sax has been deprecated
+    [javac]       DocumentHandlerAdapter documentHandlerAdapter0 = new DocumentHandlerAdapter((DocumentHandler) handlerBase0);
+    [javac]                                                                                    ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/evosuite-tests/nu/staldal/xmlutil/DocumentHandlerAdapterEvoSuiteTest.java:267: warning: [deprecation] HandlerBase in org.xml.sax has been deprecated
+    [javac]       HandlerBase handlerBase0 = new HandlerBase();
+    [javac]       ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/evosuite-tests/nu/staldal/xmlutil/DocumentHandlerAdapterEvoSuiteTest.java:267: warning: [deprecation] HandlerBase in org.xml.sax has been deprecated
+    [javac]       HandlerBase handlerBase0 = new HandlerBase();
+    [javac]                                      ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/evosuite-tests/nu/staldal/xmlutil/DocumentHandlerAdapterEvoSuiteTest.java:268: warning: [deprecation] DocumentHandler in org.xml.sax has been deprecated
+    [javac]       DocumentHandlerAdapter documentHandlerAdapter0 = new DocumentHandlerAdapter((DocumentHandler) handlerBase0);
+    [javac]                                                                                    ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/evosuite-tests/nu/staldal/xmlutil/DocumentHandlerAdapterEvoSuiteTest.java:288: warning: [deprecation] HandlerBase in org.xml.sax has been deprecated
+    [javac]       HandlerBase handlerBase0 = new HandlerBase();
+    [javac]       ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/evosuite-tests/nu/staldal/xmlutil/DocumentHandlerAdapterEvoSuiteTest.java:288: warning: [deprecation] HandlerBase in org.xml.sax has been deprecated
+    [javac]       HandlerBase handlerBase0 = new HandlerBase();
+    [javac]                                      ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/evosuite-tests/nu/staldal/xmlutil/DocumentHandlerAdapterEvoSuiteTest.java:289: warning: [deprecation] DocumentHandler in org.xml.sax has been deprecated
+    [javac]       DocumentHandlerAdapter documentHandlerAdapter0 = new DocumentHandlerAdapter((DocumentHandler) handlerBase0);
+    [javac]                                                                                    ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/evosuite-tests/nu/staldal/xmlutil/DocumentHandlerAdapterEvoSuiteTest.java:306: warning: [deprecation] HandlerBase in org.xml.sax has been deprecated
+    [javac]       HandlerBase handlerBase0 = new HandlerBase();
+    [javac]       ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/evosuite-tests/nu/staldal/xmlutil/DocumentHandlerAdapterEvoSuiteTest.java:306: warning: [deprecation] HandlerBase in org.xml.sax has been deprecated
+    [javac]       HandlerBase handlerBase0 = new HandlerBase();
+    [javac]                                      ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/evosuite-tests/nu/staldal/xmlutil/DocumentHandlerAdapterEvoSuiteTest.java:307: warning: [deprecation] DocumentHandler in org.xml.sax has been deprecated
+    [javac]       DocumentHandlerAdapter documentHandlerAdapter0 = new DocumentHandlerAdapter((DocumentHandler) handlerBase0);
+    [javac]                                                                                    ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/evosuite-tests/nu/staldal/xmlutil/DocumentHandlerAdapterEvoSuiteTest.java:327: warning: [deprecation] HandlerBase in org.xml.sax has been deprecated
+    [javac]       HandlerBase handlerBase0 = new HandlerBase();
+    [javac]       ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/evosuite-tests/nu/staldal/xmlutil/DocumentHandlerAdapterEvoSuiteTest.java:327: warning: [deprecation] HandlerBase in org.xml.sax has been deprecated
+    [javac]       HandlerBase handlerBase0 = new HandlerBase();
+    [javac]                                      ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/evosuite-tests/nu/staldal/xmlutil/DocumentHandlerAdapterEvoSuiteTest.java:328: warning: [deprecation] DocumentHandler in org.xml.sax has been deprecated
+    [javac]       DocumentHandlerAdapter documentHandlerAdapter0 = new DocumentHandlerAdapter((DocumentHandler) handlerBase0);
+    [javac]                                                                                    ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/evosuite-tests/nu/staldal/xmlutil/DocumentHandlerAdapterEvoSuiteTest.java:341: warning: [deprecation] HandlerBase in org.xml.sax has been deprecated
+    [javac]       HandlerBase handlerBase0 = new HandlerBase();
+    [javac]       ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/evosuite-tests/nu/staldal/xmlutil/DocumentHandlerAdapterEvoSuiteTest.java:341: warning: [deprecation] HandlerBase in org.xml.sax has been deprecated
+    [javac]       HandlerBase handlerBase0 = new HandlerBase();
+    [javac]                                      ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/evosuite-tests/nu/staldal/xmlutil/DocumentHandlerAdapterEvoSuiteTest.java:342: warning: [deprecation] DocumentHandler in org.xml.sax has been deprecated
+    [javac]       DocumentHandlerAdapter documentHandlerAdapter0 = new DocumentHandlerAdapter((DocumentHandler) handlerBase0);
+    [javac]                                                                                    ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/evosuite-tests/nu/staldal/xmlutil/DocumentHandlerAdapterEvoSuiteTest.java:360: warning: [deprecation] HandlerBase in org.xml.sax has been deprecated
+    [javac]       HandlerBase handlerBase0 = new HandlerBase();
+    [javac]       ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/evosuite-tests/nu/staldal/xmlutil/DocumentHandlerAdapterEvoSuiteTest.java:360: warning: [deprecation] HandlerBase in org.xml.sax has been deprecated
+    [javac]       HandlerBase handlerBase0 = new HandlerBase();
+    [javac]                                      ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/evosuite-tests/nu/staldal/xmlutil/DocumentHandlerAdapterEvoSuiteTest.java:361: warning: [deprecation] DocumentHandler in org.xml.sax has been deprecated
+    [javac]       DocumentHandlerAdapter documentHandlerAdapter0 = new DocumentHandlerAdapter((DocumentHandler) handlerBase0);
+    [javac]                                                                                    ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/evosuite-tests/nu/staldal/xmlutil/DocumentHandlerAdapterEvoSuiteTest.java:379: warning: [deprecation] HandlerBase in org.xml.sax has been deprecated
+    [javac]       HandlerBase handlerBase0 = new HandlerBase();
+    [javac]       ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/evosuite-tests/nu/staldal/xmlutil/DocumentHandlerAdapterEvoSuiteTest.java:379: warning: [deprecation] HandlerBase in org.xml.sax has been deprecated
+    [javac]       HandlerBase handlerBase0 = new HandlerBase();
+    [javac]                                      ^
+    [javac] Note: Some input files additionally use or override a deprecated API.
+    [javac] Note: /home/zecarlos/Desktop/Mubaraka/repo/52_lagoon/evosuite-tests/nu/staldal/lagoon/core/SitemapEvoSuiteTest.java uses unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+    [javac] 100 warnings
+
+BUILD SUCCESSFUL
+Total time: 2 seconds

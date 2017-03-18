@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry kind="src" path="minimized-manual"/>
+	<classpathentry kind="src" path="evosuite-tests"/>
+	<classpathentry kind="lib" path="lib/ant-1.7.1.jar"/>
+	<classpathentry kind="lib" path="lib/ant-launcher-1.7.1.jar"/>
+	<classpathentry kind="lib" path="lib/commons-codec-1.2.jar"/>
+	<classpathentry kind="lib" path="lib/commons-httpclient-3.1.jar"/>
+	<classpathentry kind="lib" path="lib/commons-logging-1.0.4.jar"/>
+	<classpathentry kind="lib" path="lib/hamcrest-all-1.1.jar"/>
+	<classpathentry kind="lib" path="lib/hamcrest-core-1.1.jar"/>
+	<classpathentry kind="lib" path="lib/jetty-6.1.17.jar"/>
+	<classpathentry kind="lib" path="lib/jetty-util-6.1.17.jar"/>
+	<classpathentry kind="lib" path="lib/jna-3.1.0.jar"/>
+	<classpathentry kind="lib" path="lib/jyaml-1.3.jar"/>
+	<classpathentry kind="lib" path="lib/mockito-core-1.7.jar"/>
+	<classpathentry kind="lib" path="lib/objenesis-1.0.jar"/>
+	<classpathentry kind="lib" path="lib/servlet-api-2.5-20081211.jar"/>
+	<classpathentry kind="lib" path="lib/servlet-api-2.5.jar"/>
+	<classpathentry kind="lib" path="test-lib/evosuite.jar"/>
+	<classpathentry kind="lib" path="test-lib/junit-4.11.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="lib" path="C:/Users/PC/Desktop/Mubaraka/CS5371/Project/ResearchCodes/SF110-20130704/SF110-20130704/lib/evosuite.jar"/>
+	<classpathentry kind="lib" path="C:/Users/PC/Desktop/Mubaraka/CS5371/Project/ResearchCodes/SF110-20130704/SF110-20130704/lib/junit-4.11.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>

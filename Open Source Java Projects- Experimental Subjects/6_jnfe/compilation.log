@@ -1,0 +1,70 @@
+Buildfile: /home/zecarlos/Desktop/Mubaraka/repo/6_jnfe/build.xml
+
+prepare:
+    [mkdir] Created dir: /home/zecarlos/Desktop/Mubaraka/repo/6_jnfe/build
+
+compile:
+    [mkdir] Created dir: /home/zecarlos/Desktop/Mubaraka/repo/6_jnfe/build/classes
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/6_jnfe/build.xml:82: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 68 source files to /home/zecarlos/Desktop/Mubaraka/repo/6_jnfe/build/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.6
+    [javac] 1 warning
+     [copy] Copying 33 files to /home/zecarlos/Desktop/Mubaraka/repo/6_jnfe/build/classes
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+Buildfile: /home/zecarlos/Desktop/Mubaraka/repo/6_jnfe/build.xml
+
+prepare:
+
+compile:
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/6_jnfe/build.xml:82: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+
+compile-evosuite:
+    [mkdir] Created dir: /home/zecarlos/Desktop/Mubaraka/repo/6_jnfe/build/evosuite
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/6_jnfe/build.xml:129: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 38 source files to /home/zecarlos/Desktop/Mubaraka/repo/6_jnfe/build/evosuite
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.6
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/6_jnfe/evosuite-tests/br/com/jnfe/base/ConsReciNFeEvoSuiteTest.java:10: warning: [deprecation] ConsReciNFe in br.com.jnfe.base has been deprecated
+    [javac] import br.com.jnfe.base.ConsReciNFe;
+    [javac]                        ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/6_jnfe/evosuite-tests/br/com/jnfe/base/ConsReciNFeEvoSuiteTest.java:23: warning: [deprecation] ConsReciNFe in br.com.jnfe.base has been deprecated
+    [javac]       ConsReciNFe consReciNFe0 = new ConsReciNFe();
+    [javac]       ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/6_jnfe/evosuite-tests/br/com/jnfe/base/ConsReciNFeEvoSuiteTest.java:23: warning: [deprecation] ConsReciNFe in br.com.jnfe.base has been deprecated
+    [javac]       ConsReciNFe consReciNFe0 = new ConsReciNFe();
+    [javac]                                      ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/6_jnfe/evosuite-tests/br/com/jnfe/base/ConsReciNFeEvoSuiteTest.java:35: warning: [deprecation] ConsReciNFe in br.com.jnfe.base has been deprecated
+    [javac]       ConsReciNFe consReciNFe0 = new ConsReciNFe();
+    [javac]       ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/6_jnfe/evosuite-tests/br/com/jnfe/base/ConsReciNFeEvoSuiteTest.java:35: warning: [deprecation] ConsReciNFe in br.com.jnfe.base has been deprecated
+    [javac]       ConsReciNFe consReciNFe0 = new ConsReciNFe();
+    [javac]                                      ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/6_jnfe/evosuite-tests/br/com/jnfe/base/ConsReciNFeEvoSuiteTest.java:47: warning: [deprecation] ConsReciNFe in br.com.jnfe.base has been deprecated
+    [javac]       ConsReciNFe consReciNFe0 = new ConsReciNFe();
+    [javac]       ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/6_jnfe/evosuite-tests/br/com/jnfe/base/ConsReciNFeEvoSuiteTest.java:47: warning: [deprecation] ConsReciNFe in br.com.jnfe.base has been deprecated
+    [javac]       ConsReciNFe consReciNFe0 = new ConsReciNFe();
+    [javac]                                      ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/6_jnfe/evosuite-tests/br/com/jnfe/base/ConsReciNFeEvoSuiteTest.java:59: warning: [deprecation] ConsReciNFe in br.com.jnfe.base has been deprecated
+    [javac]       ConsReciNFe consReciNFe0 = new ConsReciNFe();
+    [javac]       ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/6_jnfe/evosuite-tests/br/com/jnfe/base/ConsReciNFeEvoSuiteTest.java:59: warning: [deprecation] ConsReciNFe in br.com.jnfe.base has been deprecated
+    [javac]       ConsReciNFe consReciNFe0 = new ConsReciNFe();
+    [javac]                                      ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/6_jnfe/evosuite-tests/br/com/jnfe/base/ConsReciNFeEvoSuiteTest.java:71: warning: [deprecation] ConsReciNFe in br.com.jnfe.base has been deprecated
+    [javac]       ConsReciNFe consReciNFe0 = new ConsReciNFe();
+    [javac]       ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/6_jnfe/evosuite-tests/br/com/jnfe/base/ConsReciNFeEvoSuiteTest.java:71: warning: [deprecation] ConsReciNFe in br.com.jnfe.base has been deprecated
+    [javac]       ConsReciNFe consReciNFe0 = new ConsReciNFe();
+    [javac]                                      ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/6_jnfe/evosuite-tests/br/com/jnfe/base/ConsReciNFeEvoSuiteTest.java:84: warning: [deprecation] ConsReciNFe in br.com.jnfe.base has been deprecated
+    [javac]       ConsReciNFe consReciNFe0 = new ConsReciNFe();
+    [javac]       ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/6_jnfe/evosuite-tests/br/com/jnfe/base/ConsReciNFeEvoSuiteTest.java:84: warning: [deprecation] ConsReciNFe in br.com.jnfe.base has been deprecated
+    [javac]       ConsReciNFe consReciNFe0 = new ConsReciNFe();
+    [javac]                                      ^
+    [javac] 14 warnings
+
+BUILD SUCCESSFUL
+Total time: 1 second

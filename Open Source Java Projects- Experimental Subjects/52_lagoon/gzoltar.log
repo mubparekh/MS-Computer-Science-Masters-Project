@@ -1,0 +1,1769 @@
+   ____ _____     _ _               
+  / ___|__  /___ | | |_ __ _ _ __   
+ | |  _  / // _ \| | __/ _` | '__| 
+ | |_| |/ /| (_) | | || (_| | |     
+  \____/____\___/|_|\__\__,_|_| 
+
+* Preparing classpath
+OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=256M; support was removed in 8.0
+* Collecting classes under test
+* Collecting test cases
+* Performing analysis
+* Started nu.staldal.util.UtilsEvoSuiteTest#test10
+* Finished nu.staldal.util.UtilsEvoSuiteTest#test10
+* Started nu.staldal.util.UtilsEvoSuiteTest#test11
+* Finished nu.staldal.util.UtilsEvoSuiteTest#test11
+* Started nu.staldal.util.UtilsEvoSuiteTest#test12
+* Finished nu.staldal.util.UtilsEvoSuiteTest#test12
+* Started nu.staldal.util.UtilsEvoSuiteTest#test13
+* Finished nu.staldal.util.UtilsEvoSuiteTest#test13
+* Started nu.staldal.util.UtilsEvoSuiteTest#test14
+* Finished nu.staldal.util.UtilsEvoSuiteTest#test14
+* Started nu.staldal.util.UtilsEvoSuiteTest#test15
+* Finished nu.staldal.util.UtilsEvoSuiteTest#test15
+* Started nu.staldal.util.UtilsEvoSuiteTest#test0
+* Finished nu.staldal.util.UtilsEvoSuiteTest#test0
+* Started nu.staldal.util.UtilsEvoSuiteTest#test1
+* Finished nu.staldal.util.UtilsEvoSuiteTest#test1
+* Started nu.staldal.util.UtilsEvoSuiteTest#test2
+* Finished nu.staldal.util.UtilsEvoSuiteTest#test2
+* Started nu.staldal.util.UtilsEvoSuiteTest#test3
+* Finished nu.staldal.util.UtilsEvoSuiteTest#test3
+* Started nu.staldal.util.UtilsEvoSuiteTest#test4
+* Finished nu.staldal.util.UtilsEvoSuiteTest#test4
+* Started nu.staldal.util.UtilsEvoSuiteTest#test5
+* Finished nu.staldal.util.UtilsEvoSuiteTest#test5
+* Started nu.staldal.util.UtilsEvoSuiteTest#test6
+* Finished nu.staldal.util.UtilsEvoSuiteTest#test6
+* Started nu.staldal.util.UtilsEvoSuiteTest#test7
+* Finished nu.staldal.util.UtilsEvoSuiteTest#test7
+* Started nu.staldal.util.UtilsEvoSuiteTest#test8
+* Finished nu.staldal.util.UtilsEvoSuiteTest#test8
+* Started nu.staldal.util.UtilsEvoSuiteTest#test9
+* Finished nu.staldal.util.UtilsEvoSuiteTest#test9
+* Started nu.staldal.xmlutil.ContentHandlerFixerEvoSuiteTest#test10
+[ERROR] Class not found
+java.lang.ClassNotFoundException: org.apache.xerces.parsers.SAXParser
+	at java.lang.ClassLoader.findClass(ClassLoader.java:530)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at org.xml.sax.helpers.NewInstance.newInstance(Unknown Source)
+	at org.xml.sax.helpers.XMLReaderFactory.loadClass(Unknown Source)
+	at org.xml.sax.helpers.XMLReaderFactory.createXMLReader(Unknown Source)
+	at org.xml.sax.helpers.XMLReaderAdapter.<init>(Unknown Source)
+	at nu.staldal.xmlutil.ContentHandlerFixerEvoSuiteTest.test10(ContentHandlerFixerEvoSuiteTest.java:196)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+* Failure: null | test10(nu.staldal.xmlutil.ContentHandlerFixerEvoSuiteTest)
+java.lang.NullPointerException
+	at org.xml.sax.helpers.NewInstance.newInstance(Unknown Source)
+	at org.xml.sax.helpers.XMLReaderFactory.loadClass(Unknown Source)
+	at org.xml.sax.helpers.XMLReaderFactory.createXMLReader(Unknown Source)
+	at org.xml.sax.helpers.XMLReaderAdapter.<init>(Unknown Source)
+	at nu.staldal.xmlutil.ContentHandlerFixerEvoSuiteTest.test10(ContentHandlerFixerEvoSuiteTest.java:196)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+* Finished nu.staldal.xmlutil.ContentHandlerFixerEvoSuiteTest#test10
+* Started nu.staldal.xmlutil.ContentHandlerFixerEvoSuiteTest#test11
+* Finished nu.staldal.xmlutil.ContentHandlerFixerEvoSuiteTest#test11
+* Started nu.staldal.xmlutil.ContentHandlerFixerEvoSuiteTest#test12
+[ERROR] Class not found
+java.lang.ClassNotFoundException: org.apache.xerces.parsers.SAXParser
+	at java.lang.ClassLoader.findClass(ClassLoader.java:530)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at org.xml.sax.helpers.NewInstance.newInstance(Unknown Source)
+	at org.xml.sax.helpers.XMLReaderFactory.loadClass(Unknown Source)
+	at org.xml.sax.helpers.XMLReaderFactory.createXMLReader(Unknown Source)
+	at org.xml.sax.helpers.XMLReaderAdapter.<init>(Unknown Source)
+	at nu.staldal.xmlutil.ContentHandlerFixerEvoSuiteTest.test12(ContentHandlerFixerEvoSuiteTest.java:237)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+* Failure: null | test12(nu.staldal.xmlutil.ContentHandlerFixerEvoSuiteTest)
+java.lang.NullPointerException
+	at org.xml.sax.helpers.NewInstance.newInstance(Unknown Source)
+	at org.xml.sax.helpers.XMLReaderFactory.loadClass(Unknown Source)
+	at org.xml.sax.helpers.XMLReaderFactory.createXMLReader(Unknown Source)
+	at org.xml.sax.helpers.XMLReaderAdapter.<init>(Unknown Source)
+	at nu.staldal.xmlutil.ContentHandlerFixerEvoSuiteTest.test12(ContentHandlerFixerEvoSuiteTest.java:237)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+* Finished nu.staldal.xmlutil.ContentHandlerFixerEvoSuiteTest#test12
+* Started nu.staldal.xmlutil.ContentHandlerFixerEvoSuiteTest#test13
+[ERROR] Class not found
+java.lang.ClassNotFoundException: org.apache.xerces.parsers.SAXParser
+	at java.lang.ClassLoader.findClass(ClassLoader.java:530)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at org.xml.sax.helpers.NewInstance.newInstance(Unknown Source)
+	at org.xml.sax.helpers.XMLReaderFactory.loadClass(Unknown Source)
+	at org.xml.sax.helpers.XMLReaderFactory.createXMLReader(Unknown Source)
+	at org.xml.sax.helpers.XMLReaderAdapter.<init>(Unknown Source)
+	at nu.staldal.xmlutil.ContentHandlerFixerEvoSuiteTest.test13(ContentHandlerFixerEvoSuiteTest.java:272)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+* Failure: null | test13(nu.staldal.xmlutil.ContentHandlerFixerEvoSuiteTest)
+java.lang.NullPointerException
+	at org.xml.sax.helpers.NewInstance.newInstance(Unknown Source)
+	at org.xml.sax.helpers.XMLReaderFactory.loadClass(Unknown Source)
+	at org.xml.sax.helpers.XMLReaderFactory.createXMLReader(Unknown Source)
+	at org.xml.sax.helpers.XMLReaderAdapter.<init>(Unknown Source)
+	at nu.staldal.xmlutil.ContentHandlerFixerEvoSuiteTest.test13(ContentHandlerFixerEvoSuiteTest.java:272)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+* Finished nu.staldal.xmlutil.ContentHandlerFixerEvoSuiteTest#test13
+* Started nu.staldal.xmlutil.ContentHandlerFixerEvoSuiteTest#test14
+[ERROR] Class not found
+java.lang.ClassNotFoundException: org.apache.xerces.parsers.SAXParser
+	at java.lang.ClassLoader.findClass(ClassLoader.java:530)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at org.xml.sax.helpers.NewInstance.newInstance(Unknown Source)
+	at org.xml.sax.helpers.XMLReaderFactory.loadClass(Unknown Source)
+	at org.xml.sax.helpers.XMLReaderFactory.createXMLReader(Unknown Source)
+	at org.xml.sax.helpers.XMLReaderAdapter.<init>(Unknown Source)
+	at nu.staldal.xmlutil.ContentHandlerFixerEvoSuiteTest.test14(ContentHandlerFixerEvoSuiteTest.java:297)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+* Failure: null | test14(nu.staldal.xmlutil.ContentHandlerFixerEvoSuiteTest)
+java.lang.NullPointerException
+	at org.xml.sax.helpers.NewInstance.newInstance(Unknown Source)
+	at org.xml.sax.helpers.XMLReaderFactory.loadClass(Unknown Source)
+	at org.xml.sax.helpers.XMLReaderFactory.createXMLReader(Unknown Source)
+	at org.xml.sax.helpers.XMLReaderAdapter.<init>(Unknown Source)
+	at nu.staldal.xmlutil.ContentHandlerFixerEvoSuiteTest.test14(ContentHandlerFixerEvoSuiteTest.java:297)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+* Finished nu.staldal.xmlutil.ContentHandlerFixerEvoSuiteTest#test14
+* Started nu.staldal.xmlutil.ContentHandlerFixerEvoSuiteTest#test15
+* Finished nu.staldal.xmlutil.ContentHandlerFixerEvoSuiteTest#test15
+* Started nu.staldal.xmlutil.ContentHandlerFixerEvoSuiteTest#test16
+* Finished nu.staldal.xmlutil.ContentHandlerFixerEvoSuiteTest#test16
+* Started nu.staldal.xmlutil.ContentHandlerFixerEvoSuiteTest#test17
+[ERROR] Class not found
+java.lang.ClassNotFoundException: org.apache.xerces.parsers.SAXParser
+	at java.lang.ClassLoader.findClass(ClassLoader.java:530)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at org.xml.sax.helpers.NewInstance.newInstance(Unknown Source)
+	at org.xml.sax.helpers.XMLReaderFactory.loadClass(Unknown Source)
+	at org.xml.sax.helpers.XMLReaderFactory.createXMLReader(Unknown Source)
+	at org.xml.sax.helpers.XMLReaderAdapter.<init>(Unknown Source)
+	at nu.staldal.xmlutil.ContentHandlerFixerEvoSuiteTest.test17(ContentHandlerFixerEvoSuiteTest.java:364)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+* Failure: null | test17(nu.staldal.xmlutil.ContentHandlerFixerEvoSuiteTest)
+java.lang.NullPointerException
+	at org.xml.sax.helpers.NewInstance.newInstance(Unknown Source)
+	at org.xml.sax.helpers.XMLReaderFactory.loadClass(Unknown Source)
+	at org.xml.sax.helpers.XMLReaderFactory.createXMLReader(Unknown Source)
+	at org.xml.sax.helpers.XMLReaderAdapter.<init>(Unknown Source)
+	at nu.staldal.xmlutil.ContentHandlerFixerEvoSuiteTest.test17(ContentHandlerFixerEvoSuiteTest.java:364)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+* Finished nu.staldal.xmlutil.ContentHandlerFixerEvoSuiteTest#test17
+* Started nu.staldal.xmlutil.ContentHandlerFixerEvoSuiteTest#test18
+* Finished nu.staldal.xmlutil.ContentHandlerFixerEvoSuiteTest#test18
+* Started nu.staldal.xmlutil.ContentHandlerFixerEvoSuiteTest#test19
+[ERROR] Class not found
+java.lang.ClassNotFoundException: org.apache.xerces.parsers.SAXParser
+	at java.lang.ClassLoader.findClass(ClassLoader.java:530)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at org.xml.sax.helpers.NewInstance.newInstance(Unknown Source)
+	at org.xml.sax.helpers.XMLReaderFactory.loadClass(Unknown Source)
+	at org.xml.sax.helpers.XMLReaderFactory.createXMLReader(Unknown Source)
+	at org.xml.sax.helpers.XMLReaderAdapter.<init>(Unknown Source)
+	at nu.staldal.xmlutil.ContentHandlerFixerEvoSuiteTest.test19(ContentHandlerFixerEvoSuiteTest.java:410)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+* Failure: null | test19(nu.staldal.xmlutil.ContentHandlerFixerEvoSuiteTest)
+java.lang.NullPointerException
+	at org.xml.sax.helpers.NewInstance.newInstance(Unknown Source)
+	at org.xml.sax.helpers.XMLReaderFactory.loadClass(Unknown Source)
+	at org.xml.sax.helpers.XMLReaderFactory.createXMLReader(Unknown Source)
+	at org.xml.sax.helpers.XMLReaderAdapter.<init>(Unknown Source)
+	at nu.staldal.xmlutil.ContentHandlerFixerEvoSuiteTest.test19(ContentHandlerFixerEvoSuiteTest.java:410)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+* Finished nu.staldal.xmlutil.ContentHandlerFixerEvoSuiteTest#test19
+* Started nu.staldal.xmlutil.ContentHandlerFixerEvoSuiteTest#test20
+[ERROR] Class not found
+java.lang.ClassNotFoundException: org.apache.xerces.parsers.SAXParser
+	at java.lang.ClassLoader.findClass(ClassLoader.java:530)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at org.xml.sax.helpers.NewInstance.newInstance(Unknown Source)
+	at org.xml.sax.helpers.XMLReaderFactory.loadClass(Unknown Source)
+	at org.xml.sax.helpers.XMLReaderFactory.createXMLReader(Unknown Source)
+	at org.xml.sax.helpers.XMLReaderAdapter.<init>(Unknown Source)
+	at nu.staldal.xmlutil.ContentHandlerFixerEvoSuiteTest.test20(ContentHandlerFixerEvoSuiteTest.java:435)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+* Failure: null | test20(nu.staldal.xmlutil.ContentHandlerFixerEvoSuiteTest)
+java.lang.NullPointerException
+	at org.xml.sax.helpers.NewInstance.newInstance(Unknown Source)
+	at org.xml.sax.helpers.XMLReaderFactory.loadClass(Unknown Source)
+	at org.xml.sax.helpers.XMLReaderFactory.createXMLReader(Unknown Source)
+	at org.xml.sax.helpers.XMLReaderAdapter.<init>(Unknown Source)
+	at nu.staldal.xmlutil.ContentHandlerFixerEvoSuiteTest.test20(ContentHandlerFixerEvoSuiteTest.java:435)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+* Finished nu.staldal.xmlutil.ContentHandlerFixerEvoSuiteTest#test20
+* Started nu.staldal.xmlutil.ContentHandlerFixerEvoSuiteTest#test0
+[ERROR] Class not found
+java.lang.ClassNotFoundException: org.apache.xerces.parsers.SAXParser
+	at java.lang.ClassLoader.findClass(ClassLoader.java:530)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at org.xml.sax.helpers.NewInstance.newInstance(Unknown Source)
+	at org.xml.sax.helpers.XMLReaderFactory.loadClass(Unknown Source)
+	at org.xml.sax.helpers.XMLReaderFactory.createXMLReader(Unknown Source)
+	at org.xml.sax.helpers.XMLReaderAdapter.<init>(Unknown Source)
+	at nu.staldal.xmlutil.ContentHandlerFixerEvoSuiteTest.test0(ContentHandlerFixerEvoSuiteTest.java:36)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+* Failure: null | test0(nu.staldal.xmlutil.ContentHandlerFixerEvoSuiteTest)
+java.lang.NullPointerException
+	at org.xml.sax.helpers.NewInstance.newInstance(Unknown Source)
+	at org.xml.sax.helpers.XMLReaderFactory.loadClass(Unknown Source)
+	at org.xml.sax.helpers.XMLReaderFactory.createXMLReader(Unknown Source)
+	at org.xml.sax.helpers.XMLReaderAdapter.<init>(Unknown Source)
+	at nu.staldal.xmlutil.ContentHandlerFixerEvoSuiteTest.test0(ContentHandlerFixerEvoSuiteTest.java:36)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+* Finished nu.staldal.xmlutil.ContentHandlerFixerEvoSuiteTest#test0
+* Started nu.staldal.xmlutil.ContentHandlerFixerEvoSuiteTest#test1
+[ERROR] Class not found
+java.lang.ClassNotFoundException: org.apache.xerces.parsers.SAXParser
+	at java.lang.ClassLoader.findClass(ClassLoader.java:530)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at org.xml.sax.helpers.NewInstance.newInstance(Unknown Source)
+	at org.xml.sax.helpers.XMLReaderFactory.loadClass(Unknown Source)
+	at org.xml.sax.helpers.XMLReaderFactory.createXMLReader(Unknown Source)
+	at org.xml.sax.helpers.XMLReaderAdapter.<init>(Unknown Source)
+	at nu.staldal.xmlutil.ContentHandlerFixerEvoSuiteTest.test1(ContentHandlerFixerEvoSuiteTest.java:48)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+* Failure: null | test1(nu.staldal.xmlutil.ContentHandlerFixerEvoSuiteTest)
+java.lang.NullPointerException
+	at org.xml.sax.helpers.NewInstance.newInstance(Unknown Source)
+	at org.xml.sax.helpers.XMLReaderFactory.loadClass(Unknown Source)
+	at org.xml.sax.helpers.XMLReaderFactory.createXMLReader(Unknown Source)
+	at org.xml.sax.helpers.XMLReaderAdapter.<init>(Unknown Source)
+	at nu.staldal.xmlutil.ContentHandlerFixerEvoSuiteTest.test1(ContentHandlerFixerEvoSuiteTest.java:48)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+* Finished nu.staldal.xmlutil.ContentHandlerFixerEvoSuiteTest#test1
+* Started nu.staldal.xmlutil.ContentHandlerFixerEvoSuiteTest#test2
+* Finished nu.staldal.xmlutil.ContentHandlerFixerEvoSuiteTest#test2
+* Started nu.staldal.xmlutil.ContentHandlerFixerEvoSuiteTest#test3
+[ERROR] Class not found
+java.lang.ClassNotFoundException: org.apache.xerces.parsers.SAXParser
+	at java.lang.ClassLoader.findClass(ClassLoader.java:530)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at org.xml.sax.helpers.NewInstance.newInstance(Unknown Source)
+	at org.xml.sax.helpers.XMLReaderFactory.loadClass(Unknown Source)
+	at org.xml.sax.helpers.XMLReaderFactory.createXMLReader(Unknown Source)
+	at org.xml.sax.helpers.XMLReaderAdapter.<init>(Unknown Source)
+	at nu.staldal.xmlutil.ContentHandlerFixerEvoSuiteTest.test3(ContentHandlerFixerEvoSuiteTest.java:72)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+* Failure: null | test3(nu.staldal.xmlutil.ContentHandlerFixerEvoSuiteTest)
+java.lang.NullPointerException
+	at org.xml.sax.helpers.NewInstance.newInstance(Unknown Source)
+	at org.xml.sax.helpers.XMLReaderFactory.loadClass(Unknown Source)
+	at org.xml.sax.helpers.XMLReaderFactory.createXMLReader(Unknown Source)
+	at org.xml.sax.helpers.XMLReaderAdapter.<init>(Unknown Source)
+	at nu.staldal.xmlutil.ContentHandlerFixerEvoSuiteTest.test3(ContentHandlerFixerEvoSuiteTest.java:72)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+* Finished nu.staldal.xmlutil.ContentHandlerFixerEvoSuiteTest#test3
+* Started nu.staldal.xmlutil.ContentHandlerFixerEvoSuiteTest#test4
+* Finished nu.staldal.xmlutil.ContentHandlerFixerEvoSuiteTest#test4
+* Started nu.staldal.xmlutil.ContentHandlerFixerEvoSuiteTest#test5
+[ERROR] Class not found
+java.lang.ClassNotFoundException: org.apache.xerces.parsers.SAXParser
+	at java.lang.ClassLoader.findClass(ClassLoader.java:530)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at org.xml.sax.helpers.NewInstance.newInstance(Unknown Source)
+	at org.xml.sax.helpers.XMLReaderFactory.loadClass(Unknown Source)
+	at org.xml.sax.helpers.XMLReaderFactory.createXMLReader(Unknown Source)
+	at org.xml.sax.helpers.XMLReaderAdapter.<init>(Unknown Source)
+	at nu.staldal.xmlutil.ContentHandlerFixerEvoSuiteTest.test5(ContentHandlerFixerEvoSuiteTest.java:97)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+* Failure: null | test5(nu.staldal.xmlutil.ContentHandlerFixerEvoSuiteTest)
+java.lang.NullPointerException
+	at org.xml.sax.helpers.NewInstance.newInstance(Unknown Source)
+	at org.xml.sax.helpers.XMLReaderFactory.loadClass(Unknown Source)
+	at org.xml.sax.helpers.XMLReaderFactory.createXMLReader(Unknown Source)
+	at org.xml.sax.helpers.XMLReaderAdapter.<init>(Unknown Source)
+	at nu.staldal.xmlutil.ContentHandlerFixerEvoSuiteTest.test5(ContentHandlerFixerEvoSuiteTest.java:97)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+* Finished nu.staldal.xmlutil.ContentHandlerFixerEvoSuiteTest#test5
+* Started nu.staldal.xmlutil.ContentHandlerFixerEvoSuiteTest#test6
+[ERROR] Class not found
+java.lang.ClassNotFoundException: org.apache.xerces.parsers.SAXParser
+	at java.lang.ClassLoader.findClass(ClassLoader.java:530)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at org.xml.sax.helpers.NewInstance.newInstance(Unknown Source)
+	at org.xml.sax.helpers.XMLReaderFactory.loadClass(Unknown Source)
+	at org.xml.sax.helpers.XMLReaderFactory.createXMLReader(Unknown Source)
+	at org.xml.sax.helpers.XMLReaderAdapter.<init>(Unknown Source)
+	at nu.staldal.xmlutil.ContentHandlerFixerEvoSuiteTest.test6(ContentHandlerFixerEvoSuiteTest.java:110)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+* Failure: null | test6(nu.staldal.xmlutil.ContentHandlerFixerEvoSuiteTest)
+java.lang.NullPointerException
+	at org.xml.sax.helpers.NewInstance.newInstance(Unknown Source)
+	at org.xml.sax.helpers.XMLReaderFactory.loadClass(Unknown Source)
+	at org.xml.sax.helpers.XMLReaderFactory.createXMLReader(Unknown Source)
+	at org.xml.sax.helpers.XMLReaderAdapter.<init>(Unknown Source)
+	at nu.staldal.xmlutil.ContentHandlerFixerEvoSuiteTest.test6(ContentHandlerFixerEvoSuiteTest.java:110)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+* Finished nu.staldal.xmlutil.ContentHandlerFixerEvoSuiteTest#test6
+* Started nu.staldal.xmlutil.ContentHandlerFixerEvoSuiteTest#test7
+* Finished nu.staldal.xmlutil.ContentHandlerFixerEvoSuiteTest#test7
+* Started nu.staldal.xmlutil.ContentHandlerFixerEvoSuiteTest#test8
+[ERROR] Class not found
+java.lang.ClassNotFoundException: org.apache.xerces.parsers.SAXParser
+	at java.lang.ClassLoader.findClass(ClassLoader.java:530)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at org.xml.sax.helpers.NewInstance.newInstance(Unknown Source)
+	at org.xml.sax.helpers.XMLReaderFactory.loadClass(Unknown Source)
+	at org.xml.sax.helpers.XMLReaderFactory.createXMLReader(Unknown Source)
+	at org.xml.sax.helpers.XMLReaderAdapter.<init>(Unknown Source)
+	at nu.staldal.xmlutil.ContentHandlerFixerEvoSuiteTest.test8(ContentHandlerFixerEvoSuiteTest.java:155)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+* Failure: null | test8(nu.staldal.xmlutil.ContentHandlerFixerEvoSuiteTest)
+java.lang.NullPointerException
+	at org.xml.sax.helpers.NewInstance.newInstance(Unknown Source)
+	at org.xml.sax.helpers.XMLReaderFactory.loadClass(Unknown Source)
+	at org.xml.sax.helpers.XMLReaderFactory.createXMLReader(Unknown Source)
+	at org.xml.sax.helpers.XMLReaderAdapter.<init>(Unknown Source)
+	at nu.staldal.xmlutil.ContentHandlerFixerEvoSuiteTest.test8(ContentHandlerFixerEvoSuiteTest.java:155)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+* Finished nu.staldal.xmlutil.ContentHandlerFixerEvoSuiteTest#test8
+* Started nu.staldal.xmlutil.ContentHandlerFixerEvoSuiteTest#test9
+[ERROR] Class not found
+java.lang.ClassNotFoundException: org.apache.xerces.parsers.SAXParser
+	at java.lang.ClassLoader.findClass(ClassLoader.java:530)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at org.xml.sax.helpers.NewInstance.newInstance(Unknown Source)
+	at org.xml.sax.helpers.XMLReaderFactory.loadClass(Unknown Source)
+	at org.xml.sax.helpers.XMLReaderFactory.createXMLReader(Unknown Source)
+	at org.xml.sax.helpers.XMLReaderAdapter.<init>(Unknown Source)
+	at nu.staldal.xmlutil.ContentHandlerFixerEvoSuiteTest.test9(ContentHandlerFixerEvoSuiteTest.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+* Failure: null | test9(nu.staldal.xmlutil.ContentHandlerFixerEvoSuiteTest)
+java.lang.NullPointerException
+	at org.xml.sax.helpers.NewInstance.newInstance(Unknown Source)
+	at org.xml.sax.helpers.XMLReaderFactory.loadClass(Unknown Source)
+	at org.xml.sax.helpers.XMLReaderFactory.createXMLReader(Unknown Source)
+	at org.xml.sax.helpers.XMLReaderAdapter.<init>(Unknown Source)
+	at nu.staldal.xmlutil.ContentHandlerFixerEvoSuiteTest.test9(ContentHandlerFixerEvoSuiteTest.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+* Finished nu.staldal.xmlutil.ContentHandlerFixerEvoSuiteTest#test9
+* Started nu.staldal.xmlutil.ContentHandlerAdapterEvoSuiteTest#test0
+* Finished nu.staldal.xmlutil.ContentHandlerAdapterEvoSuiteTest#test0
+* Started nu.staldal.xmlutil.ContentHandlerAdapterEvoSuiteTest#test1
+* Finished nu.staldal.xmlutil.ContentHandlerAdapterEvoSuiteTest#test1
+* Started nu.staldal.xmlutil.ContentHandlerAdapterEvoSuiteTest#test2
+* Finished nu.staldal.xmlutil.ContentHandlerAdapterEvoSuiteTest#test2
+* Started nu.staldal.xmlutil.ContentHandlerAdapterEvoSuiteTest#test3
+* Finished nu.staldal.xmlutil.ContentHandlerAdapterEvoSuiteTest#test3
+* Started nu.staldal.xmlutil.ContentHandlerAdapterEvoSuiteTest#test4
+* Finished nu.staldal.xmlutil.ContentHandlerAdapterEvoSuiteTest#test4
+* Started nu.staldal.xmlutil.ContentHandlerAdapterEvoSuiteTest#test5
+* Finished nu.staldal.xmlutil.ContentHandlerAdapterEvoSuiteTest#test5
+* Started nu.staldal.xmlutil.ContentHandlerAdapterEvoSuiteTest#test6
+* Finished nu.staldal.xmlutil.ContentHandlerAdapterEvoSuiteTest#test6
+* Started nu.staldal.xmlutil.ContentHandlerAdapterEvoSuiteTest#test7
+* Finished nu.staldal.xmlutil.ContentHandlerAdapterEvoSuiteTest#test7
+* Started nu.staldal.xmlutil.ContentHandlerAdapterEvoSuiteTest#test8
+* Finished nu.staldal.xmlutil.ContentHandlerAdapterEvoSuiteTest#test8
+* Started nu.staldal.xmlutil.DocumentHandlerAdapterEvoSuiteTest#test10
+* Finished nu.staldal.xmlutil.DocumentHandlerAdapterEvoSuiteTest#test10
+* Started nu.staldal.xmlutil.DocumentHandlerAdapterEvoSuiteTest#test11
+* Finished nu.staldal.xmlutil.DocumentHandlerAdapterEvoSuiteTest#test11
+* Started nu.staldal.xmlutil.DocumentHandlerAdapterEvoSuiteTest#test12
+* Finished nu.staldal.xmlutil.DocumentHandlerAdapterEvoSuiteTest#test12
+* Started nu.staldal.xmlutil.DocumentHandlerAdapterEvoSuiteTest#test13
+* Finished nu.staldal.xmlutil.DocumentHandlerAdapterEvoSuiteTest#test13
+* Started nu.staldal.xmlutil.DocumentHandlerAdapterEvoSuiteTest#test14
+* Finished nu.staldal.xmlutil.DocumentHandlerAdapterEvoSuiteTest#test14
+* Started nu.staldal.xmlutil.DocumentHandlerAdapterEvoSuiteTest#test15
+* Finished nu.staldal.xmlutil.DocumentHandlerAdapterEvoSuiteTest#test15
+* Started nu.staldal.xmlutil.DocumentHandlerAdapterEvoSuiteTest#test16
+* Finished nu.staldal.xmlutil.DocumentHandlerAdapterEvoSuiteTest#test16
+* Started nu.staldal.xmlutil.DocumentHandlerAdapterEvoSuiteTest#test17
+* Finished nu.staldal.xmlutil.DocumentHandlerAdapterEvoSuiteTest#test17
+* Started nu.staldal.xmlutil.DocumentHandlerAdapterEvoSuiteTest#test18
+* Finished nu.staldal.xmlutil.DocumentHandlerAdapterEvoSuiteTest#test18
+* Started nu.staldal.xmlutil.DocumentHandlerAdapterEvoSuiteTest#test19
+* Finished nu.staldal.xmlutil.DocumentHandlerAdapterEvoSuiteTest#test19
+* Started nu.staldal.xmlutil.DocumentHandlerAdapterEvoSuiteTest#test20
+* Finished nu.staldal.xmlutil.DocumentHandlerAdapterEvoSuiteTest#test20
+* Started nu.staldal.xmlutil.DocumentHandlerAdapterEvoSuiteTest#test21
+* Finished nu.staldal.xmlutil.DocumentHandlerAdapterEvoSuiteTest#test21
+* Started nu.staldal.xmlutil.DocumentHandlerAdapterEvoSuiteTest#test0
+* Finished nu.staldal.xmlutil.DocumentHandlerAdapterEvoSuiteTest#test0
+* Started nu.staldal.xmlutil.DocumentHandlerAdapterEvoSuiteTest#test1
+* Finished nu.staldal.xmlutil.DocumentHandlerAdapterEvoSuiteTest#test1
+* Started nu.staldal.xmlutil.DocumentHandlerAdapterEvoSuiteTest#test2
+* Finished nu.staldal.xmlutil.DocumentHandlerAdapterEvoSuiteTest#test2
+* Started nu.staldal.xmlutil.DocumentHandlerAdapterEvoSuiteTest#test3
+* Finished nu.staldal.xmlutil.DocumentHandlerAdapterEvoSuiteTest#test3
+* Started nu.staldal.xmlutil.DocumentHandlerAdapterEvoSuiteTest#test4
+* Finished nu.staldal.xmlutil.DocumentHandlerAdapterEvoSuiteTest#test4
+* Started nu.staldal.xmlutil.DocumentHandlerAdapterEvoSuiteTest#test5
+* Finished nu.staldal.xmlutil.DocumentHandlerAdapterEvoSuiteTest#test5
+* Started nu.staldal.xmlutil.DocumentHandlerAdapterEvoSuiteTest#test6
+* Finished nu.staldal.xmlutil.DocumentHandlerAdapterEvoSuiteTest#test6
+* Started nu.staldal.xmlutil.DocumentHandlerAdapterEvoSuiteTest#test7
+* Finished nu.staldal.xmlutil.DocumentHandlerAdapterEvoSuiteTest#test7
+* Started nu.staldal.xmlutil.DocumentHandlerAdapterEvoSuiteTest#test8
+* Finished nu.staldal.xmlutil.DocumentHandlerAdapterEvoSuiteTest#test8
+* Started nu.staldal.xmlutil.DocumentHandlerAdapterEvoSuiteTest#test9
+* Finished nu.staldal.xmlutil.DocumentHandlerAdapterEvoSuiteTest#test9
+* Started nu.staldal.xmlutil.ContentHandlerSnooperEvoSuiteTest#test10
+* Finished nu.staldal.xmlutil.ContentHandlerSnooperEvoSuiteTest#test10
+* Started nu.staldal.xmlutil.ContentHandlerSnooperEvoSuiteTest#test0
+* Finished nu.staldal.xmlutil.ContentHandlerSnooperEvoSuiteTest#test0
+* Started nu.staldal.xmlutil.ContentHandlerSnooperEvoSuiteTest#test1
+* Finished nu.staldal.xmlutil.ContentHandlerSnooperEvoSuiteTest#test1
+* Started nu.staldal.xmlutil.ContentHandlerSnooperEvoSuiteTest#test2
+* Finished nu.staldal.xmlutil.ContentHandlerSnooperEvoSuiteTest#test2
+* Started nu.staldal.xmlutil.ContentHandlerSnooperEvoSuiteTest#test3
+* Finished nu.staldal.xmlutil.ContentHandlerSnooperEvoSuiteTest#test3
+* Started nu.staldal.xmlutil.ContentHandlerSnooperEvoSuiteTest#test4
+* Finished nu.staldal.xmlutil.ContentHandlerSnooperEvoSuiteTest#test4
+* Started nu.staldal.xmlutil.ContentHandlerSnooperEvoSuiteTest#test5
+* Finished nu.staldal.xmlutil.ContentHandlerSnooperEvoSuiteTest#test5
+* Started nu.staldal.xmlutil.ContentHandlerSnooperEvoSuiteTest#test6
+* Finished nu.staldal.xmlutil.ContentHandlerSnooperEvoSuiteTest#test6
+* Started nu.staldal.xmlutil.ContentHandlerSnooperEvoSuiteTest#test7
+* Finished nu.staldal.xmlutil.ContentHandlerSnooperEvoSuiteTest#test7
+* Started nu.staldal.xmlutil.ContentHandlerSnooperEvoSuiteTest#test8
+* Failure: expected:<[New ContentHandlerSnooper
+characters
+]> but was:<[]> | test8(nu.staldal.xmlutil.ContentHandlerSnooperEvoSuiteTest)
+org.junit.ComparisonFailure: expected:<[New ContentHandlerSnooper
+characters
+]> but was:<[]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at nu.staldal.xmlutil.ContentHandlerSnooperEvoSuiteTest.test8(ContentHandlerSnooperEvoSuiteTest.java:162)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+* Finished nu.staldal.xmlutil.ContentHandlerSnooperEvoSuiteTest#test8
+* Started nu.staldal.xmlutil.ContentHandlerSnooperEvoSuiteTest#test9
+* Finished nu.staldal.xmlutil.ContentHandlerSnooperEvoSuiteTest#test9
+* Started nu.staldal.lagoon.producer.FileSourceEvoSuiteTest#test0
+* Finished nu.staldal.lagoon.producer.FileSourceEvoSuiteTest#test0
+* Started nu.staldal.lagoon.producer.FileSourceEvoSuiteTest#test1
+* Finished nu.staldal.lagoon.producer.FileSourceEvoSuiteTest#test1
+* Started nu.staldal.lagoon.producer.FileSourceEvoSuiteTest#test2
+* Finished nu.staldal.lagoon.producer.FileSourceEvoSuiteTest#test2
+* Started nu.staldal.lagoon.producer.BasicSplitEvoSuiteTest#test10
+* Finished nu.staldal.lagoon.producer.BasicSplitEvoSuiteTest#test10
+* Started nu.staldal.lagoon.producer.BasicSplitEvoSuiteTest#test11
+* Finished nu.staldal.lagoon.producer.BasicSplitEvoSuiteTest#test11
+* Started nu.staldal.lagoon.producer.BasicSplitEvoSuiteTest#test12
+* Finished nu.staldal.lagoon.producer.BasicSplitEvoSuiteTest#test12
+* Started nu.staldal.lagoon.producer.BasicSplitEvoSuiteTest#test13
+* Finished nu.staldal.lagoon.producer.BasicSplitEvoSuiteTest#test13
+* Started nu.staldal.lagoon.producer.BasicSplitEvoSuiteTest#test14
+* Finished nu.staldal.lagoon.producer.BasicSplitEvoSuiteTest#test14
+* Started nu.staldal.lagoon.producer.BasicSplitEvoSuiteTest#test0
+* Finished nu.staldal.lagoon.producer.BasicSplitEvoSuiteTest#test0
+* Started nu.staldal.lagoon.producer.BasicSplitEvoSuiteTest#test1
+* Finished nu.staldal.lagoon.producer.BasicSplitEvoSuiteTest#test1
+* Started nu.staldal.lagoon.producer.BasicSplitEvoSuiteTest#test2
+* Finished nu.staldal.lagoon.producer.BasicSplitEvoSuiteTest#test2
+* Started nu.staldal.lagoon.producer.BasicSplitEvoSuiteTest#test3
+* Finished nu.staldal.lagoon.producer.BasicSplitEvoSuiteTest#test3
+* Started nu.staldal.lagoon.producer.BasicSplitEvoSuiteTest#test4
+* Finished nu.staldal.lagoon.producer.BasicSplitEvoSuiteTest#test4
+* Started nu.staldal.lagoon.producer.BasicSplitEvoSuiteTest#test5
+* Finished nu.staldal.lagoon.producer.BasicSplitEvoSuiteTest#test5
+* Started nu.staldal.lagoon.producer.BasicSplitEvoSuiteTest#test6
+* Finished nu.staldal.lagoon.producer.BasicSplitEvoSuiteTest#test6
+* Started nu.staldal.lagoon.producer.BasicSplitEvoSuiteTest#test7
+* Finished nu.staldal.lagoon.producer.BasicSplitEvoSuiteTest#test7
+* Started nu.staldal.lagoon.producer.BasicSplitEvoSuiteTest#test8
+* Finished nu.staldal.lagoon.producer.BasicSplitEvoSuiteTest#test8
+* Started nu.staldal.lagoon.producer.BasicSplitEvoSuiteTest#test9
+* Finished nu.staldal.lagoon.producer.BasicSplitEvoSuiteTest#test9
+* Started nu.staldal.lagoon.producer.XMLFormatterEvoSuiteTest#test0
+* Finished nu.staldal.lagoon.producer.XMLFormatterEvoSuiteTest#test0
+* Started nu.staldal.lagoon.producer.XMLFormatterEvoSuiteTest#test1
+* Finished nu.staldal.lagoon.producer.XMLFormatterEvoSuiteTest#test1
+* Started nu.staldal.lagoon.producer.XMLFormatterEvoSuiteTest#test2
+* Finished nu.staldal.lagoon.producer.XMLFormatterEvoSuiteTest#test2
+* Started nu.staldal.lagoon.producer.LSSIHandlerEvoSuiteTest#test10
+* Finished nu.staldal.lagoon.producer.LSSIHandlerEvoSuiteTest#test10
+* Started nu.staldal.lagoon.producer.LSSIHandlerEvoSuiteTest#test11
+* Finished nu.staldal.lagoon.producer.LSSIHandlerEvoSuiteTest#test11
+* Started nu.staldal.lagoon.producer.LSSIHandlerEvoSuiteTest#test12
+* Finished nu.staldal.lagoon.producer.LSSIHandlerEvoSuiteTest#test12
+* Started nu.staldal.lagoon.producer.LSSIHandlerEvoSuiteTest#test13
+* Finished nu.staldal.lagoon.producer.LSSIHandlerEvoSuiteTest#test13
+* Started nu.staldal.lagoon.producer.LSSIHandlerEvoSuiteTest#test0
+* Finished nu.staldal.lagoon.producer.LSSIHandlerEvoSuiteTest#test0
+* Started nu.staldal.lagoon.producer.LSSIHandlerEvoSuiteTest#test1
+* Finished nu.staldal.lagoon.producer.LSSIHandlerEvoSuiteTest#test1
+* Started nu.staldal.lagoon.producer.LSSIHandlerEvoSuiteTest#test2
+* Finished nu.staldal.lagoon.producer.LSSIHandlerEvoSuiteTest#test2
+* Started nu.staldal.lagoon.producer.LSSIHandlerEvoSuiteTest#test3
+* Finished nu.staldal.lagoon.producer.LSSIHandlerEvoSuiteTest#test3
+* Started nu.staldal.lagoon.producer.LSSIHandlerEvoSuiteTest#test4
+* Finished nu.staldal.lagoon.producer.LSSIHandlerEvoSuiteTest#test4
+* Started nu.staldal.lagoon.producer.LSSIHandlerEvoSuiteTest#test5
+* Finished nu.staldal.lagoon.producer.LSSIHandlerEvoSuiteTest#test5
+* Started nu.staldal.lagoon.producer.LSSIHandlerEvoSuiteTest#test6
+* Finished nu.staldal.lagoon.producer.LSSIHandlerEvoSuiteTest#test6
+* Started nu.staldal.lagoon.producer.LSSIHandlerEvoSuiteTest#test7
+* Finished nu.staldal.lagoon.producer.LSSIHandlerEvoSuiteTest#test7
+* Started nu.staldal.lagoon.producer.LSSIHandlerEvoSuiteTest#test8
+* Finished nu.staldal.lagoon.producer.LSSIHandlerEvoSuiteTest#test8
+* Started nu.staldal.lagoon.producer.LSSIHandlerEvoSuiteTest#test9
+* Finished nu.staldal.lagoon.producer.LSSIHandlerEvoSuiteTest#test9
+* Started nu.staldal.lagoon.producer.FileReadEvoSuiteTest#test0
+* Finished nu.staldal.lagoon.producer.FileReadEvoSuiteTest#test0
+* Started nu.staldal.lagoon.producer.FileReadEvoSuiteTest#test1
+* Finished nu.staldal.lagoon.producer.FileReadEvoSuiteTest#test1
+* Started nu.staldal.lagoon.producer.LSSITransformerEvoSuiteTest#test0
+* Finished nu.staldal.lagoon.producer.LSSITransformerEvoSuiteTest#test0
+* Started nu.staldal.lagoon.producer.LSSITransformerEvoSuiteTest#test1
+* Finished nu.staldal.lagoon.producer.LSSITransformerEvoSuiteTest#test1
+* Started nu.staldal.lagoon.producer.MyOutputStreamEvoSuiteTest#test0
+* Finished nu.staldal.lagoon.producer.MyOutputStreamEvoSuiteTest#test0
+* Started nu.staldal.lagoon.producer.MyOutputStreamEvoSuiteTest#test1
+* Finished nu.staldal.lagoon.producer.MyOutputStreamEvoSuiteTest#test1
+* Started nu.staldal.lagoon.producer.StylesheetContainerEvoSuiteTest#test0
+* Finished nu.staldal.lagoon.producer.StylesheetContainerEvoSuiteTest#test0
+* Started nu.staldal.lagoon.producer.XMLParseEvoSuiteTest#test0
+* Finished nu.staldal.lagoon.producer.XMLParseEvoSuiteTest#test0
+* Started nu.staldal.lagoon.producer.XMLParseEvoSuiteTest#test1
+* Finished nu.staldal.lagoon.producer.XMLParseEvoSuiteTest#test1
+* Started nu.staldal.lagoon.producer.XMLParseEvoSuiteTest#test2
+* Finished nu.staldal.lagoon.producer.XMLParseEvoSuiteTest#test2
+* Started nu.staldal.lagoon.producer.XSLTransformerEvoSuiteTest#test0
+* Finished nu.staldal.lagoon.producer.XSLTransformerEvoSuiteTest#test0
+* Started nu.staldal.lagoon.producer.XSLTransformerEvoSuiteTest#test1
+* Finished nu.staldal.lagoon.producer.XSLTransformerEvoSuiteTest#test1
+* Started nu.staldal.lagoon.producer.XSLTransformerEvoSuiteTest#test2
+* Finished nu.staldal.lagoon.producer.XSLTransformerEvoSuiteTest#test2
+* Started nu.staldal.lagoon.producer.XSLTransformerEvoSuiteTest#test3
+* Finished nu.staldal.lagoon.producer.XSLTransformerEvoSuiteTest#test3
+* Started nu.staldal.lagoon.producer.DirSourceEvoSuiteTest#test0
+* Finished nu.staldal.lagoon.producer.DirSourceEvoSuiteTest#test0
+* Started nu.staldal.lagoon.producer.MyInputStreamEvoSuiteTest#test0
+* Finished nu.staldal.lagoon.producer.MyInputStreamEvoSuiteTest#test0
+* Started nu.staldal.lagoon.producer.MyInputStreamEvoSuiteTest#test1
+* Finished nu.staldal.lagoon.producer.MyInputStreamEvoSuiteTest#test1
+* Started nu.staldal.lagoon.producer.MyInputStreamEvoSuiteTest#test2
+* Finished nu.staldal.lagoon.producer.MyInputStreamEvoSuiteTest#test2
+* Started nu.staldal.lagoon.producer.IslandSplitEvoSuiteTest#test10
+* Finished nu.staldal.lagoon.producer.IslandSplitEvoSuiteTest#test10
+* Started nu.staldal.lagoon.producer.IslandSplitEvoSuiteTest#test11
+* Finished nu.staldal.lagoon.producer.IslandSplitEvoSuiteTest#test11
+* Started nu.staldal.lagoon.producer.IslandSplitEvoSuiteTest#test0
+* Finished nu.staldal.lagoon.producer.IslandSplitEvoSuiteTest#test0
+* Started nu.staldal.lagoon.producer.IslandSplitEvoSuiteTest#test1
+* Finished nu.staldal.lagoon.producer.IslandSplitEvoSuiteTest#test1
+* Started nu.staldal.lagoon.producer.IslandSplitEvoSuiteTest#test2
+* Finished nu.staldal.lagoon.producer.IslandSplitEvoSuiteTest#test2
+* Started nu.staldal.lagoon.producer.IslandSplitEvoSuiteTest#test3
+* Finished nu.staldal.lagoon.producer.IslandSplitEvoSuiteTest#test3
+* Started nu.staldal.lagoon.producer.IslandSplitEvoSuiteTest#test4
+* Finished nu.staldal.lagoon.producer.IslandSplitEvoSuiteTest#test4
+* Started nu.staldal.lagoon.producer.IslandSplitEvoSuiteTest#test5
+* Finished nu.staldal.lagoon.producer.IslandSplitEvoSuiteTest#test5
+* Started nu.staldal.lagoon.producer.IslandSplitEvoSuiteTest#test6
+* Finished nu.staldal.lagoon.producer.IslandSplitEvoSuiteTest#test6
+* Started nu.staldal.lagoon.producer.IslandSplitEvoSuiteTest#test7
+* Finished nu.staldal.lagoon.producer.IslandSplitEvoSuiteTest#test7
+* Started nu.staldal.lagoon.producer.IslandSplitEvoSuiteTest#test8
+* Finished nu.staldal.lagoon.producer.IslandSplitEvoSuiteTest#test8
+* Started nu.staldal.lagoon.producer.IslandSplitEvoSuiteTest#test9
+* Finished nu.staldal.lagoon.producer.IslandSplitEvoSuiteTest#test9
+* Started nu.staldal.lagoon.util.TemplateProcessorEvoSuiteTest#test0
+* Finished nu.staldal.lagoon.util.TemplateProcessorEvoSuiteTest#test0
+* Started nu.staldal.lagoon.util.TemplateProcessorEvoSuiteTest#test1
+* Finished nu.staldal.lagoon.util.TemplateProcessorEvoSuiteTest#test1
+* Started nu.staldal.lagoon.util.WildcardEvoSuiteTest#test0
+* Finished nu.staldal.lagoon.util.WildcardEvoSuiteTest#test0
+* Started nu.staldal.lagoon.util.WildcardEvoSuiteTest#test1
+* Finished nu.staldal.lagoon.util.WildcardEvoSuiteTest#test1
+* Started nu.staldal.lagoon.util.WildcardEvoSuiteTest#test2
+* Finished nu.staldal.lagoon.util.WildcardEvoSuiteTest#test2
+* Started nu.staldal.lagoon.util.WildcardEvoSuiteTest#test3
+* Finished nu.staldal.lagoon.util.WildcardEvoSuiteTest#test3
+* Started nu.staldal.lagoon.util.WildcardEvoSuiteTest#test4
+* Finished nu.staldal.lagoon.util.WildcardEvoSuiteTest#test4
+* Started nu.staldal.lagoon.util.WildcardEvoSuiteTest#test5
+* Finished nu.staldal.lagoon.util.WildcardEvoSuiteTest#test5
+* Started nu.staldal.lagoon.util.WildcardEvoSuiteTest#test6
+* Finished nu.staldal.lagoon.util.WildcardEvoSuiteTest#test6
+* Started nu.staldal.lagoon.util.WildcardEvoSuiteTest#test7
+* Finished nu.staldal.lagoon.util.WildcardEvoSuiteTest#test7
+* Started nu.staldal.lagoon.util.WildcardEvoSuiteTest#test8
+* Finished nu.staldal.lagoon.util.WildcardEvoSuiteTest#test8
+* Started nu.staldal.lagoon.XMLCheckEvoSuiteTest#test0
+* Finished nu.staldal.lagoon.XMLCheckEvoSuiteTest#test0
+* Started nu.staldal.lagoon.filestorage.LocalFileStorageEvoSuiteTest#test10
+* Finished nu.staldal.lagoon.filestorage.LocalFileStorageEvoSuiteTest#test10
+* Started nu.staldal.lagoon.filestorage.LocalFileStorageEvoSuiteTest#test11
+* Finished nu.staldal.lagoon.filestorage.LocalFileStorageEvoSuiteTest#test11
+* Started nu.staldal.lagoon.filestorage.LocalFileStorageEvoSuiteTest#test12
+* Finished nu.staldal.lagoon.filestorage.LocalFileStorageEvoSuiteTest#test12
+* Started nu.staldal.lagoon.filestorage.LocalFileStorageEvoSuiteTest#test0
+* Finished nu.staldal.lagoon.filestorage.LocalFileStorageEvoSuiteTest#test0
+* Started nu.staldal.lagoon.filestorage.LocalFileStorageEvoSuiteTest#test1
+* Finished nu.staldal.lagoon.filestorage.LocalFileStorageEvoSuiteTest#test1
+* Started nu.staldal.lagoon.filestorage.LocalFileStorageEvoSuiteTest#test2
+* Finished nu.staldal.lagoon.filestorage.LocalFileStorageEvoSuiteTest#test2
+* Started nu.staldal.lagoon.filestorage.LocalFileStorageEvoSuiteTest#test3
+* Finished nu.staldal.lagoon.filestorage.LocalFileStorageEvoSuiteTest#test3
+* Started nu.staldal.lagoon.filestorage.LocalFileStorageEvoSuiteTest#test4
+* Finished nu.staldal.lagoon.filestorage.LocalFileStorageEvoSuiteTest#test4
+* Started nu.staldal.lagoon.filestorage.LocalFileStorageEvoSuiteTest#test5
+* Finished nu.staldal.lagoon.filestorage.LocalFileStorageEvoSuiteTest#test5
+* Started nu.staldal.lagoon.filestorage.LocalFileStorageEvoSuiteTest#test6
+* Finished nu.staldal.lagoon.filestorage.LocalFileStorageEvoSuiteTest#test6
+* Started nu.staldal.lagoon.filestorage.LocalFileStorageEvoSuiteTest#test7
+* Finished nu.staldal.lagoon.filestorage.LocalFileStorageEvoSuiteTest#test7
+* Started nu.staldal.lagoon.filestorage.LocalFileStorageEvoSuiteTest#test8
+* Finished nu.staldal.lagoon.filestorage.LocalFileStorageEvoSuiteTest#test8
+* Started nu.staldal.lagoon.filestorage.LocalFileStorageEvoSuiteTest#test9
+* Finished nu.staldal.lagoon.filestorage.LocalFileStorageEvoSuiteTest#test9
+* Started nu.staldal.lagoon.filestorage.FTPFileStorageEvoSuiteTest#test0
+* Finished nu.staldal.lagoon.filestorage.FTPFileStorageEvoSuiteTest#test0
+* Started nu.staldal.lagoon.filestorage.FTPFileStorageEvoSuiteTest#test1
+* Finished nu.staldal.lagoon.filestorage.FTPFileStorageEvoSuiteTest#test1
+* Started nu.staldal.lagoon.filestorage.FTPFileStorageEvoSuiteTest#test2
+* Finished nu.staldal.lagoon.filestorage.FTPFileStorageEvoSuiteTest#test2
+* Started nu.staldal.lagoon.filestorage.FTPFileStorageEvoSuiteTest#test3
+* Finished nu.staldal.lagoon.filestorage.FTPFileStorageEvoSuiteTest#test3
+* Started nu.staldal.lagoon.filestorage.FTPFileStorageEvoSuiteTest#test4
+* Finished nu.staldal.lagoon.filestorage.FTPFileStorageEvoSuiteTest#test4
+* Started nu.staldal.lagoon.filestorage.FTPFileStorageEvoSuiteTest#test5
+* Finished nu.staldal.lagoon.filestorage.FTPFileStorageEvoSuiteTest#test5
+* Started nu.staldal.lagoon.filestorage.FTPFileStorageEvoSuiteTest#test6
+* Finished nu.staldal.lagoon.filestorage.FTPFileStorageEvoSuiteTest#test6
+* Started nu.staldal.lagoon.filestorage.SSHFileStorageEvoSuiteTest#test10
+* Finished nu.staldal.lagoon.filestorage.SSHFileStorageEvoSuiteTest#test10
+* Started nu.staldal.lagoon.filestorage.SSHFileStorageEvoSuiteTest#test0
+* Finished nu.staldal.lagoon.filestorage.SSHFileStorageEvoSuiteTest#test0
+* Started nu.staldal.lagoon.filestorage.SSHFileStorageEvoSuiteTest#test1
+* Finished nu.staldal.lagoon.filestorage.SSHFileStorageEvoSuiteTest#test1
+* Started nu.staldal.lagoon.filestorage.SSHFileStorageEvoSuiteTest#test2
+* Finished nu.staldal.lagoon.filestorage.SSHFileStorageEvoSuiteTest#test2
+* Started nu.staldal.lagoon.filestorage.SSHFileStorageEvoSuiteTest#test3
+* Finished nu.staldal.lagoon.filestorage.SSHFileStorageEvoSuiteTest#test3
+* Started nu.staldal.lagoon.filestorage.SSHFileStorageEvoSuiteTest#test4
+* Finished nu.staldal.lagoon.filestorage.SSHFileStorageEvoSuiteTest#test4
+* Started nu.staldal.lagoon.filestorage.SSHFileStorageEvoSuiteTest#test5
+* Finished nu.staldal.lagoon.filestorage.SSHFileStorageEvoSuiteTest#test5
+* Started nu.staldal.lagoon.filestorage.SSHFileStorageEvoSuiteTest#test6
+* Finished nu.staldal.lagoon.filestorage.SSHFileStorageEvoSuiteTest#test6
+* Started nu.staldal.lagoon.filestorage.SSHFileStorageEvoSuiteTest#test7
+* Finished nu.staldal.lagoon.filestorage.SSHFileStorageEvoSuiteTest#test7
+* Started nu.staldal.lagoon.filestorage.SSHFileStorageEvoSuiteTest#test8
+* Finished nu.staldal.lagoon.filestorage.SSHFileStorageEvoSuiteTest#test8
+* Started nu.staldal.lagoon.filestorage.SSHFileStorageEvoSuiteTest#test9
+* Finished nu.staldal.lagoon.filestorage.SSHFileStorageEvoSuiteTest#test9
+* Started nu.staldal.lagoon.MyParserEvoSuiteTest#test0
+* Failure: loader constraint violation: loader (instance of com/gzoltar/lib/instrumentation/util/GZoltarClassLoader) previously initiated loading for a different type with name "org/xml/sax/XMLReader" | test0(nu.staldal.lagoon.MyParserEvoSuiteTest)
+java.lang.LinkageError: loader constraint violation: loader (instance of com/gzoltar/lib/instrumentation/util/GZoltarClassLoader) previously initiated loading for a different type with name "org/xml/sax/XMLReader"
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:763)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:642)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.processClassPath(Unknown Source)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at nu.staldal.lagoon.MyParser.parse(XMLCheck.java:114)
+	at nu.staldal.lagoon.MyParserEvoSuiteTest.test0(MyParserEvoSuiteTest.java:30)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+* Finished nu.staldal.lagoon.MyParserEvoSuiteTest#test0
+* Started nu.staldal.lagoon.MyParserEvoSuiteTest#test1
+* Failure: loader constraint violation: loader (instance of com/gzoltar/lib/instrumentation/util/GZoltarClassLoader) previously initiated loading for a different type with name "org/xml/sax/XMLReader" | test1(nu.staldal.lagoon.MyParserEvoSuiteTest)
+java.lang.LinkageError: loader constraint violation: loader (instance of com/gzoltar/lib/instrumentation/util/GZoltarClassLoader) previously initiated loading for a different type with name "org/xml/sax/XMLReader"
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:763)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:642)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.processClassPath(Unknown Source)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at nu.staldal.lagoon.MyParser.parse(XMLCheck.java:104)
+	at nu.staldal.lagoon.MyParserEvoSuiteTest.test1(MyParserEvoSuiteTest.java:47)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+* Finished nu.staldal.lagoon.MyParserEvoSuiteTest#test1
+* Started nu.staldal.lagoon.TextAreaWriterEvoSuiteTest#test0
+* Finished nu.staldal.lagoon.TextAreaWriterEvoSuiteTest#test0
+* Started nu.staldal.lagoon.TextAreaWriterEvoSuiteTest#test1
+* Finished nu.staldal.lagoon.TextAreaWriterEvoSuiteTest#test1
+* Started nu.staldal.lagoon.TextAreaWriterEvoSuiteTest#test2
+* Finished nu.staldal.lagoon.TextAreaWriterEvoSuiteTest#test2
+* Started nu.staldal.lagoon.BuildSitemapEvoSuiteTest#test0
+* Finished nu.staldal.lagoon.BuildSitemapEvoSuiteTest#test0
+* Started nu.staldal.lagoon.BuildSitemapEvoSuiteTest#test1
+* Finished nu.staldal.lagoon.BuildSitemapEvoSuiteTest#test1
+* Started nu.staldal.lagoon.LagoonCLIEvoSuiteTest#test0
+* Finished nu.staldal.lagoon.LagoonCLIEvoSuiteTest#test0
+* Started nu.staldal.lagoon.core.OutputEntryEvoSuiteTest#test0
+* Finished nu.staldal.lagoon.core.OutputEntryEvoSuiteTest#test0
+* Started nu.staldal.lagoon.core.OutputEntryEvoSuiteTest#test1
+* Finished nu.staldal.lagoon.core.OutputEntryEvoSuiteTest#test1
+* Started nu.staldal.lagoon.core.OutputEntryEvoSuiteTest#test2
+* Finished nu.staldal.lagoon.core.OutputEntryEvoSuiteTest#test2
+* Started nu.staldal.lagoon.core.OutputEntryEvoSuiteTest#test3
+* Finished nu.staldal.lagoon.core.OutputEntryEvoSuiteTest#test3
+* Started nu.staldal.lagoon.core.OutputEntryEvoSuiteTest#test4
+* Finished nu.staldal.lagoon.core.OutputEntryEvoSuiteTest#test4
+* Started nu.staldal.lagoon.core.OutputEntryEvoSuiteTest#test5
+* Finished nu.staldal.lagoon.core.OutputEntryEvoSuiteTest#test5
+* Started nu.staldal.lagoon.core.FileEntryEvoSuiteTest#test0
+* Finished nu.staldal.lagoon.core.FileEntryEvoSuiteTest#test0
+* Started nu.staldal.lagoon.core.FileEntryEvoSuiteTest#test1
+* Finished nu.staldal.lagoon.core.FileEntryEvoSuiteTest#test1
+* Started nu.staldal.lagoon.core.FileEntryEvoSuiteTest#test2
+* Finished nu.staldal.lagoon.core.FileEntryEvoSuiteTest#test2
+* Started nu.staldal.lagoon.core.LagoonProcessorEvoSuiteTest#test0
+* Finished nu.staldal.lagoon.core.LagoonProcessorEvoSuiteTest#test0
+* Started nu.staldal.lagoon.core.LagoonProcessorEvoSuiteTest#test1
+* Finished nu.staldal.lagoon.core.LagoonProcessorEvoSuiteTest#test1
+* Started nu.staldal.lagoon.core.ParseEvoSuiteTest#test0
+* Finished nu.staldal.lagoon.core.ParseEvoSuiteTest#test0
+* Started nu.staldal.lagoon.core.SitemapEvoSuiteTest#test0
+* Finished nu.staldal.lagoon.core.SitemapEvoSuiteTest#test0
+* Started nu.staldal.lagoon.core.SitemapEvoSuiteTest#test1
+* Finished nu.staldal.lagoon.core.SitemapEvoSuiteTest#test1
+* Started nu.staldal.lagoon.core.SitemapEvoSuiteTest#test2
+* Finished nu.staldal.lagoon.core.SitemapEvoSuiteTest#test2
+* Started nu.staldal.lagoon.core.SitemapEvoSuiteTest#test3
+* Finished nu.staldal.lagoon.core.SitemapEvoSuiteTest#test3
+* Started nu.staldal.lagoon.core.SitemapEvoSuiteTest#test4
+* Finished nu.staldal.lagoon.core.SitemapEvoSuiteTest#test4
+* Started nu.staldal.lagoon.core.SitemapEvoSuiteTest#test5
+* Finished nu.staldal.lagoon.core.SitemapEvoSuiteTest#test5
+* Started nu.staldal.lagoon.core.TransformEvoSuiteTest#test0
+* Finished nu.staldal.lagoon.core.TransformEvoSuiteTest#test0
+* Started nu.staldal.lagoon.core.SourceEvoSuiteTest#test0
+* Finished nu.staldal.lagoon.core.SourceEvoSuiteTest#test0
+* Started nu.staldal.lagoon.core.ReadEvoSuiteTest#test0
+* Finished nu.staldal.lagoon.core.ReadEvoSuiteTest#test0
+* Started nu.staldal.lagoon.core.PartEntryEvoSuiteTest#test0
+* Finished nu.staldal.lagoon.core.PartEntryEvoSuiteTest#test0
+* Started nu.staldal.lagoon.core.PartEntryEvoSuiteTest#test1
+* Finished nu.staldal.lagoon.core.PartEntryEvoSuiteTest#test1
+* Started nu.staldal.lagoon.core.RemoteFileStorageEvoSuiteTest#test0
+* Finished nu.staldal.lagoon.core.RemoteFileStorageEvoSuiteTest#test0
+* Started nu.staldal.lagoon.core.RemoteFileStorageEvoSuiteTest#test1
+* Finished nu.staldal.lagoon.core.RemoteFileStorageEvoSuiteTest#test1
+* Started nu.staldal.lagoon.core.FormatEvoSuiteTest#test0
+* Finished nu.staldal.lagoon.core.FormatEvoSuiteTest#test0
+* Started nu.staldal.lagoon.core.DeleteEntryEvoSuiteTest#test0
+* Finished nu.staldal.lagoon.core.DeleteEntryEvoSuiteTest#test0
+* Started nu.staldal.lagoon.core.DeleteEntryEvoSuiteTest#test1
+* Finished nu.staldal.lagoon.core.DeleteEntryEvoSuiteTest#test1
+* Started nu.staldal.lagoon.core.DeleteEntryEvoSuiteTest#test2
+* Finished nu.staldal.lagoon.core.DeleteEntryEvoSuiteTest#test2
+* Started nu.staldal.lagoon.core.DeleteEntryEvoSuiteTest#test3
+* Finished nu.staldal.lagoon.core.DeleteEntryEvoSuiteTest#test3
+* Started nu.staldal.xodus.OutputConfigEvoSuiteTest#test0
+* Finished nu.staldal.xodus.OutputConfigEvoSuiteTest#test0
+* Started nu.staldal.xtree.XTreeXMLDataContentHandlerEvoSuiteTest#test0
+* Finished nu.staldal.xtree.XTreeXMLDataContentHandlerEvoSuiteTest#test0
+* Started nu.staldal.xtree.XTreeXMLDataContentHandlerEvoSuiteTest#test1
+* Finished nu.staldal.xtree.XTreeXMLDataContentHandlerEvoSuiteTest#test1
+* Started nu.staldal.xtree.XTreeXMLDataContentHandlerEvoSuiteTest#test2
+* Failure: setResult() must be called prior to startDocument(). | test2(nu.staldal.xtree.XTreeXMLDataContentHandlerEvoSuiteTest)
+org.xml.sax.SAXException: setResult() must be called prior to startDocument().
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerHandlerImpl.startDocument(TransformerHandlerImpl.java:189)
+	at nu.staldal.xtree.XTreeXMLDataContentHandler.writeTo(XTreeXMLDataContentHandler.java:141)
+	at nu.staldal.xtree.XTreeXMLDataContentHandlerEvoSuiteTest.test2(XTreeXMLDataContentHandlerEvoSuiteTest.java:68)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+* Finished nu.staldal.xtree.XTreeXMLDataContentHandlerEvoSuiteTest#test2
+* Started nu.staldal.xtree.XTreeXMLDataContentHandlerEvoSuiteTest#test3
+* Failure: setResult() must be called prior to startDocument(). | test3(nu.staldal.xtree.XTreeXMLDataContentHandlerEvoSuiteTest)
+org.xml.sax.SAXException: setResult() must be called prior to startDocument().
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerHandlerImpl.startDocument(TransformerHandlerImpl.java:189)
+	at nu.staldal.xtree.XTreeXMLDataContentHandler.writeTo(XTreeXMLDataContentHandler.java:141)
+	at nu.staldal.xtree.XTreeXMLDataContentHandlerEvoSuiteTest.test3(XTreeXMLDataContentHandlerEvoSuiteTest.java:90)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+* Finished nu.staldal.xtree.XTreeXMLDataContentHandlerEvoSuiteTest#test3
+* Started nu.staldal.xtree.ProcessingInstructionEvoSuiteTest#test0
+* Finished nu.staldal.xtree.ProcessingInstructionEvoSuiteTest#test0
+* Started nu.staldal.xtree.ProcessingInstructionEvoSuiteTest#test1
+* Finished nu.staldal.xtree.ProcessingInstructionEvoSuiteTest#test1
+* Started nu.staldal.xtree.ProcessingInstructionEvoSuiteTest#test2
+* Finished nu.staldal.xtree.ProcessingInstructionEvoSuiteTest#test2
+* Started nu.staldal.xtree.TextEvoSuiteTest#test0
+* Finished nu.staldal.xtree.TextEvoSuiteTest#test0
+* Started nu.staldal.xtree.TextEvoSuiteTest#test1
+* Finished nu.staldal.xtree.TextEvoSuiteTest#test1
+* Started nu.staldal.xtree.TextEvoSuiteTest#test2
+[ERROR] Class not found
+java.lang.ClassNotFoundException: org.apache.xerces.parsers.SAXParser
+	at java.lang.ClassLoader.findClass(ClassLoader.java:530)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at org.xml.sax.helpers.NewInstance.newInstance(Unknown Source)
+	at org.xml.sax.helpers.XMLReaderFactory.loadClass(Unknown Source)
+	at org.xml.sax.helpers.XMLReaderFactory.createXMLReader(Unknown Source)
+	at org.xml.sax.helpers.XMLReaderAdapter.<init>(Unknown Source)
+	at nu.staldal.xtree.TextEvoSuiteTest.test2(TextEvoSuiteTest.java:63)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+* Failure: null | test2(nu.staldal.xtree.TextEvoSuiteTest)
+java.lang.NullPointerException
+	at org.xml.sax.helpers.NewInstance.newInstance(Unknown Source)
+	at org.xml.sax.helpers.XMLReaderFactory.loadClass(Unknown Source)
+	at org.xml.sax.helpers.XMLReaderFactory.createXMLReader(Unknown Source)
+	at org.xml.sax.helpers.XMLReaderAdapter.<init>(Unknown Source)
+	at nu.staldal.xtree.TextEvoSuiteTest.test2(TextEvoSuiteTest.java:63)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+* Finished nu.staldal.xtree.TextEvoSuiteTest#test2
+* Started nu.staldal.xtree.TextEvoSuiteTest#test3
+* Finished nu.staldal.xtree.TextEvoSuiteTest#test3
+* Started nu.staldal.xtree.TextEvoSuiteTest#test4
+* Finished nu.staldal.xtree.TextEvoSuiteTest#test4
+* Started nu.staldal.xtree.TextEvoSuiteTest#test5
+* Finished nu.staldal.xtree.TextEvoSuiteTest#test5
+* Started nu.staldal.xtree.TextEvoSuiteTest#test6
+* Finished nu.staldal.xtree.TextEvoSuiteTest#test6
+* Started nu.staldal.xtree.TextEvoSuiteTest#test7
+* Finished nu.staldal.xtree.TextEvoSuiteTest#test7
+* Started nu.staldal.xtree.SequentialTreeBuilderEvoSuiteTest#test10
+* Finished nu.staldal.xtree.SequentialTreeBuilderEvoSuiteTest#test10
+* Started nu.staldal.xtree.SequentialTreeBuilderEvoSuiteTest#test11
+* Finished nu.staldal.xtree.SequentialTreeBuilderEvoSuiteTest#test11
+* Started nu.staldal.xtree.SequentialTreeBuilderEvoSuiteTest#test12
+* Finished nu.staldal.xtree.SequentialTreeBuilderEvoSuiteTest#test12
+* Started nu.staldal.xtree.SequentialTreeBuilderEvoSuiteTest#test13
+* Finished nu.staldal.xtree.SequentialTreeBuilderEvoSuiteTest#test13
+* Started nu.staldal.xtree.SequentialTreeBuilderEvoSuiteTest#test14
+* Finished nu.staldal.xtree.SequentialTreeBuilderEvoSuiteTest#test14
+* Started nu.staldal.xtree.SequentialTreeBuilderEvoSuiteTest#test15
+* Finished nu.staldal.xtree.SequentialTreeBuilderEvoSuiteTest#test15
+* Started nu.staldal.xtree.SequentialTreeBuilderEvoSuiteTest#test16
+* Finished nu.staldal.xtree.SequentialTreeBuilderEvoSuiteTest#test16
+* Started nu.staldal.xtree.SequentialTreeBuilderEvoSuiteTest#test17
+* Finished nu.staldal.xtree.SequentialTreeBuilderEvoSuiteTest#test17
+* Started nu.staldal.xtree.SequentialTreeBuilderEvoSuiteTest#test18
+* Finished nu.staldal.xtree.SequentialTreeBuilderEvoSuiteTest#test18
+* Started nu.staldal.xtree.SequentialTreeBuilderEvoSuiteTest#test19
+* Finished nu.staldal.xtree.SequentialTreeBuilderEvoSuiteTest#test19
+* Started nu.staldal.xtree.SequentialTreeBuilderEvoSuiteTest#test0
+* Failure: loader constraint violation: loader (instance of com/gzoltar/lib/instrumentation/util/GZoltarClassLoader) previously initiated loading for a different type with name "org/xml/sax/XMLReader" | test0(nu.staldal.xtree.SequentialTreeBuilderEvoSuiteTest)
+java.lang.LinkageError: loader constraint violation: loader (instance of com/gzoltar/lib/instrumentation/util/GZoltarClassLoader) previously initiated loading for a different type with name "org/xml/sax/XMLReader"
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:763)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:642)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.processClassPath(Unknown Source)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at nu.staldal.xtree.SequentialTreeBuilder.parseXMLSequential(SequentialTreeBuilder.java:107)
+	at nu.staldal.xtree.SequentialTreeBuilderEvoSuiteTest.test0(SequentialTreeBuilderEvoSuiteTest.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+* Finished nu.staldal.xtree.SequentialTreeBuilderEvoSuiteTest#test0
+* Started nu.staldal.xtree.SequentialTreeBuilderEvoSuiteTest#test1
+* Finished nu.staldal.xtree.SequentialTreeBuilderEvoSuiteTest#test1
+* Started nu.staldal.xtree.SequentialTreeBuilderEvoSuiteTest#test2
+* Finished nu.staldal.xtree.SequentialTreeBuilderEvoSuiteTest#test2
+* Started nu.staldal.xtree.SequentialTreeBuilderEvoSuiteTest#test3
+* Finished nu.staldal.xtree.SequentialTreeBuilderEvoSuiteTest#test3
+* Started nu.staldal.xtree.SequentialTreeBuilderEvoSuiteTest#test4
+* Finished nu.staldal.xtree.SequentialTreeBuilderEvoSuiteTest#test4
+* Started nu.staldal.xtree.SequentialTreeBuilderEvoSuiteTest#test5
+* Finished nu.staldal.xtree.SequentialTreeBuilderEvoSuiteTest#test5
+* Started nu.staldal.xtree.SequentialTreeBuilderEvoSuiteTest#test6
+* Finished nu.staldal.xtree.SequentialTreeBuilderEvoSuiteTest#test6
+* Started nu.staldal.xtree.SequentialTreeBuilderEvoSuiteTest#test7
+* Finished nu.staldal.xtree.SequentialTreeBuilderEvoSuiteTest#test7
+* Started nu.staldal.xtree.SequentialTreeBuilderEvoSuiteTest#test8
+* Finished nu.staldal.xtree.SequentialTreeBuilderEvoSuiteTest#test8
+* Started nu.staldal.xtree.SequentialTreeBuilderEvoSuiteTest#test9
+* Finished nu.staldal.xtree.SequentialTreeBuilderEvoSuiteTest#test9
+* Started nu.staldal.xtree.TreeBuilderEvoSuiteTest#test10
+* Finished nu.staldal.xtree.TreeBuilderEvoSuiteTest#test10
+* Started nu.staldal.xtree.TreeBuilderEvoSuiteTest#test11
+* Finished nu.staldal.xtree.TreeBuilderEvoSuiteTest#test11
+* Started nu.staldal.xtree.TreeBuilderEvoSuiteTest#test12
+* Finished nu.staldal.xtree.TreeBuilderEvoSuiteTest#test12
+* Started nu.staldal.xtree.TreeBuilderEvoSuiteTest#test13
+* Finished nu.staldal.xtree.TreeBuilderEvoSuiteTest#test13
+* Started nu.staldal.xtree.TreeBuilderEvoSuiteTest#test14
+* Failure: null | test14(nu.staldal.xtree.TreeBuilderEvoSuiteTest)
+java.lang.NullPointerException
+	at org.xml.sax.ext.Attributes2Impl.addAttribute(Unknown Source)
+	at nu.staldal.xtree.TreeBuilderEvoSuiteTest.test14(TreeBuilderEvoSuiteTest.java:256)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+* Finished nu.staldal.xtree.TreeBuilderEvoSuiteTest#test14
+* Started nu.staldal.xtree.TreeBuilderEvoSuiteTest#test15
+* Finished nu.staldal.xtree.TreeBuilderEvoSuiteTest#test15
+* Started nu.staldal.xtree.TreeBuilderEvoSuiteTest#test16
+* Finished nu.staldal.xtree.TreeBuilderEvoSuiteTest#test16
+* Started nu.staldal.xtree.TreeBuilderEvoSuiteTest#test17
+* Finished nu.staldal.xtree.TreeBuilderEvoSuiteTest#test17
+* Started nu.staldal.xtree.TreeBuilderEvoSuiteTest#test18
+* Finished nu.staldal.xtree.TreeBuilderEvoSuiteTest#test18
+* Started nu.staldal.xtree.TreeBuilderEvoSuiteTest#test19
+* Finished nu.staldal.xtree.TreeBuilderEvoSuiteTest#test19
+* Started nu.staldal.xtree.TreeBuilderEvoSuiteTest#test0
+* Finished nu.staldal.xtree.TreeBuilderEvoSuiteTest#test0
+* Started nu.staldal.xtree.TreeBuilderEvoSuiteTest#test1
+* Finished nu.staldal.xtree.TreeBuilderEvoSuiteTest#test1
+* Started nu.staldal.xtree.TreeBuilderEvoSuiteTest#test2
+* Failure: loader constraint violation: loader (instance of com/gzoltar/lib/instrumentation/util/GZoltarClassLoader) previously initiated loading for a different type with name "org/xml/sax/XMLReader" | test2(nu.staldal.xtree.TreeBuilderEvoSuiteTest)
+java.lang.LinkageError: loader constraint violation: loader (instance of com/gzoltar/lib/instrumentation/util/GZoltarClassLoader) previously initiated loading for a different type with name "org/xml/sax/XMLReader"
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:763)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:642)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.processClassPath(Unknown Source)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at nu.staldal.xtree.TreeBuilder.parseXML(TreeBuilder.java:128)
+	at nu.staldal.xtree.TreeBuilderEvoSuiteTest.test2(TreeBuilderEvoSuiteTest.java:66)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+* Finished nu.staldal.xtree.TreeBuilderEvoSuiteTest#test2
+* Started nu.staldal.xtree.TreeBuilderEvoSuiteTest#test3
+* Finished nu.staldal.xtree.TreeBuilderEvoSuiteTest#test3
+* Started nu.staldal.xtree.TreeBuilderEvoSuiteTest#test4
+* Finished nu.staldal.xtree.TreeBuilderEvoSuiteTest#test4
+* Started nu.staldal.xtree.TreeBuilderEvoSuiteTest#test5
+* Finished nu.staldal.xtree.TreeBuilderEvoSuiteTest#test5
+* Started nu.staldal.xtree.TreeBuilderEvoSuiteTest#test6
+* Finished nu.staldal.xtree.TreeBuilderEvoSuiteTest#test6
+* Started nu.staldal.xtree.TreeBuilderEvoSuiteTest#test7
+* Finished nu.staldal.xtree.TreeBuilderEvoSuiteTest#test7
+* Started nu.staldal.xtree.TreeBuilderEvoSuiteTest#test8
+* Finished nu.staldal.xtree.TreeBuilderEvoSuiteTest#test8
+* Started nu.staldal.xtree.TreeBuilderEvoSuiteTest#test9
+* Finished nu.staldal.xtree.TreeBuilderEvoSuiteTest#test9
+* Filtering test cases that do not cover any component
+* Sending data to master
+* Closing connection with client
+* Performing fault localization
+* Running Ochiai
+* Writing coverage matrix to 'gzoltar-data/matrix'
+* Writing spectra to 'gzoltar-data/spectra'
+* Metrics

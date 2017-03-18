@@ -1,0 +1,117 @@
+   ____ _____     _ _               
+  / ___|__  /___ | | |_ __ _ _ __   
+ | |  _  / // _ \| | __/ _` | '__| 
+ | |_| |/ /| (_) | | || (_| | |     
+  \____/____\___/|_|\__\__,_|_| 
+
+* Preparing classpath
+OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=256M; support was removed in 8.0
+* Collecting classes under test
+* Collecting test cases
+* Performing analysis
+* Started bierse.model.ModelEvoSuiteTest#test0
+* Failure: Expecting exception: NoClassDefFoundError | test0(bierse.model.ModelEvoSuiteTest)
+java.lang.AssertionError: Expecting exception: NoClassDefFoundError
+	at org.junit.Assert.fail(Assert.java:88)
+	at bierse.model.ModelEvoSuiteTest.test0(ModelEvoSuiteTest.java:25)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+* Finished bierse.model.ModelEvoSuiteTest#test0
+* Started bierse.BierseEvoSuiteTest#test0
+* Finished bierse.BierseEvoSuiteTest#test0
+* Started bierse.controller.TriggerThreadEvoSuiteTest#test0
+* Finished bierse.controller.TriggerThreadEvoSuiteTest#test0
+* Started bierse.controller.DefaultTableModelControllerEvoSuiteTest#test0
+* Finished bierse.controller.DefaultTableModelControllerEvoSuiteTest#test0
+* Started bierse.controller.DefaultTableModelControllerEvoSuiteTest#test1
+* Finished bierse.controller.DefaultTableModelControllerEvoSuiteTest#test1
+* Started bierse.controller.DefaultSettingsControllerEvoSuiteTest#test0
+* Finished bierse.controller.DefaultSettingsControllerEvoSuiteTest#test0
+* Started bierse.controller.DefaultMenuControllerEvoSuiteTest#test0
+* Finished bierse.controller.DefaultMenuControllerEvoSuiteTest#test0
+* Started bierse.view.KeyMapComboBoxModelEvoSuiteTest#test0
+* Finished bierse.view.KeyMapComboBoxModelEvoSuiteTest#test0
+* Started bierse.view.KeyMapComboBoxModelEvoSuiteTest#test1
+* Finished bierse.view.KeyMapComboBoxModelEvoSuiteTest#test1
+* Started bierse.view.KeyMapComboBoxModelEvoSuiteTest#test2
+* Finished bierse.view.KeyMapComboBoxModelEvoSuiteTest#test2
+* Started bierse.view.KeyMapComboBoxModelEvoSuiteTest#test3
+* Finished bierse.view.KeyMapComboBoxModelEvoSuiteTest#test3
+* Started bierse.view.KeyMapComboBoxModelEvoSuiteTest#test4
+* Finished bierse.view.KeyMapComboBoxModelEvoSuiteTest#test4
+* Started bierse.view.KeyMapComboBoxModelEvoSuiteTest#test5
+* Finished bierse.view.KeyMapComboBoxModelEvoSuiteTest#test5
+* Started bierse.view.KeyMapComboBoxModelEvoSuiteTest#test6
+* Finished bierse.view.KeyMapComboBoxModelEvoSuiteTest#test6
+* Started bierse.view.MyKeyMapEvoSuiteTest#test0
+* Finished bierse.view.MyKeyMapEvoSuiteTest#test0
+* Started bierse.view.MyKeyMapEvoSuiteTest#test1
+* Finished bierse.view.MyKeyMapEvoSuiteTest#test1
+* Started bierse.view.RunningMessagePanelEvoSuiteTest#test0
+* Finished bierse.view.RunningMessagePanelEvoSuiteTest#test0
+* Started bierse.view.RunningMessagePanelEvoSuiteTest#test1
+* Finished bierse.view.RunningMessagePanelEvoSuiteTest#test1
+* Started bierse.view.RunningMessagePanelEvoSuiteTest#test2
+* Finished bierse.view.RunningMessagePanelEvoSuiteTest#test2
+* Started bierse.view.RunningMessagePanelEvoSuiteTest#test3
+* Finished bierse.view.RunningMessagePanelEvoSuiteTest#test3
+* Started bierse.view.DefaultInfoViewEvoSuiteTest#test0
+* Failure: null | test0(bierse.view.DefaultInfoViewEvoSuiteTest)
+java.lang.NullPointerException
+	at bierse.view.DefaultInfoView.<init>(DefaultInfoView.java:71)
+	at bierse.view.DefaultInfoViewEvoSuiteTest.test0(DefaultInfoViewEvoSuiteTest.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+* Finished bierse.view.DefaultInfoViewEvoSuiteTest#test0
+* Started bierse.view.DefaultInfoViewMouseListenerEvoSuiteTest#test0
+* Finished bierse.view.DefaultInfoViewMouseListenerEvoSuiteTest#test0
+* Filtering test cases that do not cover any component
+* Sending data to master
+* Closing connection with client
+* Performing fault localization
+* Running Ochiai
+* Writing coverage matrix to 'gzoltar-data/matrix'
+* Writing spectra to 'gzoltar-data/spectra'
+* Metrics

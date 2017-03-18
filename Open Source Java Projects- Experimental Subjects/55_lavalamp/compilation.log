@@ -1,0 +1,31 @@
+Buildfile: /home/zecarlos/Desktop/Mubaraka/repo/55_lavalamp/build.xml
+
+prepare:
+    [mkdir] Created dir: /home/zecarlos/Desktop/Mubaraka/repo/55_lavalamp/build
+
+compile:
+    [mkdir] Created dir: /home/zecarlos/Desktop/Mubaraka/repo/55_lavalamp/build/classes
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/55_lavalamp/build.xml:82: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 54 source files to /home/zecarlos/Desktop/Mubaraka/repo/55_lavalamp/build/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.6
+    [javac] 1 warning
+     [copy] Copying 5 files to /home/zecarlos/Desktop/Mubaraka/repo/55_lavalamp/build/classes
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+Buildfile: /home/zecarlos/Desktop/Mubaraka/repo/55_lavalamp/build.xml
+
+prepare:
+
+compile:
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/55_lavalamp/build.xml:82: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+
+compile-evosuite:
+    [mkdir] Created dir: /home/zecarlos/Desktop/Mubaraka/repo/55_lavalamp/build/evosuite
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/55_lavalamp/build.xml:129: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 35 source files to /home/zecarlos/Desktop/Mubaraka/repo/55_lavalamp/build/evosuite
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.6
+    [javac] 1 warning
+
+BUILD SUCCESSFUL
+Total time: 1 second

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry kind="src" path="minimized-manual"/>
+	<classpathentry kind="lib" path="lib/ant-1.7.1.jar"/>
+	<classpathentry kind="lib" path="lib/batik-css.jar"/>
+	<classpathentry kind="lib" path="lib/batik-dom.jar"/>
+	<classpathentry kind="lib" path="lib/batik-svg-dom.jar"/>
+	<classpathentry kind="lib" path="lib/batik-transcoder-1.7.jar"/>
+	<classpathentry kind="lib" path="lib/batik-util.jar"/>
+	<classpathentry kind="lib" path="lib/batik.jar"/>
+	<classpathentry kind="lib" path="lib/fop-0.20.5.jar"/>
+	<classpathentry kind="lib" path="lib/isorelax-20050913.jar"/>
+	<classpathentry kind="lib" path="lib/logkit-2.0.jar"/>
+	<classpathentry kind="lib" path="lib/lspc.jar"/>
+	<classpathentry kind="lib" path="lib/lsprt.jar"/>
+	<classpathentry kind="lib" path="lib/xml-apis-ext.jar"/>
+	<classpathentry kind="lib" path="lib/xml-apis.jar"/>
+	<classpathentry kind="lib" path="lib/xmlutil.jar"/>
+	<classpathentry kind="lib" path="test-lib/evosuite.jar"/>
+	<classpathentry kind="lib" path="test-lib/junit-4.11.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>

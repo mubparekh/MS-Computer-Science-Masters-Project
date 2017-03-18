@@ -1,0 +1,33 @@
+Buildfile: /home/zecarlos/Desktop/Mubaraka/repo/13_jdbacl/build.xml
+
+prepare:
+    [mkdir] Created dir: /home/zecarlos/Desktop/Mubaraka/repo/13_jdbacl/build
+
+compile:
+    [mkdir] Created dir: /home/zecarlos/Desktop/Mubaraka/repo/13_jdbacl/build/classes
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/13_jdbacl/build.xml:82: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 126 source files to /home/zecarlos/Desktop/Mubaraka/repo/13_jdbacl/build/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.6
+    [javac] Note: /home/zecarlos/Desktop/Mubaraka/repo/13_jdbacl/src/main/java/org/databene/jdbacl/swing/EnvironmentSelector.java uses unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+    [javac] 1 warning
+     [copy] Copying 4 files to /home/zecarlos/Desktop/Mubaraka/repo/13_jdbacl/build/classes
+
+BUILD SUCCESSFUL
+Total time: 4 seconds
+Buildfile: /home/zecarlos/Desktop/Mubaraka/repo/13_jdbacl/build.xml
+
+prepare:
+
+compile:
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/13_jdbacl/build.xml:82: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+
+compile-evosuite:
+    [mkdir] Created dir: /home/zecarlos/Desktop/Mubaraka/repo/13_jdbacl/build/evosuite
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/13_jdbacl/build.xml:129: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 17 source files to /home/zecarlos/Desktop/Mubaraka/repo/13_jdbacl/build/evosuite
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.6
+    [javac] 1 warning
+
+BUILD SUCCESSFUL
+Total time: 1 second

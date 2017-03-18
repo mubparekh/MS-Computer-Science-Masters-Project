@@ -1,0 +1,57 @@
+Buildfile: /home/zecarlos/Desktop/Mubaraka/repo/31_xisemele/build.xml
+
+prepare:
+    [mkdir] Created dir: /home/zecarlos/Desktop/Mubaraka/repo/31_xisemele/build
+
+compile:
+    [mkdir] Created dir: /home/zecarlos/Desktop/Mubaraka/repo/31_xisemele/build/classes
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/31_xisemele/build.xml:82: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 56 source files to /home/zecarlos/Desktop/Mubaraka/repo/31_xisemele/build/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.6
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/31_xisemele/src/main/java/net/sf/xisemele/impl/FactoryImpl.java:34: warning: DocumentBuilderFactoryImpl is internal proprietary API and may be removed in a future release
+    [javac] import com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl;
+    [javac]                                               ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/31_xisemele/src/main/java/net/sf/xisemele/impl/FactoryImpl.java:99: warning: DocumentBuilderFactoryImpl is internal proprietary API and may be removed in a future release
+    [javac]       DocumentBuilderFactory factory = new DocumentBuilderFactoryImpl();
+    [javac]                                            ^
+    [javac] 3 warnings
+     [copy] Copying 1 file to /home/zecarlos/Desktop/Mubaraka/repo/31_xisemele/build/classes
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+Buildfile: /home/zecarlos/Desktop/Mubaraka/repo/31_xisemele/build.xml
+
+prepare:
+
+compile:
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/31_xisemele/build.xml:82: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+
+compile-evosuite:
+    [mkdir] Created dir: /home/zecarlos/Desktop/Mubaraka/repo/31_xisemele/build/evosuite
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/31_xisemele/build.xml:129: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 21 source files to /home/zecarlos/Desktop/Mubaraka/repo/31_xisemele/build/evosuite
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.6
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/31_xisemele/evosuite-tests/net/sf/xisemele/impl/FactoryImplEvoSuiteTest.java:10: warning: TransformerImpl is internal proprietary API and may be removed in a future release
+    [javac] import com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl;
+    [javac]                                                    ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/31_xisemele/evosuite-tests/net/sf/xisemele/impl/FactoryImplEvoSuiteTest.java:11: warning: DocumentBuilderImpl is internal proprietary API and may be removed in a future release
+    [javac] import com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl;
+    [javac]                                               ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/31_xisemele/evosuite-tests/net/sf/xisemele/impl/FactoryImplEvoSuiteTest.java:121: warning: DocumentBuilderImpl is internal proprietary API and may be removed in a future release
+    [javac]       DocumentBuilderImpl documentBuilderImpl0 = (DocumentBuilderImpl)factoryImpl0.createDocumentBuilder();
+    [javac]       ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/31_xisemele/evosuite-tests/net/sf/xisemele/impl/FactoryImplEvoSuiteTest.java:121: warning: DocumentBuilderImpl is internal proprietary API and may be removed in a future release
+    [javac]       DocumentBuilderImpl documentBuilderImpl0 = (DocumentBuilderImpl)factoryImpl0.createDocumentBuilder();
+    [javac]                                                   ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/31_xisemele/evosuite-tests/net/sf/xisemele/impl/FactoryImplEvoSuiteTest.java:190: warning: TransformerImpl is internal proprietary API and may be removed in a future release
+    [javac]       TransformerImpl transformerImpl0 = (TransformerImpl)factoryImpl0.createTransformer();
+    [javac]       ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/31_xisemele/evosuite-tests/net/sf/xisemele/impl/FactoryImplEvoSuiteTest.java:190: warning: TransformerImpl is internal proprietary API and may be removed in a future release
+    [javac]       TransformerImpl transformerImpl0 = (TransformerImpl)factoryImpl0.createTransformer();
+    [javac]                                           ^
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+    [javac] 7 warnings
+
+BUILD SUCCESSFUL
+Total time: 2 seconds

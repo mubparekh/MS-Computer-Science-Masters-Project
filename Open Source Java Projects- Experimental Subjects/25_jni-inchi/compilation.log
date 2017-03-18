@@ -1,0 +1,33 @@
+Buildfile: /home/zecarlos/Desktop/Mubaraka/repo/25_jni-inchi/build.xml
+
+prepare:
+    [mkdir] Created dir: /home/zecarlos/Desktop/Mubaraka/repo/25_jni-inchi/build
+
+compile:
+    [mkdir] Created dir: /home/zecarlos/Desktop/Mubaraka/repo/25_jni-inchi/build/classes
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/25_jni-inchi/build.xml:82: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 24 source files to /home/zecarlos/Desktop/Mubaraka/repo/25_jni-inchi/build/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.6
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+    [javac] 1 warning
+     [copy] Copying 12 files to /home/zecarlos/Desktop/Mubaraka/repo/25_jni-inchi/build/classes
+
+BUILD SUCCESSFUL
+Total time: 1 second
+Buildfile: /home/zecarlos/Desktop/Mubaraka/repo/25_jni-inchi/build.xml
+
+prepare:
+
+compile:
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/25_jni-inchi/build.xml:82: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+
+compile-evosuite:
+    [mkdir] Created dir: /home/zecarlos/Desktop/Mubaraka/repo/25_jni-inchi/build/evosuite
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/25_jni-inchi/build.xml:129: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 20 source files to /home/zecarlos/Desktop/Mubaraka/repo/25_jni-inchi/build/evosuite
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.6
+    [javac] 1 warning
+
+BUILD SUCCESSFUL
+Total time: 1 second

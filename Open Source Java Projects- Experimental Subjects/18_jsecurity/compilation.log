@@ -1,0 +1,116 @@
+Buildfile: /home/zecarlos/Desktop/Mubaraka/repo/18_jsecurity/build.xml
+
+prepare:
+    [mkdir] Created dir: /home/zecarlos/Desktop/Mubaraka/repo/18_jsecurity/build
+
+compile:
+    [mkdir] Created dir: /home/zecarlos/Desktop/Mubaraka/repo/18_jsecurity/build/classes
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/18_jsecurity/build.xml:82: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 298 source files to /home/zecarlos/Desktop/Mubaraka/repo/18_jsecurity/build/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.6
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/18_jsecurity/src/main/java/org/jsecurity/realm/SimpleAccountRealm.java:23: warning: [deprecation] SimpleAuthorizingAccount in org.jsecurity.authz has been deprecated
+    [javac] import org.jsecurity.authz.SimpleAuthorizingAccount;
+    [javac]                           ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/18_jsecurity/src/main/java/org/jsecurity/realm/SimpleAccountRealm.java:94: warning: [deprecation] SimpleAuthorizingAccount in org.jsecurity.authz has been deprecated
+    [javac]         SimpleAccount account = new SimpleAuthorizingAccount(username, password, getName(), roleNames, null);
+    [javac]                                     ^
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+    [javac] 3 warnings
+    [javac] Creating empty /home/zecarlos/Desktop/Mubaraka/repo/18_jsecurity/build/classes/org/jsecurity/realm/jdbc/package-info.class
+    [javac] Creating empty /home/zecarlos/Desktop/Mubaraka/repo/18_jsecurity/build/classes/org/jsecurity/subject/package-info.class
+    [javac] Creating empty /home/zecarlos/Desktop/Mubaraka/repo/18_jsecurity/build/classes/org/jsecurity/authz/annotation/package-info.class
+    [javac] Creating empty /home/zecarlos/Desktop/Mubaraka/repo/18_jsecurity/build/classes/org/jsecurity/util/package-info.class
+    [javac] Creating empty /home/zecarlos/Desktop/Mubaraka/repo/18_jsecurity/build/classes/org/jsecurity/web/filter/authz/package-info.class
+    [javac] Creating empty /home/zecarlos/Desktop/Mubaraka/repo/18_jsecurity/build/classes/org/jsecurity/io/package-info.class
+    [javac] Creating empty /home/zecarlos/Desktop/Mubaraka/repo/18_jsecurity/build/classes/org/jsecurity/aop/package-info.class
+    [javac] Creating empty /home/zecarlos/Desktop/Mubaraka/repo/18_jsecurity/build/classes/org/jsecurity/crypto/package-info.class
+    [javac] Creating empty /home/zecarlos/Desktop/Mubaraka/repo/18_jsecurity/build/classes/org/jsecurity/web/attr/package-info.class
+    [javac] Creating empty /home/zecarlos/Desktop/Mubaraka/repo/18_jsecurity/build/classes/org/jsecurity/jndi/package-info.class
+    [javac] Creating empty /home/zecarlos/Desktop/Mubaraka/repo/18_jsecurity/build/classes/org/jsecurity/codec/package-info.class
+    [javac] Creating empty /home/zecarlos/Desktop/Mubaraka/repo/18_jsecurity/build/classes/org/jsecurity/authz/permission/package-info.class
+    [javac] Creating empty /home/zecarlos/Desktop/Mubaraka/repo/18_jsecurity/build/classes/org/jsecurity/realm/activedirectory/package-info.class
+    [javac] Creating empty /home/zecarlos/Desktop/Mubaraka/repo/18_jsecurity/build/classes/org/jsecurity/spring/package-info.class
+    [javac] Creating empty /home/zecarlos/Desktop/Mubaraka/repo/18_jsecurity/build/classes/org/jsecurity/authc/package-info.class
+    [javac] Creating empty /home/zecarlos/Desktop/Mubaraka/repo/18_jsecurity/build/classes/org/jsecurity/realm/jndi/package-info.class
+    [javac] Creating empty /home/zecarlos/Desktop/Mubaraka/repo/18_jsecurity/build/classes/org/jsecurity/session/mgt/package-info.class
+    [javac] Creating empty /home/zecarlos/Desktop/Mubaraka/repo/18_jsecurity/build/classes/org/jsecurity/realm/package-info.class
+    [javac] Creating empty /home/zecarlos/Desktop/Mubaraka/repo/18_jsecurity/build/classes/org/jsecurity/web/config/package-info.class
+    [javac] Creating empty /home/zecarlos/Desktop/Mubaraka/repo/18_jsecurity/build/classes/org/jsecurity/web/tags/package-info.class
+    [javac] Creating empty /home/zecarlos/Desktop/Mubaraka/repo/18_jsecurity/build/classes/org/jsecurity/cache/ehcache/package-info.class
+    [javac] Creating empty /home/zecarlos/Desktop/Mubaraka/repo/18_jsecurity/build/classes/org/jsecurity/web/session/package-info.class
+    [javac] Creating empty /home/zecarlos/Desktop/Mubaraka/repo/18_jsecurity/build/classes/org/jsecurity/authc/pam/package-info.class
+    [javac] Creating empty /home/zecarlos/Desktop/Mubaraka/repo/18_jsecurity/build/classes/org/jsecurity/cache/package-info.class
+    [javac] Creating empty /home/zecarlos/Desktop/Mubaraka/repo/18_jsecurity/build/classes/org/jsecurity/web/filter/package-info.class
+    [javac] Creating empty /home/zecarlos/Desktop/Mubaraka/repo/18_jsecurity/build/classes/org/jsecurity/spring/remoting/package-info.class
+    [javac] Creating empty /home/zecarlos/Desktop/Mubaraka/repo/18_jsecurity/build/classes/org/jsecurity/authz/aop/package-info.class
+    [javac] Creating empty /home/zecarlos/Desktop/Mubaraka/repo/18_jsecurity/build/classes/org/jsecurity/authc/credential/package-info.class
+    [javac] Creating empty /home/zecarlos/Desktop/Mubaraka/repo/18_jsecurity/build/classes/org/jsecurity/package-info.class
+    [javac] Creating empty /home/zecarlos/Desktop/Mubaraka/repo/18_jsecurity/build/classes/org/jsecurity/web/filter/authc/package-info.class
+    [javac] Creating empty /home/zecarlos/Desktop/Mubaraka/repo/18_jsecurity/build/classes/org/jsecurity/realm/text/package-info.class
+    [javac] Creating empty /home/zecarlos/Desktop/Mubaraka/repo/18_jsecurity/build/classes/org/jsecurity/mgt/package-info.class
+    [javac] Creating empty /home/zecarlos/Desktop/Mubaraka/repo/18_jsecurity/build/classes/org/jsecurity/session/mgt/eis/package-info.class
+    [javac] Creating empty /home/zecarlos/Desktop/Mubaraka/repo/18_jsecurity/build/classes/org/jsecurity/session/package-info.class
+    [javac] Creating empty /home/zecarlos/Desktop/Mubaraka/repo/18_jsecurity/build/classes/org/jsecurity/crypto/hash/package-info.class
+    [javac] Creating empty /home/zecarlos/Desktop/Mubaraka/repo/18_jsecurity/build/classes/org/jsecurity/realm/ldap/package-info.class
+    [javac] Creating empty /home/zecarlos/Desktop/Mubaraka/repo/18_jsecurity/build/classes/org/jsecurity/session/mgt/quartz/package-info.class
+    [javac] Creating empty /home/zecarlos/Desktop/Mubaraka/repo/18_jsecurity/build/classes/org/jsecurity/authz/package-info.class
+    [javac] Creating empty /home/zecarlos/Desktop/Mubaraka/repo/18_jsecurity/build/classes/org/jsecurity/spring/security/interceptor/package-info.class
+    [javac] Creating empty /home/zecarlos/Desktop/Mubaraka/repo/18_jsecurity/build/classes/org/jsecurity/web/package-info.class
+    [javac] Creating empty /home/zecarlos/Desktop/Mubaraka/repo/18_jsecurity/build/classes/org/jsecurity/web/servlet/package-info.class
+    [javac] Creating empty /home/zecarlos/Desktop/Mubaraka/repo/18_jsecurity/build/classes/org/jsecurity/config/package-info.class
+     [copy] Copying 3 files to /home/zecarlos/Desktop/Mubaraka/repo/18_jsecurity/build/classes
+
+BUILD SUCCESSFUL
+Total time: 4 seconds
+Buildfile: /home/zecarlos/Desktop/Mubaraka/repo/18_jsecurity/build.xml
+
+prepare:
+
+compile:
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/18_jsecurity/build.xml:82: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+
+compile-evosuite:
+    [mkdir] Created dir: /home/zecarlos/Desktop/Mubaraka/repo/18_jsecurity/build/evosuite
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/18_jsecurity/build.xml:129: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 86 source files to /home/zecarlos/Desktop/Mubaraka/repo/18_jsecurity/build/evosuite
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.6
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/18_jsecurity/evosuite-tests/org/jsecurity/realm/AuthorizingRealmEvoSuiteTest.java:23: warning: [deprecation] SimpleAuthorizingAccount in org.jsecurity.authz has been deprecated
+    [javac] import org.jsecurity.authz.SimpleAuthorizingAccount;
+    [javac]                           ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/18_jsecurity/evosuite-tests/org/jsecurity/realm/AuthorizingRealmEvoSuiteTest.java:418: warning: [deprecation] SimpleAuthorizingAccount in org.jsecurity.authz has been deprecated
+    [javac]       SimpleAuthorizingAccount simpleAuthorizingAccount0 = new SimpleAuthorizingAccount();
+    [javac]       ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/18_jsecurity/evosuite-tests/org/jsecurity/realm/AuthorizingRealmEvoSuiteTest.java:418: warning: [deprecation] SimpleAuthorizingAccount in org.jsecurity.authz has been deprecated
+    [javac]       SimpleAuthorizingAccount simpleAuthorizingAccount0 = new SimpleAuthorizingAccount();
+    [javac]                                                                ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/18_jsecurity/evosuite-tests/org/jsecurity/realm/AuthorizingRealmEvoSuiteTest.java:451: warning: [deprecation] SimpleAuthorizingAccount in org.jsecurity.authz has been deprecated
+    [javac]       SimpleAuthorizingAccount simpleAuthorizingAccount0 = new SimpleAuthorizingAccount();
+    [javac]       ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/18_jsecurity/evosuite-tests/org/jsecurity/realm/AuthorizingRealmEvoSuiteTest.java:451: warning: [deprecation] SimpleAuthorizingAccount in org.jsecurity.authz has been deprecated
+    [javac]       SimpleAuthorizingAccount simpleAuthorizingAccount0 = new SimpleAuthorizingAccount();
+    [javac]                                                                ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/18_jsecurity/evosuite-tests/org/jsecurity/realm/AuthorizingRealmEvoSuiteTest.java:567: warning: [deprecation] SimpleAuthorizingAccount in org.jsecurity.authz has been deprecated
+    [javac]       SimpleAuthorizingAccount simpleAuthorizingAccount0 = new SimpleAuthorizingAccount((PrincipalCollection) simplePrincipalCollection0, (Object) wildcardPermission0);
+    [javac]       ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/18_jsecurity/evosuite-tests/org/jsecurity/realm/AuthorizingRealmEvoSuiteTest.java:567: warning: [deprecation] SimpleAuthorizingAccount in org.jsecurity.authz has been deprecated
+    [javac]       SimpleAuthorizingAccount simpleAuthorizingAccount0 = new SimpleAuthorizingAccount((PrincipalCollection) simplePrincipalCollection0, (Object) wildcardPermission0);
+    [javac]                                                                ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/18_jsecurity/evosuite-tests/org/jsecurity/realm/AuthorizingRealmEvoSuiteTest.java:616: warning: [deprecation] SimpleAuthorizingAccount in org.jsecurity.authz has been deprecated
+    [javac]       SimpleAuthorizingAccount simpleAuthorizingAccount0 = new SimpleAuthorizingAccount();
+    [javac]       ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/18_jsecurity/evosuite-tests/org/jsecurity/realm/AuthorizingRealmEvoSuiteTest.java:616: warning: [deprecation] SimpleAuthorizingAccount in org.jsecurity.authz has been deprecated
+    [javac]       SimpleAuthorizingAccount simpleAuthorizingAccount0 = new SimpleAuthorizingAccount();
+    [javac]                                                                ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/18_jsecurity/evosuite-tests/org/jsecurity/realm/AuthorizingRealmEvoSuiteTest.java:653: warning: [deprecation] SimpleAuthorizingAccount in org.jsecurity.authz has been deprecated
+    [javac]       SimpleAuthorizingAccount simpleAuthorizingAccount0 = new SimpleAuthorizingAccount((Object) "UTF-8", (Object) "\uFFFD\uFFFD/", "UTF-8");
+    [javac]       ^
+    [javac] /home/zecarlos/Desktop/Mubaraka/repo/18_jsecurity/evosuite-tests/org/jsecurity/realm/AuthorizingRealmEvoSuiteTest.java:653: warning: [deprecation] SimpleAuthorizingAccount in org.jsecurity.authz has been deprecated
+    [javac]       SimpleAuthorizingAccount simpleAuthorizingAccount0 = new SimpleAuthorizingAccount((Object) "UTF-8", (Object) "\uFFFD\uFFFD/", "UTF-8");
+    [javac]                                                                ^
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+    [javac] 12 warnings
+
+BUILD SUCCESSFUL
+Total time: 3 seconds

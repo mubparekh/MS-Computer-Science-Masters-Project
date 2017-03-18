@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <ns1:pre xmlns:ns1="http://ns1">
+    <bar xml:att1="normal" ns2:att2="font-size: &quot;10pt&quot;;" xmlns:ns2="http://att/ns">indent text</bar>
+    <baz>more text</baz><?foo FOO BAR?>
+    <ns3:foobar xmlns:ns3="http://ns2"/>
+  </ns1:pre>
+</root>

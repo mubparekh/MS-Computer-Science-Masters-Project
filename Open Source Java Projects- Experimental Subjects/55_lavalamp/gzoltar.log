@@ -1,0 +1,568 @@
+   ____ _____     _ _               
+  / ___|__  /___ | | |_ __ _ _ __   
+ | |  _  / // _ \| | __/ _` | '__| 
+ | |_| |/ /| (_) | | || (_| | |     
+  \____/____\___/|_|\__\__,_|_| 
+
+* Preparing classpath
+OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=256M; support was removed in 8.0
+* Collecting classes under test
+* Collecting test cases
+* Performing analysis
+* Started net.sf.lavalamp.factories.DeviceBuildsFactoryEvoSuiteTest#test0
+* Finished net.sf.lavalamp.factories.DeviceBuildsFactoryEvoSuiteTest#test0
+* Started net.sf.lavalamp.PauseEvoSuiteTest#test0
+* Finished net.sf.lavalamp.PauseEvoSuiteTest#test0
+* Started net.sf.lavalamp.LavaLoggerEvoSuiteTest#test0
+* Finished net.sf.lavalamp.LavaLoggerEvoSuiteTest#test0
+* Started net.sf.lavalamp.LavaLoggerEvoSuiteTest#test1
+Mon Jul 04 08:49:47 WEST 2016 null
+* Failure: Expecting exception: NullPointerException | test1(net.sf.lavalamp.LavaLoggerEvoSuiteTest)
+java.lang.AssertionError: Expecting exception: NullPointerException
+	at org.junit.Assert.fail(Assert.java:88)
+	at net.sf.lavalamp.LavaLoggerEvoSuiteTest.test1(LavaLoggerEvoSuiteTest.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+* Finished net.sf.lavalamp.LavaLoggerEvoSuiteTest#test1
+* Started net.sf.lavalamp.LavaLoggerEvoSuiteTest#test2
+* Finished net.sf.lavalamp.LavaLoggerEvoSuiteTest#test2
+* Started net.sf.lavalamp.LavaLoggerEvoSuiteTest#test3
+* Finished net.sf.lavalamp.LavaLoggerEvoSuiteTest#test3
+* Started net.sf.lavalamp.LavaLoggerEvoSuiteTest#test4
+Mon Jul 04 08:49:47 WEST 2016 
+* Failure: Expecting exception: NullPointerException | test4(net.sf.lavalamp.LavaLoggerEvoSuiteTest)
+java.lang.AssertionError: Expecting exception: NullPointerException
+	at org.junit.Assert.fail(Assert.java:88)
+	at net.sf.lavalamp.LavaLoggerEvoSuiteTest.test4(LavaLoggerEvoSuiteTest.java:86)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+* Finished net.sf.lavalamp.LavaLoggerEvoSuiteTest#test4
+* Started net.sf.lavalamp.LavaLoggerEvoSuiteTest#test5
+;
+* Failure: Expecting exception: NullPointerException | test5(net.sf.lavalamp.LavaLoggerEvoSuiteTest)
+java.lang.AssertionError: Expecting exception: NullPointerException
+	at org.junit.Assert.fail(Assert.java:88)
+	at net.sf.lavalamp.LavaLoggerEvoSuiteTest.test5(LavaLoggerEvoSuiteTest.java:103)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+* Finished net.sf.lavalamp.LavaLoggerEvoSuiteTest#test5
+* Started net.sf.lavalamp.LavaLoggerEvoSuiteTest#test6
+* Finished net.sf.lavalamp.LavaLoggerEvoSuiteTest#test6
+* Started net.sf.lavalamp.LavaLoggerEvoSuiteTest#test7
+* Finished net.sf.lavalamp.LavaLoggerEvoSuiteTest#test7
+* Started net.sf.lavalamp.properties.OffEvoSuiteTest#test0
+* Finished net.sf.lavalamp.properties.OffEvoSuiteTest#test0
+* Started net.sf.lavalamp.properties.OffEvoSuiteTest#test1
+* Finished net.sf.lavalamp.properties.OffEvoSuiteTest#test1
+* Started net.sf.lavalamp.properties.OffEvoSuiteTest#test2
+* Finished net.sf.lavalamp.properties.OffEvoSuiteTest#test2
+* Started net.sf.lavalamp.properties.OffEvoSuiteTest#test3
+* Finished net.sf.lavalamp.properties.OffEvoSuiteTest#test3
+* Started net.sf.lavalamp.properties.OffEvoSuiteTest#test4
+* Finished net.sf.lavalamp.properties.OffEvoSuiteTest#test4
+* Started net.sf.lavalamp.site.DummyRestGetterEvoSuiteTest#test0
+* Finished net.sf.lavalamp.site.DummyRestGetterEvoSuiteTest#test0
+* Started net.sf.lavalamp.site.DummyRestGetterEvoSuiteTest#test1
+* Finished net.sf.lavalamp.site.DummyRestGetterEvoSuiteTest#test1
+* Started net.sf.lavalamp.site.DummyRestGetterEvoSuiteTest#test2
+* Finished net.sf.lavalamp.site.DummyRestGetterEvoSuiteTest#test2
+* Started net.sf.lavalamp.site.SitePropertiesEvoSuiteTest#test0
+* Finished net.sf.lavalamp.site.SitePropertiesEvoSuiteTest#test0
+* Started net.sf.lavalamp.site.SitePropertiesEvoSuiteTest#test1
+* Finished net.sf.lavalamp.site.SitePropertiesEvoSuiteTest#test1
+* Started net.sf.lavalamp.site.SitePropertiesEvoSuiteTest#test2
+* Finished net.sf.lavalamp.site.SitePropertiesEvoSuiteTest#test2
+* Started net.sf.lavalamp.site.SitePropertiesEvoSuiteTest#test3
+* Finished net.sf.lavalamp.site.SitePropertiesEvoSuiteTest#test3
+* Started net.sf.lavalamp.site.SitePropertiesEvoSuiteTest#test4
+* Finished net.sf.lavalamp.site.SitePropertiesEvoSuiteTest#test4
+* Started net.sf.lavalamp.site.SitePropertiesEvoSuiteTest#test5
+* Finished net.sf.lavalamp.site.SitePropertiesEvoSuiteTest#test5
+* Started net.sf.lavalamp.site.SitePropertiesEvoSuiteTest#test6
+* Finished net.sf.lavalamp.site.SitePropertiesEvoSuiteTest#test6
+* Started net.sf.lavalamp.site.BuildsEvoSuiteTest#test0
+* Finished net.sf.lavalamp.site.BuildsEvoSuiteTest#test0
+* Started net.sf.lavalamp.site.BuildsEvoSuiteTest#test1
+* Finished net.sf.lavalamp.site.BuildsEvoSuiteTest#test1
+* Started net.sf.lavalamp.site.BuildsEvoSuiteTest#test2
+* Finished net.sf.lavalamp.site.BuildsEvoSuiteTest#test2
+* Started net.sf.lavalamp.site.BuildsEvoSuiteTest#test3
+* Finished net.sf.lavalamp.site.BuildsEvoSuiteTest#test3
+* Started net.sf.lavalamp.site.BuildsEvoSuiteTest#test4
+* Finished net.sf.lavalamp.site.BuildsEvoSuiteTest#test4
+* Started net.sf.lavalamp.site.BuildsEvoSuiteTest#test5
+* Finished net.sf.lavalamp.site.BuildsEvoSuiteTest#test5
+* Started net.sf.lavalamp.site.BuildCheckerEvoSuiteTest#test0
+* Finished net.sf.lavalamp.site.BuildCheckerEvoSuiteTest#test0
+* Started net.sf.lavalamp.site.BuildCheckerEvoSuiteTest#test1
+* Finished net.sf.lavalamp.site.BuildCheckerEvoSuiteTest#test1
+* Started net.sf.lavalamp.site.DummyRemoteGetterEvoSuiteTest#test0
+* Finished net.sf.lavalamp.site.DummyRemoteGetterEvoSuiteTest#test0
+* Started net.sf.lavalamp.site.DummyRemoteGetterEvoSuiteTest#test1
+* Finished net.sf.lavalamp.site.DummyRemoteGetterEvoSuiteTest#test1
+* Started net.sf.lavalamp.site.DummyRemoteGetterEvoSuiteTest#test2
+* Finished net.sf.lavalamp.site.DummyRemoteGetterEvoSuiteTest#test2
+* Started net.sf.lavalamp.site.BuildPropertiesEvoSuiteTest#test0
+* Finished net.sf.lavalamp.site.BuildPropertiesEvoSuiteTest#test0
+* Started net.sf.lavalamp.site.BuildPropertiesEvoSuiteTest#test1
+* Finished net.sf.lavalamp.site.BuildPropertiesEvoSuiteTest#test1
+* Started net.sf.lavalamp.site.BuildPropertiesEvoSuiteTest#test2
+* Finished net.sf.lavalamp.site.BuildPropertiesEvoSuiteTest#test2
+* Started net.sf.lavalamp.site.BuildPropertiesEvoSuiteTest#test3
+* Finished net.sf.lavalamp.site.BuildPropertiesEvoSuiteTest#test3
+* Started net.sf.lavalamp.site.BuildPropertiesEvoSuiteTest#test4
+* Finished net.sf.lavalamp.site.BuildPropertiesEvoSuiteTest#test4
+* Started net.sf.lavalamp.site.BuildPropertiesEvoSuiteTest#test5
+* Finished net.sf.lavalamp.site.BuildPropertiesEvoSuiteTest#test5
+* Started net.sf.lavalamp.site.AbstractGetterEvoSuiteTest#test0
+* Finished net.sf.lavalamp.site.AbstractGetterEvoSuiteTest#test0
+* Started net.sf.lavalamp.site.SiteFactoryEvoSuiteTest#test0
+* Finished net.sf.lavalamp.site.SiteFactoryEvoSuiteTest#test0
+* Started net.sf.lavalamp.site.ConsoleEvoSuiteTest#test0
+* Finished net.sf.lavalamp.site.ConsoleEvoSuiteTest#test0
+* Started net.sf.lavalamp.site.ConsoleEvoSuiteTest#test1
+* Finished net.sf.lavalamp.site.ConsoleEvoSuiteTest#test1
+* Started net.sf.lavalamp.site.BuildEvoSuiteTest#test0
+* Finished net.sf.lavalamp.site.BuildEvoSuiteTest#test0
+* Started net.sf.lavalamp.site.BuildEvoSuiteTest#test1
+* Finished net.sf.lavalamp.site.BuildEvoSuiteTest#test1
+* Started net.sf.lavalamp.site.BuildEvoSuiteTest#test2
+* Finished net.sf.lavalamp.site.BuildEvoSuiteTest#test2
+* Started net.sf.lavalamp.site.BuildEvoSuiteTest#test3
+* Finished net.sf.lavalamp.site.BuildEvoSuiteTest#test3
+* Started net.sf.lavalamp.site.BuildEvoSuiteTest#test4
+* Finished net.sf.lavalamp.site.BuildEvoSuiteTest#test4
+* Started net.sf.lavalamp.site.BuildEvoSuiteTest#test5
+* Finished net.sf.lavalamp.site.BuildEvoSuiteTest#test5
+* Started net.sf.lavalamp.device.DummyDeviceEvoSuiteTest#test0
+* Finished net.sf.lavalamp.device.DummyDeviceEvoSuiteTest#test0
+* Started net.sf.lavalamp.device.DummyDeviceEvoSuiteTest#test1
+* Finished net.sf.lavalamp.device.DummyDeviceEvoSuiteTest#test1
+* Started net.sf.lavalamp.device.TurnOffEvoSuiteTest#test0
+* Finished net.sf.lavalamp.device.TurnOffEvoSuiteTest#test0
+* Started net.sf.lavalamp.device.TimeOfDayEvoSuiteTest#test10
+* Finished net.sf.lavalamp.device.TimeOfDayEvoSuiteTest#test10
+* Started net.sf.lavalamp.device.TimeOfDayEvoSuiteTest#test0
+* Finished net.sf.lavalamp.device.TimeOfDayEvoSuiteTest#test0
+* Started net.sf.lavalamp.device.TimeOfDayEvoSuiteTest#test1
+* Finished net.sf.lavalamp.device.TimeOfDayEvoSuiteTest#test1
+* Started net.sf.lavalamp.device.TimeOfDayEvoSuiteTest#test2
+* Finished net.sf.lavalamp.device.TimeOfDayEvoSuiteTest#test2
+* Started net.sf.lavalamp.device.TimeOfDayEvoSuiteTest#test3
+* Finished net.sf.lavalamp.device.TimeOfDayEvoSuiteTest#test3
+* Started net.sf.lavalamp.device.TimeOfDayEvoSuiteTest#test4
+* Finished net.sf.lavalamp.device.TimeOfDayEvoSuiteTest#test4
+* Started net.sf.lavalamp.device.TimeOfDayEvoSuiteTest#test5
+* Finished net.sf.lavalamp.device.TimeOfDayEvoSuiteTest#test5
+* Started net.sf.lavalamp.device.TimeOfDayEvoSuiteTest#test6
+* Finished net.sf.lavalamp.device.TimeOfDayEvoSuiteTest#test6
+* Started net.sf.lavalamp.device.TimeOfDayEvoSuiteTest#test7
+* Finished net.sf.lavalamp.device.TimeOfDayEvoSuiteTest#test7
+* Started net.sf.lavalamp.device.TimeOfDayEvoSuiteTest#test8
+* Finished net.sf.lavalamp.device.TimeOfDayEvoSuiteTest#test8
+* Started net.sf.lavalamp.device.TimeOfDayEvoSuiteTest#test9
+* Finished net.sf.lavalamp.device.TimeOfDayEvoSuiteTest#test9
+* Started net.sf.lavalamp.device.HtmlFormatterEvoSuiteTest#test0
+* Finished net.sf.lavalamp.device.HtmlFormatterEvoSuiteTest#test0
+* Started net.sf.lavalamp.device.DeviceControllerEvoSuiteTest#test0
+* Finished net.sf.lavalamp.device.DeviceControllerEvoSuiteTest#test0
+* Started net.sf.lavalamp.device.DeviceControllerEvoSuiteTest#test1
+* Finished net.sf.lavalamp.device.DeviceControllerEvoSuiteTest#test1
+* Started net.sf.lavalamp.device.DeviceControllerEvoSuiteTest#test2
+* Finished net.sf.lavalamp.device.DeviceControllerEvoSuiteTest#test2
+* Started net.sf.lavalamp.device.DeviceControllerEvoSuiteTest#test3
+* Finished net.sf.lavalamp.device.DeviceControllerEvoSuiteTest#test3
+* Started net.sf.lavalamp.device.DeviceControllerEvoSuiteTest#test4
+* Finished net.sf.lavalamp.device.DeviceControllerEvoSuiteTest#test4
+* Started net.sf.lavalamp.device.DeviceControllerEvoSuiteTest#test5
+* Finished net.sf.lavalamp.device.DeviceControllerEvoSuiteTest#test5
+* Started net.sf.lavalamp.device.DevicePropertiesEvoSuiteTest#test10
+* Finished net.sf.lavalamp.device.DevicePropertiesEvoSuiteTest#test10
+* Started net.sf.lavalamp.device.DevicePropertiesEvoSuiteTest#test11
+* Finished net.sf.lavalamp.device.DevicePropertiesEvoSuiteTest#test11
+* Started net.sf.lavalamp.device.DevicePropertiesEvoSuiteTest#test12
+* Finished net.sf.lavalamp.device.DevicePropertiesEvoSuiteTest#test12
+* Started net.sf.lavalamp.device.DevicePropertiesEvoSuiteTest#test13
+* Finished net.sf.lavalamp.device.DevicePropertiesEvoSuiteTest#test13
+* Started net.sf.lavalamp.device.DevicePropertiesEvoSuiteTest#test0
+* Finished net.sf.lavalamp.device.DevicePropertiesEvoSuiteTest#test0
+* Started net.sf.lavalamp.device.DevicePropertiesEvoSuiteTest#test1
+* Finished net.sf.lavalamp.device.DevicePropertiesEvoSuiteTest#test1
+* Started net.sf.lavalamp.device.DevicePropertiesEvoSuiteTest#test2
+* Finished net.sf.lavalamp.device.DevicePropertiesEvoSuiteTest#test2
+* Started net.sf.lavalamp.device.DevicePropertiesEvoSuiteTest#test3
+* Finished net.sf.lavalamp.device.DevicePropertiesEvoSuiteTest#test3
+* Started net.sf.lavalamp.device.DevicePropertiesEvoSuiteTest#test4
+* Finished net.sf.lavalamp.device.DevicePropertiesEvoSuiteTest#test4
+* Started net.sf.lavalamp.device.DevicePropertiesEvoSuiteTest#test5
+* Finished net.sf.lavalamp.device.DevicePropertiesEvoSuiteTest#test5
+* Started net.sf.lavalamp.device.DevicePropertiesEvoSuiteTest#test6
+* Finished net.sf.lavalamp.device.DevicePropertiesEvoSuiteTest#test6
+* Started net.sf.lavalamp.device.DevicePropertiesEvoSuiteTest#test7
+* Finished net.sf.lavalamp.device.DevicePropertiesEvoSuiteTest#test7
+* Started net.sf.lavalamp.device.DevicePropertiesEvoSuiteTest#test8
+* Finished net.sf.lavalamp.device.DevicePropertiesEvoSuiteTest#test8
+* Started net.sf.lavalamp.device.DevicePropertiesEvoSuiteTest#test9
+* Finished net.sf.lavalamp.device.DevicePropertiesEvoSuiteTest#test9
+* Started net.sf.lavalamp.device.StatusQuoEvoSuiteTest#test0
+* Finished net.sf.lavalamp.device.StatusQuoEvoSuiteTest#test0
+* Started net.sf.lavalamp.device.TurnOnEvoSuiteTest#test0
+Mon Jul 04 08:49:48 WEST 2016 turning on dummy device null
+* Finished net.sf.lavalamp.device.TurnOnEvoSuiteTest#test0
+* Started net.sf.lavalamp.device.ActionsEvoSuiteTest#test0
+* Finished net.sf.lavalamp.device.ActionsEvoSuiteTest#test0
+* Started net.sf.lavalamp.device.ActionsEvoSuiteTest#test1
+* Finished net.sf.lavalamp.device.ActionsEvoSuiteTest#test1
+* Started net.sf.lavalamp.device.ActionsEvoSuiteTest#test2
+* Finished net.sf.lavalamp.device.ActionsEvoSuiteTest#test2
+* Started net.sf.lavalamp.device.CrashEvoSuiteTest#test0
+* Finished net.sf.lavalamp.device.CrashEvoSuiteTest#test0
+* Started net.sf.lavalamp.device.PeriodEvoSuiteTest#test0
+* Failure: expected:<...rianCalendar[time=14[33727739687,areFieldsSet=true,areAllFieldsSet=true,lenient=true,zone=sun.util.calendar.ZoneInfo[id="America/Denver",offset=-25200000,dstSavings=3600000,useDaylight=true,transitions=157,lastRule=java.util.SimpleTimeZone[id=America/Denver,offset=-25200000,dstSavings=3600000,useDaylight=true,startYear=0,startMode=3,startMonth=2,startDay=8,startDayOfWeek=1,startTime=7200000,startTimeMode=0,endMode=3,endMonth=10,endDay=1,endDayOfWeek=1,endTime=7200000,endTimeMode=0]],firstDayOfWeek=1,minimalDaysInFirstWeek=1,ERA=1,YEAR=2015,MONTH=5,WEEK_OF_YEAR=24,WEEK_OF_MONTH=2,DAY_OF_MONTH=7,DAY_OF_YEAR=158,DAY_OF_WEEK=1,DAY_OF_WEEK_IN_MONTH=1,AM_PM=1,HOUR=7,HOUR_OF_DAY=19,MINUTE=42,SECOND=19,MILLISECOND=687,ZONE_OFFSET=-2520000]0,DST_OFFSET=3600000...> but was:<...rianCalendar[time=14[67618588970,areFieldsSet=true,areAllFieldsSet=true,lenient=true,zone=sun.util.calendar.ZoneInfo[id="Europe/Lisbon",offset=0,dstSavings=3600000,useDaylight=true,transitions=222,lastRule=java.util.SimpleTimeZone[id=Europe/Lisbon,offset=0,dstSavings=3600000,useDaylight=true,startYear=0,startMode=2,startMonth=2,startDay=-1,startDayOfWeek=1,startTime=3600000,startTimeMode=2,endMode=2,endMonth=9,endDay=-1,endDayOfWeek=1,endTime=3600000,endTimeMode=2]],firstDayOfWeek=1,minimalDaysInFirstWeek=1,ERA=1,YEAR=2016,MONTH=6,WEEK_OF_YEAR=28,WEEK_OF_MONTH=2,DAY_OF_MONTH=4,DAY_OF_YEAR=186,DAY_OF_WEEK=2,DAY_OF_WEEK_IN_MONTH=1,AM_PM=0,HOUR=8,HOUR_OF_DAY=8,MINUTE=49,SECOND=48,MILLISECOND=970,ZONE_OFFSET=]0,DST_OFFSET=3600000...> | test0(net.sf.lavalamp.device.PeriodEvoSuiteTest)
+org.junit.ComparisonFailure: expected:<...rianCalendar[time=14[33727739687,areFieldsSet=true,areAllFieldsSet=true,lenient=true,zone=sun.util.calendar.ZoneInfo[id="America/Denver",offset=-25200000,dstSavings=3600000,useDaylight=true,transitions=157,lastRule=java.util.SimpleTimeZone[id=America/Denver,offset=-25200000,dstSavings=3600000,useDaylight=true,startYear=0,startMode=3,startMonth=2,startDay=8,startDayOfWeek=1,startTime=7200000,startTimeMode=0,endMode=3,endMonth=10,endDay=1,endDayOfWeek=1,endTime=7200000,endTimeMode=0]],firstDayOfWeek=1,minimalDaysInFirstWeek=1,ERA=1,YEAR=2015,MONTH=5,WEEK_OF_YEAR=24,WEEK_OF_MONTH=2,DAY_OF_MONTH=7,DAY_OF_YEAR=158,DAY_OF_WEEK=1,DAY_OF_WEEK_IN_MONTH=1,AM_PM=1,HOUR=7,HOUR_OF_DAY=19,MINUTE=42,SECOND=19,MILLISECOND=687,ZONE_OFFSET=-2520000]0,DST_OFFSET=3600000...> but was:<...rianCalendar[time=14[67618588970,areFieldsSet=true,areAllFieldsSet=true,lenient=true,zone=sun.util.calendar.ZoneInfo[id="Europe/Lisbon",offset=0,dstSavings=3600000,useDaylight=true,transitions=222,lastRule=java.util.SimpleTimeZone[id=Europe/Lisbon,offset=0,dstSavings=3600000,useDaylight=true,startYear=0,startMode=2,startMonth=2,startDay=-1,startDayOfWeek=1,startTime=3600000,startTimeMode=2,endMode=2,endMonth=9,endDay=-1,endDayOfWeek=1,endTime=3600000,endTimeMode=2]],firstDayOfWeek=1,minimalDaysInFirstWeek=1,ERA=1,YEAR=2016,MONTH=6,WEEK_OF_YEAR=28,WEEK_OF_MONTH=2,DAY_OF_MONTH=4,DAY_OF_YEAR=186,DAY_OF_WEEK=2,DAY_OF_WEEK_IN_MONTH=1,AM_PM=0,HOUR=8,HOUR_OF_DAY=8,MINUTE=49,SECOND=48,MILLISECOND=970,ZONE_OFFSET=]0,DST_OFFSET=3600000...>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at net.sf.lavalamp.device.PeriodEvoSuiteTest.test0(PeriodEvoSuiteTest.java:34)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+* Finished net.sf.lavalamp.device.PeriodEvoSuiteTest#test0
+* Started net.sf.lavalamp.device.PeriodEvoSuiteTest#test1
+* Failure: expected:<...rianCalendar[time=14[33727742759,areFieldsSet=true,areAllFieldsSet=true,lenient=true,zone=sun.util.calendar.ZoneInfo[id="America/Denver",offset=-25200000,dstSavings=3600000,useDaylight=true,transitions=157,lastRule=java.util.SimpleTimeZone[id=America/Denver,offset=-25200000,dstSavings=3600000,useDaylight=true,startYear=0,startMode=3,startMonth=2,startDay=8,startDayOfWeek=1,startTime=7200000,startTimeMode=0,endMode=3,endMonth=10,endDay=1,endDayOfWeek=1,endTime=7200000,endTimeMode=0]],firstDayOfWeek=1,minimalDaysInFirstWeek=1,ERA=1,YEAR=2015,MONTH=5,WEEK_OF_YEAR=24,WEEK_OF_MONTH=2,DAY_OF_MONTH=7,DAY_OF_YEAR=158,DAY_OF_WEEK=1,DAY_OF_WEEK_IN_MONTH=1,AM_PM=1,HOUR=7,HOUR_OF_DAY=19,MINUTE=42,SECOND=22,MILLISECOND=759,ZONE_OFFSET=-2520000]0,DST_OFFSET=3600000...> but was:<...rianCalendar[time=14[67618588983,areFieldsSet=true,areAllFieldsSet=true,lenient=true,zone=sun.util.calendar.ZoneInfo[id="Europe/Lisbon",offset=0,dstSavings=3600000,useDaylight=true,transitions=222,lastRule=java.util.SimpleTimeZone[id=Europe/Lisbon,offset=0,dstSavings=3600000,useDaylight=true,startYear=0,startMode=2,startMonth=2,startDay=-1,startDayOfWeek=1,startTime=3600000,startTimeMode=2,endMode=2,endMonth=9,endDay=-1,endDayOfWeek=1,endTime=3600000,endTimeMode=2]],firstDayOfWeek=1,minimalDaysInFirstWeek=1,ERA=1,YEAR=2016,MONTH=6,WEEK_OF_YEAR=28,WEEK_OF_MONTH=2,DAY_OF_MONTH=4,DAY_OF_YEAR=186,DAY_OF_WEEK=2,DAY_OF_WEEK_IN_MONTH=1,AM_PM=0,HOUR=8,HOUR_OF_DAY=8,MINUTE=49,SECOND=48,MILLISECOND=983,ZONE_OFFSET=]0,DST_OFFSET=3600000...> | test1(net.sf.lavalamp.device.PeriodEvoSuiteTest)
+org.junit.ComparisonFailure: expected:<...rianCalendar[time=14[33727742759,areFieldsSet=true,areAllFieldsSet=true,lenient=true,zone=sun.util.calendar.ZoneInfo[id="America/Denver",offset=-25200000,dstSavings=3600000,useDaylight=true,transitions=157,lastRule=java.util.SimpleTimeZone[id=America/Denver,offset=-25200000,dstSavings=3600000,useDaylight=true,startYear=0,startMode=3,startMonth=2,startDay=8,startDayOfWeek=1,startTime=7200000,startTimeMode=0,endMode=3,endMonth=10,endDay=1,endDayOfWeek=1,endTime=7200000,endTimeMode=0]],firstDayOfWeek=1,minimalDaysInFirstWeek=1,ERA=1,YEAR=2015,MONTH=5,WEEK_OF_YEAR=24,WEEK_OF_MONTH=2,DAY_OF_MONTH=7,DAY_OF_YEAR=158,DAY_OF_WEEK=1,DAY_OF_WEEK_IN_MONTH=1,AM_PM=1,HOUR=7,HOUR_OF_DAY=19,MINUTE=42,SECOND=22,MILLISECOND=759,ZONE_OFFSET=-2520000]0,DST_OFFSET=3600000...> but was:<...rianCalendar[time=14[67618588983,areFieldsSet=true,areAllFieldsSet=true,lenient=true,zone=sun.util.calendar.ZoneInfo[id="Europe/Lisbon",offset=0,dstSavings=3600000,useDaylight=true,transitions=222,lastRule=java.util.SimpleTimeZone[id=Europe/Lisbon,offset=0,dstSavings=3600000,useDaylight=true,startYear=0,startMode=2,startMonth=2,startDay=-1,startDayOfWeek=1,startTime=3600000,startTimeMode=2,endMode=2,endMonth=9,endDay=-1,endDayOfWeek=1,endTime=3600000,endTimeMode=2]],firstDayOfWeek=1,minimalDaysInFirstWeek=1,ERA=1,YEAR=2016,MONTH=6,WEEK_OF_YEAR=28,WEEK_OF_MONTH=2,DAY_OF_MONTH=4,DAY_OF_YEAR=186,DAY_OF_WEEK=2,DAY_OF_WEEK_IN_MONTH=1,AM_PM=0,HOUR=8,HOUR_OF_DAY=8,MINUTE=49,SECOND=48,MILLISECOND=983,ZONE_OFFSET=]0,DST_OFFSET=3600000...>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at net.sf.lavalamp.device.PeriodEvoSuiteTest.test1(PeriodEvoSuiteTest.java:56)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+* Finished net.sf.lavalamp.device.PeriodEvoSuiteTest#test1
+* Started net.sf.lavalamp.device.PeriodEvoSuiteTest#test2
+* Failure: expected:<...rianCalendar[time=14[33727747731,areFieldsSet=true,areAllFieldsSet=true,lenient=true,zone=sun.util.calendar.ZoneInfo[id="America/Denver",offset=-25200000,dstSavings=3600000,useDaylight=true,transitions=157,lastRule=java.util.SimpleTimeZone[id=America/Denver,offset=-25200000,dstSavings=3600000,useDaylight=true,startYear=0,startMode=3,startMonth=2,startDay=8,startDayOfWeek=1,startTime=7200000,startTimeMode=0,endMode=3,endMonth=10,endDay=1,endDayOfWeek=1,endTime=7200000,endTimeMode=0]],firstDayOfWeek=1,minimalDaysInFirstWeek=1,ERA=1,YEAR=2015,MONTH=5,WEEK_OF_YEAR=24,WEEK_OF_MONTH=2,DAY_OF_MONTH=7,DAY_OF_YEAR=158,DAY_OF_WEEK=1,DAY_OF_WEEK_IN_MONTH=1,AM_PM=1,HOUR=7,HOUR_OF_DAY=19,MINUTE=42,SECOND=27,MILLISECOND=731,ZONE_OFFSET=-2520000]0,DST_OFFSET=3600000...> but was:<...rianCalendar[time=14[67618589005,areFieldsSet=true,areAllFieldsSet=true,lenient=true,zone=sun.util.calendar.ZoneInfo[id="Europe/Lisbon",offset=0,dstSavings=3600000,useDaylight=true,transitions=222,lastRule=java.util.SimpleTimeZone[id=Europe/Lisbon,offset=0,dstSavings=3600000,useDaylight=true,startYear=0,startMode=2,startMonth=2,startDay=-1,startDayOfWeek=1,startTime=3600000,startTimeMode=2,endMode=2,endMonth=9,endDay=-1,endDayOfWeek=1,endTime=3600000,endTimeMode=2]],firstDayOfWeek=1,minimalDaysInFirstWeek=1,ERA=1,YEAR=2016,MONTH=6,WEEK_OF_YEAR=28,WEEK_OF_MONTH=2,DAY_OF_MONTH=4,DAY_OF_YEAR=186,DAY_OF_WEEK=2,DAY_OF_WEEK_IN_MONTH=1,AM_PM=0,HOUR=8,HOUR_OF_DAY=8,MINUTE=49,SECOND=49,MILLISECOND=5,ZONE_OFFSET=]0,DST_OFFSET=3600000...> | test2(net.sf.lavalamp.device.PeriodEvoSuiteTest)
+org.junit.ComparisonFailure: expected:<...rianCalendar[time=14[33727747731,areFieldsSet=true,areAllFieldsSet=true,lenient=true,zone=sun.util.calendar.ZoneInfo[id="America/Denver",offset=-25200000,dstSavings=3600000,useDaylight=true,transitions=157,lastRule=java.util.SimpleTimeZone[id=America/Denver,offset=-25200000,dstSavings=3600000,useDaylight=true,startYear=0,startMode=3,startMonth=2,startDay=8,startDayOfWeek=1,startTime=7200000,startTimeMode=0,endMode=3,endMonth=10,endDay=1,endDayOfWeek=1,endTime=7200000,endTimeMode=0]],firstDayOfWeek=1,minimalDaysInFirstWeek=1,ERA=1,YEAR=2015,MONTH=5,WEEK_OF_YEAR=24,WEEK_OF_MONTH=2,DAY_OF_MONTH=7,DAY_OF_YEAR=158,DAY_OF_WEEK=1,DAY_OF_WEEK_IN_MONTH=1,AM_PM=1,HOUR=7,HOUR_OF_DAY=19,MINUTE=42,SECOND=27,MILLISECOND=731,ZONE_OFFSET=-2520000]0,DST_OFFSET=3600000...> but was:<...rianCalendar[time=14[67618589005,areFieldsSet=true,areAllFieldsSet=true,lenient=true,zone=sun.util.calendar.ZoneInfo[id="Europe/Lisbon",offset=0,dstSavings=3600000,useDaylight=true,transitions=222,lastRule=java.util.SimpleTimeZone[id=Europe/Lisbon,offset=0,dstSavings=3600000,useDaylight=true,startYear=0,startMode=2,startMonth=2,startDay=-1,startDayOfWeek=1,startTime=3600000,startTimeMode=2,endMode=2,endMonth=9,endDay=-1,endDayOfWeek=1,endTime=3600000,endTimeMode=2]],firstDayOfWeek=1,minimalDaysInFirstWeek=1,ERA=1,YEAR=2016,MONTH=6,WEEK_OF_YEAR=28,WEEK_OF_MONTH=2,DAY_OF_MONTH=4,DAY_OF_YEAR=186,DAY_OF_WEEK=2,DAY_OF_WEEK_IN_MONTH=1,AM_PM=0,HOUR=8,HOUR_OF_DAY=8,MINUTE=49,SECOND=49,MILLISECOND=5,ZONE_OFFSET=]0,DST_OFFSET=3600000...>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at net.sf.lavalamp.device.PeriodEvoSuiteTest.test2(PeriodEvoSuiteTest.java:76)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+* Finished net.sf.lavalamp.device.PeriodEvoSuiteTest#test2
+* Started net.sf.lavalamp.device.PeriodEvoSuiteTest#test3
+* Failure: expected:<...rianCalendar[time=14[33727752036,areFieldsSet=true,areAllFieldsSet=true,lenient=true,zone=sun.util.calendar.ZoneInfo[id="America/Denver",offset=-25200000,dstSavings=3600000,useDaylight=true,transitions=157,lastRule=java.util.SimpleTimeZone[id=America/Denver,offset=-25200000,dstSavings=3600000,useDaylight=true,startYear=0,startMode=3,startMonth=2,startDay=8,startDayOfWeek=1,startTime=7200000,startTimeMode=0,endMode=3,endMonth=10,endDay=1,endDayOfWeek=1,endTime=7200000,endTimeMode=0]],firstDayOfWeek=1,minimalDaysInFirstWeek=1,ERA=1,YEAR=2015,MONTH=5,WEEK_OF_YEAR=24,WEEK_OF_MONTH=2,DAY_OF_MONTH=7,DAY_OF_YEAR=158,DAY_OF_WEEK=1,DAY_OF_WEEK_IN_MONTH=1,AM_PM=1,HOUR=7,HOUR_OF_DAY=19,MINUTE=42,SECOND=32,MILLISECOND=36,ZONE_OFFSET=-2520000]0,DST_OFFSET=3600000...> but was:<...rianCalendar[time=14[67618589025,areFieldsSet=true,areAllFieldsSet=true,lenient=true,zone=sun.util.calendar.ZoneInfo[id="Europe/Lisbon",offset=0,dstSavings=3600000,useDaylight=true,transitions=222,lastRule=java.util.SimpleTimeZone[id=Europe/Lisbon,offset=0,dstSavings=3600000,useDaylight=true,startYear=0,startMode=2,startMonth=2,startDay=-1,startDayOfWeek=1,startTime=3600000,startTimeMode=2,endMode=2,endMonth=9,endDay=-1,endDayOfWeek=1,endTime=3600000,endTimeMode=2]],firstDayOfWeek=1,minimalDaysInFirstWeek=1,ERA=1,YEAR=2016,MONTH=6,WEEK_OF_YEAR=28,WEEK_OF_MONTH=2,DAY_OF_MONTH=4,DAY_OF_YEAR=186,DAY_OF_WEEK=2,DAY_OF_WEEK_IN_MONTH=1,AM_PM=0,HOUR=8,HOUR_OF_DAY=8,MINUTE=49,SECOND=49,MILLISECOND=25,ZONE_OFFSET=]0,DST_OFFSET=3600000...> | test3(net.sf.lavalamp.device.PeriodEvoSuiteTest)
+org.junit.ComparisonFailure: expected:<...rianCalendar[time=14[33727752036,areFieldsSet=true,areAllFieldsSet=true,lenient=true,zone=sun.util.calendar.ZoneInfo[id="America/Denver",offset=-25200000,dstSavings=3600000,useDaylight=true,transitions=157,lastRule=java.util.SimpleTimeZone[id=America/Denver,offset=-25200000,dstSavings=3600000,useDaylight=true,startYear=0,startMode=3,startMonth=2,startDay=8,startDayOfWeek=1,startTime=7200000,startTimeMode=0,endMode=3,endMonth=10,endDay=1,endDayOfWeek=1,endTime=7200000,endTimeMode=0]],firstDayOfWeek=1,minimalDaysInFirstWeek=1,ERA=1,YEAR=2015,MONTH=5,WEEK_OF_YEAR=24,WEEK_OF_MONTH=2,DAY_OF_MONTH=7,DAY_OF_YEAR=158,DAY_OF_WEEK=1,DAY_OF_WEEK_IN_MONTH=1,AM_PM=1,HOUR=7,HOUR_OF_DAY=19,MINUTE=42,SECOND=32,MILLISECOND=36,ZONE_OFFSET=-2520000]0,DST_OFFSET=3600000...> but was:<...rianCalendar[time=14[67618589025,areFieldsSet=true,areAllFieldsSet=true,lenient=true,zone=sun.util.calendar.ZoneInfo[id="Europe/Lisbon",offset=0,dstSavings=3600000,useDaylight=true,transitions=222,lastRule=java.util.SimpleTimeZone[id=Europe/Lisbon,offset=0,dstSavings=3600000,useDaylight=true,startYear=0,startMode=2,startMonth=2,startDay=-1,startDayOfWeek=1,startTime=3600000,startTimeMode=2,endMode=2,endMonth=9,endDay=-1,endDayOfWeek=1,endTime=3600000,endTimeMode=2]],firstDayOfWeek=1,minimalDaysInFirstWeek=1,ERA=1,YEAR=2016,MONTH=6,WEEK_OF_YEAR=28,WEEK_OF_MONTH=2,DAY_OF_MONTH=4,DAY_OF_YEAR=186,DAY_OF_WEEK=2,DAY_OF_WEEK_IN_MONTH=1,AM_PM=0,HOUR=8,HOUR_OF_DAY=8,MINUTE=49,SECOND=49,MILLISECOND=25,ZONE_OFFSET=]0,DST_OFFSET=3600000...>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at net.sf.lavalamp.device.PeriodEvoSuiteTest.test3(PeriodEvoSuiteTest.java:98)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+* Finished net.sf.lavalamp.device.PeriodEvoSuiteTest#test3
+* Started net.sf.lavalamp.device.PeriodEvoSuiteTest#test4
+* Finished net.sf.lavalamp.device.PeriodEvoSuiteTest#test4
+* Started net.sf.lavalamp.device.impl.TellStickJniEvoSuiteTest#test0
+* Failure: Can't obtain static method fromNative from class com.sun.jna.Native | test0(net.sf.lavalamp.device.impl.TellStickJniEvoSuiteTest)
+java.lang.UnsatisfiedLinkError: Can't obtain static method fromNative from class com.sun.jna.Native
+	at com.sun.jna.Native.initIDs(Native Method)
+	at com.sun.jna.Native.<clinit>(Native.java:111)
+	at net.sf.lavalamp.device.impl.TellStickJni.init(TellStickJni.java:31)
+	at net.sf.lavalamp.device.impl.TellStickJniEvoSuiteTest.test0(TellStickJniEvoSuiteTest.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+* Finished net.sf.lavalamp.device.impl.TellStickJniEvoSuiteTest#test0
+* Started net.sf.lavalamp.device.impl.TellStickEvoSuiteTest#test0
+* Failure: expected:<601882624> but was:<365953024> | test0(net.sf.lavalamp.device.impl.TellStickEvoSuiteTest)
+java.lang.AssertionError: expected:<601882624> but was:<365953024>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:555)
+	at org.junit.Assert.assertEquals(Assert.java:542)
+	at net.sf.lavalamp.device.impl.TellStickEvoSuiteTest.test0(TellStickEvoSuiteTest.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+* Finished net.sf.lavalamp.device.impl.TellStickEvoSuiteTest#test0
+* Started net.sf.lavalamp.device.impl.TellStickEvoSuiteTest#test1
+* Finished net.sf.lavalamp.device.impl.TellStickEvoSuiteTest#test1
+* Started net.sf.lavalamp.device.impl.TellStickEvoSuiteTest#test2
+Mon Jul 04 08:49:49 WEST 2016 turning off TellStick null 
+* Finished net.sf.lavalamp.device.impl.TellStickEvoSuiteTest#test2
+* Started net.sf.lavalamp.device.impl.TellStickEvoSuiteTest#test3
+Mon Jul 04 08:49:49 WEST 2016 turning on TellStick null 
+* Finished net.sf.lavalamp.device.impl.TellStickEvoSuiteTest#test3
+* Started net.sf.lavalamp.device.impl.TellStickEvoSuiteTest#test4
+* Finished net.sf.lavalamp.device.impl.TellStickEvoSuiteTest#test4
+* Started net.sf.lavalamp.device.BlinkEvoSuiteTest#test0
+* Finished net.sf.lavalamp.device.BlinkEvoSuiteTest#test0
+* Started net.sf.lavalamp.device.AbstractDeviceEvoSuiteTest#test0
+* Finished net.sf.lavalamp.device.AbstractDeviceEvoSuiteTest#test0
+* Started net.sf.lavalamp.device.AbstractDeviceEvoSuiteTest#test1
+* Finished net.sf.lavalamp.device.AbstractDeviceEvoSuiteTest#test1
+* Started net.sf.lavalamp.device.AbstractDeviceEvoSuiteTest#test2
+* Finished net.sf.lavalamp.device.AbstractDeviceEvoSuiteTest#test2
+* Started net.sf.lavalamp.device.AbstractDeviceEvoSuiteTest#test3
+Mon Jul 04 08:49:49 WEST 2016 turning off dummy device null
+* Finished net.sf.lavalamp.device.AbstractDeviceEvoSuiteTest#test3
+* Started net.sf.lavalamp.device.AbstractDeviceEvoSuiteTest#test4
+* Finished net.sf.lavalamp.device.AbstractDeviceEvoSuiteTest#test4
+* Started net.sf.lavalamp.device.AbstractDeviceEvoSuiteTest#test5
+Mon Jul 04 08:49:49 WEST 2016 turning on dummy device null
+* Finished net.sf.lavalamp.device.AbstractDeviceEvoSuiteTest#test5
+* Started net.sf.lavalamp.device.AbstractDeviceEvoSuiteTest#test6
+* Finished net.sf.lavalamp.device.AbstractDeviceEvoSuiteTest#test6
+* Started net.sf.lavalamp.device.AbstractDeviceEvoSuiteTest#test7
+* Finished net.sf.lavalamp.device.AbstractDeviceEvoSuiteTest#test7
+* Started net.sf.lavalamp.device.AbstractDeviceEvoSuiteTest#test8
+* Finished net.sf.lavalamp.device.AbstractDeviceEvoSuiteTest#test8
+* Started net.sf.lavalamp.application.AlwaysOffEvoSuiteTest#test0
+Mon Jul 04 08:49:49 WEST 2016 .
+* Finished net.sf.lavalamp.application.AlwaysOffEvoSuiteTest#test0
+* Started net.sf.lavalamp.application.ApplicationPropertiesEvoSuiteTest#test0
+* Finished net.sf.lavalamp.application.ApplicationPropertiesEvoSuiteTest#test0
+* Started net.sf.lavalamp.application.ApplicationPropertiesEvoSuiteTest#test1
+* Finished net.sf.lavalamp.application.ApplicationPropertiesEvoSuiteTest#test1
+* Started net.sf.lavalamp.application.ApplicationPropertiesEvoSuiteTest#test2
+* Finished net.sf.lavalamp.application.ApplicationPropertiesEvoSuiteTest#test2
+* Started net.sf.lavalamp.application.ApplicationPropertiesEvoSuiteTest#test3
+* Finished net.sf.lavalamp.application.ApplicationPropertiesEvoSuiteTest#test3
+* Started net.sf.lavalamp.application.ApplicationPropertiesEvoSuiteTest#test4
+* Finished net.sf.lavalamp.application.ApplicationPropertiesEvoSuiteTest#test4
+* Started net.sf.lavalamp.application.ApplicationPropertiesEvoSuiteTest#test5
+* Finished net.sf.lavalamp.application.ApplicationPropertiesEvoSuiteTest#test5
+* Started net.sf.lavalamp.application.ApplicationPropertiesEvoSuiteTest#test6
+* Finished net.sf.lavalamp.application.ApplicationPropertiesEvoSuiteTest#test6
+* Started net.sf.lavalamp.application.ApplicationPropertiesEvoSuiteTest#test7
+* Finished net.sf.lavalamp.application.ApplicationPropertiesEvoSuiteTest#test7
+* Started net.sf.lavalamp.application.ApplicationPropertiesEvoSuiteTest#test8
+* Finished net.sf.lavalamp.application.ApplicationPropertiesEvoSuiteTest#test8
+* Started net.sf.lavalamp.application.ApplicationPropertiesLoaderEvoSuiteTest#test0
+* Failure: eGE~QcX3%QH (No such file or directory) | test0(net.sf.lavalamp.application.ApplicationPropertiesLoaderEvoSuiteTest)
+java.io.FileNotFoundException: eGE~QcX3%QH (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at org.ho.yaml.YamlConfig.loadType(Unknown Source)
+	at org.ho.yaml.Yaml.loadType(Unknown Source)
+	at net.sf.lavalamp.application.ApplicationPropertiesLoader.load(ApplicationPropertiesLoader.java:13)
+	at net.sf.lavalamp.application.ApplicationPropertiesLoaderEvoSuiteTest.test0(ApplicationPropertiesLoaderEvoSuiteTest.java:27)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+* Finished net.sf.lavalamp.application.ApplicationPropertiesLoaderEvoSuiteTest#test0
+* Started net.sf.lavalamp.application.UniversalRunnerEvoSuiteTest#test0
+* Finished net.sf.lavalamp.application.UniversalRunnerEvoSuiteTest#test0
+* Started net.sf.lavalamp.application.UniversalRunnerEvoSuiteTest#test1
+Usage: java -jar [lavalamp_jar_file] [yml_properties_file]
+* Finished net.sf.lavalamp.application.UniversalRunnerEvoSuiteTest#test1
+* Filtering test cases that do not cover any component
+* Sending data to master
+* Closing connection with client
+* Performing fault localization
+* Running Ochiai
+* Writing coverage matrix to 'gzoltar-data/matrix'
+* Writing spectra to 'gzoltar-data/spectra'
+* Metrics
